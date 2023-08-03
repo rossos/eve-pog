@@ -190,8 +190,8 @@ def compile_overviews():
                 overview['tab'] = tab_name
                 overview['presets'] = presets.get(tab_name, get_all_presets())
 
-                print(f"{filename}-{tab_name}.yaml")
-                compile_overview(os.path.join("Overview", f"{filename}-{tab_name}.yaml"), overview)
+                print(f" {tab_name}.yaml")
+                compile_overview(os.path.join("Overview", f"{filename}_{tab_name}.yaml"), overview)
 
 
 if __name__ == "__main__":
