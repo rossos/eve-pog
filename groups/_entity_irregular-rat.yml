@@ -1,0 +1,20 @@
+---
+types:
+  - 1452      # Irregular Drone
+  - 1453      # Irregular EW Drone
+  - 1454      # Irregular Fighter
+  - 1455      # Irregular Fighter Squadron
+  - 1566      # Irregular Shuttle
+  - 1567      # Irregular Corvette
+  - 1568      # Irregular Frigate
+  - 1664      # Irregular Destroyer
+  - 1665      # Irregular Cruiser
+  - 1666      # Irregular Battlecruiser
+  - 1667      # Irregular Battleship
+  - 1724      # Irregular Dreadnought
+  - 1725      # Irregular Force Auxiliary
+  - 1726      # Irregular Carrier
+  - 1759      # Irregular Titan
+  - 1761      # Irregular Mining Frigate
+  - 1762      # Irregular Mining Barge
+

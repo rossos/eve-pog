@@ -1,0 +1,14 @@
+---
+types:
+  - 25        # Frigate
+  - 31        # Shuttle
+  - 237       # Corvette
+  - 324       # Assault Frigate
+  - 420       # Destroyer
+  - 830       # Covert Ops
+  - 831       # Interceptor
+  - 893       # Electronic Attack Ship
+  - 1022      # Prototype Exploration Ship
+  - 1283      # Expedition Frigate
+  - 1305      # Tactical Destroyer
+

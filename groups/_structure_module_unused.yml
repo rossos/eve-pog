@@ -1,0 +1,164 @@
+---
+types:
+  - 1321      # Structure Citadel Service Module
+  - 1322      # Structure Resource Processing Service Module
+  - 1323      # Structure Observatory Service Module
+  - 1324      # Structure Navigation Service Module
+  - 1325      # Structure Administration Service Module
+  - 1326      # Structure Advertisement Service Module
+  - 1327      # Structure XL Missile Launcher
+  - 1328      # Structure Guided Bomb Launcher
+  - 1329      # Structure Energy Neutralizer
+  - 1330      # Structure Area Denial Module
+  - 1331      # Structure Burst Projector
+  - 1332      # Structure ECM Battery
+  - 1333      # Structure Doomsday Weapon
+  - 1415      # Structure Engineering Service Module
+  - 1416      # Structure Research Service Module
+  - 1429      # Structure Weapon Upgrade
+  - 1430      # Structure Fitting Module
+  - 1441      # Structure Stasis Webifier
+  - 1442      # Structure Warp Scrambler
+  - 1535      # Structure Signal Amplifier
+  - 1562      # Structure Multirole Missile Launcher
+  - 1570      # Structure Assembly Rig M - Small Tech I Ship
+  - 1579      # Structure Assembly Rig M - Medium Tech I Ship
+  - 1580      # Structure Assembly Rig M - Large Tech I Ship
+  - 1581      # Structure Assembly Rig M - Small Tech II Ship
+  - 1582      # Structure Assembly Rig M - Medium Tech II Ship
+  - 1583      # Structure Assembly Rig M - Large Tech II Ship
+  - 1584      # Structure Assembly Rig M - Drone
+  - 1585      # Structure Assembly Rig M - Consumable
+  - 1586      # Structure Assembly Rig M - Module
+  - 1587      # Structure Assembly Rig L - Module, Consumable, Drone
+  - 1588      # Structure Assembly Rig L - Tech I Ship
+  - 1589      # Structure Assembly Rig L - Tech II Ship
+  - 1590      # Structure Assembly Rig L - Tech II Component
+  - 1591      # Structure Assembly Rig L - Tech I Capital Component
+  - 1592      # Structure Assembly Rig L - Structure Component
+  - 1593      # Structure Assembly Rig L - Subsystem
+  - 1594      # Structure Assembly Rig XL - Equipment
+  - 1595      # Structure Assembly Rig XL - Ship
+  - 1596      # Structure Assembly Rig XL - All Components
+  - 1598      # Structure Laboratory Rig M - Small Ship
+  - 1599      # Structure Laboratory Rig M - Medium Ship
+  - 1600      # Structure Laboratory Rig M - Large Ship
+  - 1601      # Structure Laboratory Rig M - Drone
+  - 1602      # Structure Laboratory Rig M - Consumable
+  - 1603      # Structure Laboratory Rig M - Module
+  - 1604      # Structure Laboratory Rig L - Module, Consumable, Drone
+  - 1605      # Structure Laboratory Rig L - Ship
+  - 1606      # Structure Laboratory Rig L - Component
+  - 1607      # Structure Laboratory Rig L - Capital Component
+  - 1608      # Structure Laboratory Rig L - Structure Component
+  - 1609      # Structure Laboratory Rig L - Subsystem
+  - 1610      # Structure Laboratory Rig XL - Equipment
+  - 1611      # Structure Laboratory Rig XL - Ship
+  - 1612      # Structure Laboratory Rig XL - All Components
+  - 1613      # Structure Combat Rig M - Missile Application
+  - 1614      # Structure Combat Rig M - Missile Projection
+  - 1615      # Structure Combat Rig M - Energy Neutralizer Projection
+  - 1616      # Structure Combat Rig M - Energy Neutralizer Cap Reduction
+  - 1617      # Structure Citadel Rig M - Drone Hitpoints
+  - 1618      # Structure Citadel Rig M - Drone Speed
+  - 1619      # Structure Combat Rig M - EW projection
+  - 1620      # Structure Combat Rig M - EW Cap Reduction
+  - 1621      # Structure Combat Rig M - Max Targets
+  - 1622      # Structure Combat Rig M - Boosted Sensors
+  - 1629      # Structure Combat Rig L - Missile Application and Projection
+  - 1630      # Structure Combat Rig L - Energy Neutralizer Projection and Cap Reduction
+  - 1631      # Structure Citadel Rig L - Drone Hitpoints and Speed
+  - 1632      # Structure Combat Rig L - EW Projection and Cap Reduction
+  - 1633      # Structure Combat Rig L - AoE Launcher Application and Projection
+  - 1634      # Structure Combat Rig L - Point Defense Battery Application and Projection
+  - 1635      # Structure Combat Rig L - Max Targets and Sensor Boosting
+  - 1639      # Structure Combat Rig XL - Missile and AoE Missile
+  - 1640      # Structure Citadel Rig XL - Drone and PDB
+  - 1641      # Structure Combat Rig XL - Energy Neutralizer and EW
+  - 1642      # Structure Combat Rig XL - Doomsday and Targeting
+  - 1647      # OLD Structure Resource Rig M - HS Ore Reprocessing
+  - 1648      # OLD Structure Resource Rig L - Ore Reprocessing
+  - 1649      # OLD Structure Resource Rig XL - Reprocessing
+  - 1693      # OLD Structure Resource Rig M - LNS Ore Reprocessing
+  - 1694      # OLD Structure Resource Rig M - Ice 1 Reprocessing
+  - 1695      # OLD Structure Resource Rig M - Ice 2 Reprocessing
+  - 1696      # OLD Structure Resource Rig L - Ice Reprocessing
+  - 1717      # Unpublished Structure Modules
+  - 1719      # Structure Disruption Battery
+  - 1816      # Structure Engineering Rig M - Equipment ME
+  - 1819      # Structure Engineering Rig M - Equipment TE
+  - 1820      # Structure Engineering Rig M - Ammunition ME
+  - 1821      # Structure Engineering Rig M - Ammunition TE
+  - 1822      # Structure Engineering Rig M - Drone and Fighter ME
+  - 1823      # Structure Engineering Rig M - Drone and Fighter TE
+  - 1824      # Structure Engineering Rig M - Basic Small Ship ME
+  - 1825      # Structure Engineering Rig M - Basic Small Ship TE
+  - 1826      # Structure Engineering Rig M - Basic Medium Ship ME
+  - 1827      # Structure Engineering Rig M - Basic Medium Ship TE
+  - 1828      # Structure Engineering Rig M - Basic Large Ship ME
+  - 1829      # Structure Engineering Rig M - Basic Large Ship TE
+  - 1830      # Structure Engineering Rig M - Advanced Small Ship ME
+  - 1831      # Structure Engineering Rig M - Advanced Small Ship TE
+  - 1832      # Structure Engineering Rig M - Advanced Medium Ship ME
+  - 1833      # Structure Engineering Rig M - Advanced Medium Ship TE
+  - 1834      # Structure Engineering Rig M - Advanced Large Ship ME
+  - 1835      # Structure Engineering Rig M - Advanced Large Ship TE
+  - 1836      # Structure Engineering Rig M - Advanced Component ME
+  - 1837      # Structure Engineering Rig M - Advanced Component TE
+  - 1838      # Structure Engineering Rig M - Basic Capital Component TE
+  - 1839      # Structure Engineering Rig M - Basic Capital Component ME
+  - 1840      # Structure Engineering Rig M - Structure ME
+  - 1841      # Structure Engineering Rig M - Structure TE
+  - 1842      # Structure Engineering Rig M - Invention Cost Optimization
+  - 1843      # Structure Engineering Rig M - Invention Accelerator
+  - 1844      # Structure Engineering Rig M - ME Research Cost Optimization
+  - 1845      # Structure Engineering Rig M - ME Research Accelerator
+  - 1846      # Structure Engineering Rig M - TE Research Cost Optimization
+  - 1847      # Structure Engineering Rig M - TE Research Accelerator
+  - 1848      # Structure Engineering Rig M - Blueprint Copy Cost Optimization
+  - 1849      # Structure Engineering Rig M - Blueprint Copy Accelerator
+  - 1850      # Structure Engineering Rig L - Equipment Efficiency
+  - 1851      # Structure Engineering Rig L - Ammunition Efficiency
+  - 1852      # Structure Engineering Rig L - Drone and Fighter Efficiency
+  - 1853      # Structure Engineering Rig L - Basic Small Ship Efficiency
+  - 1854      # Structure Engineering Rig L - Basic Medium Ship Efficiency
+  - 1855      # Structure Engineering Rig L - Basic Large Ship Efficiency
+  - 1856      # Structure Engineering Rig L - Advanced Small Ship Efficiency
+  - 1857      # Structure Engineering Rig L - Advanced Medium Ship Efficiency
+  - 1858      # Structure Engineering Rig L - Advanced Large Ship Efficiency
+  - 1859      # Structure Engineering Rig L - Capital Ship Efficiency
+  - 1860      # Structure Engineering Rig L - Advanced Component Efficiency
+  - 1861      # Structure Engineering Rig L - Basic Capital Component Efficiency
+  - 1862      # Structure Engineering Rig L - Structure Efficiency
+  - 1863      # Structure Engineering Rig L - Invention Optimization
+  - 1864      # Structure Engineering Rig L - ME Research Optimization
+  - 1865      # Structure Engineering Rig L - TE Research Optimization
+  - 1866      # Structure Engineering Rig L - Blueprint Copy Optimization
+  - 1867      # Structure Engineering Rig XL - Equipment and Consumable Efficiency
+  - 1868      # Structure Engineering Rig XL - Ship Efficiency
+  - 1869      # Structure Engineering Rig XL - Structure and Component Efficiency
+  - 1870      # Structure Engineering Rig XL - Laboratory Optimization
+  - 1887      # Structure Moon Drilling Service Module
+  - 1912      # Structure Drilling Rig M - Efficiency
+  - 1913      # Structure Drilling Rig M - Stability
+  - 1914      # Structure Drilling Rig L - Proficiency
+  - 1933      # Structure Composite Reactor Rig M - TE
+  - 1934      # Structure Composite Reactor Rig M - ME
+  - 1935      # Structure Hybrid Reactor Rig M - TE
+  - 1936      # Structure Hybrid Reactor Rig M - ME
+  - 1937      # Structure Biochemical Reactor Rig M - TE
+  - 1938      # Structure Biochemical Reactor Rig M - ME
+  - 1939      # Structure Reactor Rig L - Efficiency
+  - 1941      # Structure Resource Rig M - Asteroid Ore Reprocessing
+  - 1942      # Structure Resource Rig M - Ice Reprocessing
+  - 1943      # Structure Resource Rig M - Moon Ore Reprocessing
+  - 1944      # Structure Resource Rig L - Reprocessing
+  - 1945      # Structure Resource Rig XL - Reprocessing
+  - 1962      # Structure QA Modules
+  - 1966      # Structure Capacitor Battery
+  - 1967      # Structure Capacitor Power Relay
+  - 1968      # Structure Armor Reinforcer
+  - 1974      # Structure Festival Launcher
+  - 1984      # Outpost Conversion Rigs
+  - 4086      # Quantum Cores
+

@@ -1,0 +1,13 @@
+---
+types:
+  - 190       # Bloodline Bonus
+  - 191       # Physical Benefit
+  - 192       # Physical Handicap
+  - 193       # Phobia Handicap
+  - 194       # Social Handicap
+  - 195       # Amarr Education
+  - 196       # Caldari Education
+  - 197       # Gallente Education
+  - 198       # Minmatar Education
+  - 199       # Career Bonus
+

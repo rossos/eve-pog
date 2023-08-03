@@ -1,0 +1,11 @@
+---
+types:
+  - 364       # Mobile Storage
+  - 414       # Mobile Power Core
+  - 418       # Mobile Shield Generator
+  - 445       # Force Field Array
+  - 480       # Stealth Emitter Array
+  - 710       # Logistics Array
+  - 840       # Structure Repair Array
+  - 877       # Target Painting Battery
+

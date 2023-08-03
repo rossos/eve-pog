@@ -1,0 +1,7 @@
+---
+show: []
+hide: 
+  - 21        # Pilot (agent) is interactable
+  - 36        # Wreck is already viewed
+  - 37        # Wreck is empty
+

@@ -1,0 +1,8 @@
+---
+types:
+  - 4028      # Triglavian Entities
+  - 4034      # EDENCOM Entities
+  - 4035      # Drifter Entities
+  - 4036      # Sleeper Entities
+  - 4037      # Rogue Drone Entities
+

@@ -1,0 +1,8 @@
+---
+types:
+  - 28        # Hauler
+  - 380       # Deep Space Transport
+  - 463       # Mining Barge
+  - 543       # Exhumer
+  - 1202      # Blockade Runner
+

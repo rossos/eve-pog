@@ -1,0 +1,34 @@
+---
+types:
+  - 3         # Region
+  - 4         # Constellation
+  - 5         # Solar System
+  - 11        # Asteroid OLD
+  - 13        # Ring
+  - 227       # Cloud
+  - 305       # Comet
+  - 312       # Planetary Cloud
+  - 368       # Global Warp Disruptor
+  - 382       # Shipping Crates
+  - 502       # Cosmic Signature
+  - 885       # Cosmic Anomaly
+  - 995       # Secondary Sun
+  - 1198      # Orbital Target
+  - 1882      # MassiveEnvironments
+  - 1940      # Moon Chunk
+  - 1971      # Abyssal Hazards
+  - 1973      # Locators
+  - 1975      # Non-Interactable Object
+  - 1980      # Non-Scalable Clouds
+  - 1983      # Abyssal Environment
+  - 4055      # Invisible Beacon
+  - 4070      # Exotic Artefact
+  - 4079      # Encounter Surveillance System
+  - 4100      # Logo Display Monument
+  - 4168      # Compressed Gas
+  - 4430      # Asteroid Belt
+  - 4547      # Interstellar Shipcaster Beacon
+  - 4548      # Shipcaster Beacon Constructor
+  - 4549      # Interstellar Shipcaster
+  - 4579      # Scalable Non-Interactable Object
+

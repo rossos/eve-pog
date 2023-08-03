@@ -1,0 +1,5 @@
+---
+show: []
+hide: 
+  - 21        # Pilot (agent) is interactable
+

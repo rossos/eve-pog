@@ -1,0 +1,10 @@
+---
+types:
+  - 1026      # Extractors
+  - 1027      # Command Centers
+  - 1028      # Processors
+  - 1029      # Storage Facilities
+  - 1030      # Spaceports
+  - 1036      # Planetary Links
+  - 1063      # Extractor Control Units
+

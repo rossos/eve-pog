@@ -1,0 +1,17 @@
+---
+types:
+  - 1083      # Eyewear
+  - 1084      # Tattoos
+  - 1085      # Piercings
+  - 1086      # Scars
+  - 1087      # Mid Layer
+  - 1088      # Outer
+  - 1089      # Tops
+  - 1090      # Bottoms
+  - 1091      # Footwear
+  - 1092      # Headwear
+  - 1093      # Makeup
+  - 1271      # Prosthetics
+  - 1670      # Augmentations
+  - 4057      # Masks
+

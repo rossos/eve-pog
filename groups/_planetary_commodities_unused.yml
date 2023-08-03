@@ -1,0 +1,7 @@
+---
+types:
+  - 1034      # Refined Commodities - Tier 2
+  - 1040      # Specialized Commodities - Tier 3
+  - 1041      # Advanced Commodities - Tier 4
+  - 1042      # Basic Commodities - Tier 1
+

@@ -1,0 +1,21 @@
+---
+types:
+  - 337       # Mission Drone
+  - 520       # Storyline Frigate
+  - 522       # Storyline Cruiser
+  - 523       # Storyline Battleship
+  - 527       # Storyline Mission Frigate
+  - 533       # Storyline Mission Cruiser
+  - 534       # Storyline Mission Battleship
+  - 816       # Mission Generic Battleships
+  - 817       # Mission Generic Cruisers
+  - 818       # Mission Generic Frigates
+  - 822       # Mission Thukker Battlecruiser
+  - 823       # Mission Thukker Battleship
+  - 824       # Mission Thukker Cruiser
+  - 825       # Mission Thukker Destroyer
+  - 826       # Mission Thukker Frigate
+  - 827       # Mission Thukker Other
+  - 828       # Mission Generic Battle Cruisers
+  - 829       # Mission Generic Destroyers
+

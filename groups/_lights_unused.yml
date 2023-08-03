@@ -1,0 +1,6 @@
+---
+types:
+  - 1110      # Point Lights
+  - 1111      # Box Lights
+  - 1112      # Spot Lights
+

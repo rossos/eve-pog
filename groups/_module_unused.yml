@@ -1,0 +1,188 @@
+---
+types:
+  - 38        # Shield Extender
+  - 39        # Shield Recharger
+  - 40        # Shield Booster
+  - 41        # Remote Shield Booster
+  - 43        # Capacitor Recharger
+  - 46        # Propulsion Module
+  - 47        # Cargo Scanner
+  - 48        # Ship Scanner
+  - 49        # Survey Scanner
+  - 52        # Warp Scrambler
+  - 53        # Energy Weapon
+  - 54        # Mining Laser
+  - 55        # Projectile Weapon
+  - 56        # Missile Launcher
+  - 57        # Shield Power Relay
+  - 59        # Gyrostabilizer
+  - 60        # Damage Control
+  - 61        # Capacitor Battery
+  - 62        # Armor Repair Unit
+  - 63        # Hull Repair Unit
+  - 65        # Stasis Web
+  - 67        # Remote Capacitor Transmitter
+  - 68        # Energy Nosferatu
+  - 71        # Energy Neutralizer
+  - 72        # Smart Bomb
+  - 74        # Hybrid Weapon
+  - 76        # Capacitor Booster
+  - 77        # Shield Hardener
+  - 78        # Reinforced Bulkhead
+  - 80        # Burst Jammer
+  - 82        # Passive Targeting System
+  - 96        # Automated Targeting System
+  - 98        # Armor Coating
+  - 201       # ECM
+  - 202       # ECCM
+  - 203       # Sensor Backup Array
+  - 205       # Heat Sink
+  - 208       # Sensor Dampener
+  - 209       # Remote Tracking Computer
+  - 210       # Signal Amplifier
+  - 211       # Tracking Enhancer
+  - 212       # Sensor Booster
+  - 213       # Tracking Computer
+  - 225       # Cheat Module Group
+  - 285       # CPU Enhancer
+  - 289       # Projected ECCM
+  - 290       # Remote Sensor Booster
+  - 291       # Weapon Disruptor
+  - 295       # Shield Resistance Amplifier
+  - 302       # Magnetic Field Stabilizer
+  - 308       # Countermeasure Launcher
+  - 309       # Autopilot
+  - 315       # Warp Core Stabilizer
+  - 316       # Gang Coordinator
+  - 317       # Computer Interface Node
+  - 321       # Shield Disruptor
+  - 325       # Remote Armor Repairer
+  - 326       # Energized Armor Membrane
+  - 328       # Armor Hardener
+  - 329       # Armor Plate
+  - 330       # Cloaking Device
+  - 338       # Shield Boost Amplifier
+  - 339       # Auxiliary Power Core
+  - 341       # Signature Scrambling
+  - 353       # QA Module
+  - 357       # DroneBayExpander
+  - 367       # Ballistic Control system
+  - 378       # Cruise Control
+  - 379       # Target Painter
+  - 405       # Anti Cloaking Pulse
+  - 406       # Smartbomb Supercharger
+  - 407       # Fighter Support Unit
+  - 464       # Strip Miner
+  - 472       # System Scanner
+  - 475       # Microwarpdrive
+  - 481       # Scan Probe Launcher
+  - 483       # Frequency Mining Laser
+  - 499       # New EW Testing
+  - 501       # Festival Launcher
+  - 506       # Missile Launcher Cruise
+  - 507       # Missile Launcher Rocket
+  - 508       # Missile Launcher Torpedo
+  - 509       # Missile Launcher Light
+  - 510       # Missile Launcher Heavy
+  - 511       # Missile Launcher Rapid Light
+  - 512       # Missile Launcher Defender
+  - 514       # ECM Stabilizer
+  - 515       # Siege Module
+  - 518       # Anti Ballistic Defense System
+  - 524       # Missile Launcher XL Torpedo
+  - 538       # Data Miners
+  - 546       # Mining Upgrade
+  - 585       # Remote Hull Repairer
+  - 586       # Drone Modules
+  - 588       # Super Weapon
+  - 589       # Interdiction Sphere Launcher
+  - 590       # Jump Portal Generator
+  - 638       # Navigation Computer
+  - 642       # Super Gang Enhancer
+  - 644       # Drone Navigation Computer
+  - 645       # Drone Damage Modules
+  - 646       # Drone Tracking Modules
+  - 647       # Drone Control Range Module
+  - 650       # Tractor Beam
+  - 658       # Cynosural Field Generator
+  - 660       # Energy Vampire Slayer
+  - 737       # Gas Cloud Scoops
+  - 753       # ECM Enhancer
+  - 762       # Inertial Stabilizer
+  - 763       # Nanofiber Internal Structure
+  - 764       # Overdrive Injector System
+  - 765       # Expanded Cargohold
+  - 766       # Power Diagnostic System
+  - 767       # Capacitor Power Relay
+  - 768       # Capacitor Flux Coil
+  - 769       # Reactor Control Unit
+  - 770       # Shield Flux Coil
+  - 771       # Missile Launcher Heavy Assault
+  - 773       # Rig Armor
+  - 774       # Rig Shield
+  - 775       # Rig Energy Weapon
+  - 776       # Rig Hybrid Weapon
+  - 777       # Rig Projectile Weapon
+  - 778       # Rig Drones
+  - 779       # Rig Launcher
+  - 781       # Rig Core
+  - 782       # Rig Navigation
+  - 786       # Rig Electronic Systems
+  - 815       # Clone Vat Bay
+  - 842       # Burst Projectors
+  - 862       # Missile Launcher Bomb
+  - 878       # Cloak Enhancements
+  - 896       # Rig Security Transponder
+  - 899       # Warp Disrupt Field Generator
+  - 901       # Mining Enhancer
+  - 904       # Rig Mining
+  - 905       # Covert Cynosural Field Generator
+  - 1122      # Salvager
+  - 1150      # Armor Resistance Shift Hardener
+  - 1154      # Signature Suppressor
+  - 1156      # Ancillary Shield Booster
+  - 1189      # Micro Jump Drive
+  - 1199      # Ancillary Armor Repairer
+  - 1223      # Scanning Upgrade
+  - 1226      # Survey Probe Launcher
+  - 1232      # Rig Resource Processing
+  - 1233      # Rig Scanning
+  - 1234      # Rig Targeting
+  - 1238      # Scanning Upgrade Time
+  - 1245      # Missile Launcher Rapid Heavy
+  - 1289      # Warp Accelerator
+  - 1292      # Drone Tracking Enhancer
+  - 1299      # Jump Drive Economizer
+  - 1306      # Ship Modifiers
+  - 1308      # Rig Anchor
+  - 1313      # Entosis Link
+  - 1395      # Missile Guidance Enhancer
+  - 1396      # Missile Guidance Computer
+  - 1533      # Micro Jump Field Generators
+  - 1672      # Stasis Grappler
+  - 1673      # Missile Launcher Rapid Torpedo
+  - 1674      # Missile Launcher XL Cruise
+  - 1697      # Ancillary Remote Shield Booster
+  - 1698      # Ancillary Remote Armor Repairer
+  - 1699      # Flex Armor Hardener
+  - 1700      # Flex Shield Hardener
+  - 1706      # Capital Sensor Array
+  - 1770      # Command Burst
+  - 1815      # Titan Phenomena Generator
+  - 1894      # Non-Repeating Hardeners
+  - 1969      # Abyssal Modules
+  - 1986      # Precursor Weapon
+  - 1988      # Entropic Radiation Sink
+  - 2003      # Citizen Modules
+  - 2004      # Citizen Mining Laser
+  - 2008      # Mass Entanglers
+  - 2013      # Stasis Nullifiers
+  - 2018      # Mutadaptive Remote Armor Repairer
+  - 4060      # Vorton Projector
+  - 4067      # Vorton Projector Upgrade
+  - 4117      # Interdiction Nullifier
+  - 4127      # Covert Jump Portal Generator
+  - 4138      # Gas Cloud Harvesters
+  - 4174      # Compressors
+  - 4184      # Industrial Jump Portal Generator
+

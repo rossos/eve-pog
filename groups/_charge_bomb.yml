@@ -1,0 +1,6 @@
+---
+types:
+  - 90        # Bomb
+  - 863       # Bomb ECM
+  - 864       # Bomb Energy
+

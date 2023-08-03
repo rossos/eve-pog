@@ -1,0 +1,29 @@
+---
+types:
+  - 311       # Reprocessing Array
+  - 363       # Ship Maintenance Array
+  - 365       # Control Tower
+  - 397       # Assembly Array
+  - 404       # Silo
+  - 413       # Laboratory
+  - 416       # Moon Mining
+  - 417       # Mobile Missile Sentry
+  - 426       # Mobile Projectile Sentry
+  - 430       # Mobile Laser Sentry
+  - 438       # Mobile Reactor
+  - 439       # Electronic Warfare Battery
+  - 440       # Sensor Dampening Battery
+  - 441       # Stasis Webification Battery
+  - 443       # Warp Scrambling Battery
+  - 444       # Shield Hardening Array
+  - 449       # Mobile Hybrid Sentry
+  - 471       # Corporate Hangar Array
+  - 473       # Tracking Array
+  - 707       # Jump Portal Array
+  - 709       # Scanner Array
+  - 837       # Energy Neutralizing Battery
+  - 838       # Cynosural Generator Array
+  - 839       # Cynosural System Jammer
+  - 1212      # Personal Hangar
+  - 1282      # Compression Array
+

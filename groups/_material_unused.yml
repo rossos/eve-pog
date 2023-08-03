@@ -1,0 +1,21 @@
+---
+types:
+  - 17        # Money
+  - 18        # Mineral
+  - 20        # Drug
+  - 422       # Gas Isotopes
+  - 423       # Ice Product
+  - 427       # Moon Materials
+  - 428       # Intermediate Materials
+  - 429       # Composite
+  - 712       # Biochemical Material
+  - 754       # Salvaged Materials
+  - 886       # Rogue Drone Components
+  - 966       # Ancient Salvage
+  - 967       # Wormhole Minerals
+  - 974       # Hybrid Polymers
+  - 1136      # Fuel Block
+  - 1676      # Named Components
+  - 1996      # Abyssal Materials
+  - 4096      # Molecular-Forged Materials
+

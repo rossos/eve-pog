@@ -1,0 +1,6 @@
+---
+show: []
+hide: 
+  - 11        # Pilot is in your fleet
+  - 21        # Pilot (agent) is interactable
+

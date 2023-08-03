@@ -1,0 +1,23 @@
+---
+types:
+  - 924       # Mission Faction Battleship
+  - 927       # Mission Faction Haulers
+  - 1006      # Mission Faction Cruiser
+  - 1007      # Mission Faction Frigate
+  - 1166      # FW Minmatar Republic Frigate
+  - 1167      # FW Caldari State Frigate
+  - 1168      # FW Gallente Federation Frigate
+  - 1169      # FW Amarr Empire Frigate
+  - 1175      # FW Amarr Empire Destroyer
+  - 1176      # FW Caldari State Destroyer
+  - 1177      # FW Gallente Federation Destroyer
+  - 1178      # FW Minmatar Republic Destroyer
+  - 1179      # FW Amarr Empire Cruiser
+  - 1180      # FW Caldari State Cruiser
+  - 1181      # FW Gallente Federation Cruiser
+  - 1182      # FW Minmatar Republic Cruiser
+  - 1183      # FW Amarr Empire Battlecruiser
+  - 1184      # FW Caldari State Battlecruiser
+  - 1185      # FW Gallente Federation Battlecruiser
+  - 1186      # FW Minmatar Republic Battlecruiser
+

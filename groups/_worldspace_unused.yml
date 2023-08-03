@@ -1,0 +1,6 @@
+---
+types:
+  - 935       # WorldSpace
+  - 1067      # MaterialZone
+  - 1068      # DetailMesh
+

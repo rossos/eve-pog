@@ -1,0 +1,27 @@
+---
+types:
+  - 300       # Cyberimplant
+  - 303       # Booster
+  - 304       # DNA Mutator
+  - 721       # Temp
+  - 738       # Cyber Armor
+  - 739       # Cyber Drones
+  - 740       # Cyber Electronic Systems
+  - 741       # Cyber Engineering
+  - 742       # Cyber Gunnery
+  - 743       # Cyber Production
+  - 744       # Cyber Leadership
+  - 745       # Cyber Learning
+  - 746       # Cyber Missile
+  - 747       # Cyber Navigation
+  - 748       # Cyber Science
+  - 749       # Cyber Shields
+  - 750       # Cyber Social
+  - 751       # Cyber Trade
+  - 783       # Cyber X Specials
+  - 1228      # Cyber Targeting
+  - 1229      # Cyber Resource Processing
+  - 1230      # Cyber Scanning
+  - 1231      # Cyber Biology
+  - 1730      # Special Edition Implant
+

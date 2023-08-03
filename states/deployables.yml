@@ -1,0 +1,11 @@
+---
+show: []
+hide: 
+  - 11        # Pilot is in your fleet
+  - 12        # Pilot is in your Capsuleer corporation
+  - 14        # Pilot is in your alliance
+  - 15        # Pilot has Excellent Standing.
+  - 16        # Pilot has Good Standing.
+  - 21        # Pilot (agent) is interactable
+  - 49        # Pilot is an ally in one or more of your wars
+

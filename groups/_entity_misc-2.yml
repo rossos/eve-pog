@@ -1,0 +1,11 @@
+---
+types:
+  - 182       # Police Drone
+  - 288       # Faction Drone
+  - 301       # Concord Drone
+  - 323       # Billboard
+  - 446       # Customs Official
+  - 715       # Destructible Agents In Space
+  - 784       # Large Collidable Ship
+  - 1872      # Structure Entities
+

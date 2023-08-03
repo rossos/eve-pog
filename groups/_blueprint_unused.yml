@@ -1,0 +1,207 @@
+---
+types:
+  - 104       # Clone Blueprint
+  - 105       # Frigate Blueprint
+  - 106       # Cruiser Blueprint
+  - 107       # Battleship Blueprint
+  - 108       # Hauler Blueprint
+  - 109       # Capsule Blueprint
+  - 110       # Titan Blueprint
+  - 111       # Shuttle Blueprint
+  - 118       # Shield Extender Blueprint
+  - 119       # Shield Recharger Blueprint
+  - 120       # Shield Booster Blueprint
+  - 121       # Remote Shield Booster Blueprint
+  - 123       # Capacitor Recharger Blueprint
+  - 126       # Propulsion Module Blueprint
+  - 127       # Cargo Scanner Blueprint
+  - 128       # Ship Scanner Blueprint
+  - 129       # Survey Scanner Blueprint
+  - 130       # ECM Blueprint
+  - 131       # ECCM Blueprint
+  - 132       # Warp Scrambler Blueprint
+  - 133       # Energy Weapon Blueprint
+  - 134       # Mining Laser Blueprint
+  - 135       # Projectile Weapon Blueprint
+  - 136       # Missile Launcher Blueprint
+  - 137       # Power Manager Blueprint
+  - 139       # Gunnery Upgrade Blueprint
+  - 140       # Damage Control Blueprint
+  - 141       # Capacitor Battery Blueprint
+  - 142       # Armor Repair Unit Blueprint
+  - 143       # Hull Repair Unit Blueprint
+  - 145       # Stasis Web Blueprint
+  - 147       # Remote Capacitor Transmitter Blueprint
+  - 148       # Energy Nosferatu Blueprint
+  - 151       # Energy Neutralizer Blueprint
+  - 152       # Smart Bomb Blueprint
+  - 154       # Hybrid Weapon Blueprint
+  - 156       # Capacitor Booster Blueprint
+  - 157       # Shield Hardener Blueprint
+  - 158       # Hull Mods Blueprint
+  - 160       # Burst Jammer Blueprint
+  - 161       # Passive Targeting System Blueprint
+  - 162       # Automated Targeting System Blueprint
+  - 163       # Armor Coating Blueprint
+  - 165       # Projectile Ammo Blueprint
+  - 166       # Missile Blueprint
+  - 167       # Hybrid Charge Blueprint
+  - 168       # Frequency Crystal Blueprint
+  - 169       # Capacitor Booster Charge Blueprint
+  - 170       # Defender Missile Blueprint
+  - 172       # Bomb Blueprint
+  - 174       # Mine Blueprint
+  - 175       # Proximity Drone Blueprint
+  - 176       # Combat Drone Blueprint
+  - 177       # Mining Drone Blueprint
+  - 178       # Drug Blueprint
+  - 218       # Heat Sink Blueprint
+  - 223       # Sensor Booster Blueprint
+  - 224       # Tracking Computer Blueprint
+  - 296       # Shield Resistance Amplifier Blueprint
+  - 342       # Anti Warp Scrambler Blueprint
+  - 343       # Weapon Disruptor Blueprint
+  - 344       # Tracking Enhancer Blueprint
+  - 345       # Remote Tracking Computer Blueprint
+  - 346       # Co-Processor Blueprint
+  - 347       # Signal Amplifier Blueprint
+  - 348       # Armor Hardener Blueprint
+  - 349       # Armor Plate Blueprint
+  - 350       # Remote Armor Repairer Blueprint
+  - 352       # Auxiliary Power Core Blueprint
+  - 356       # Tool Blueprint
+  - 360       # Shield Boost Amplifier Blueprint
+  - 371       # Mobile Warp Disruptor Blueprint
+  - 400       # Ballistic Control System Blueprint
+  - 401       # Cloaking Device Blueprint
+  - 408       # Drone Upgrade Blueprint
+  - 410       # Anti Cloaking Pulse Blueprint
+  - 447       # Construction Component Blueprints
+  - 477       # Mining Barge Blueprint
+  - 478       # System Scanner Blueprint
+  - 486       # Scan Probe Blueprint
+  - 487       # Destroyer Blueprint
+  - 489       # Battlecruiser Blueprint
+  - 490       # Strip Miner Blueprint
+  - 503       # Elite Hauler Blueprint
+  - 504       # Target Painter Blueprint
+  - 516       # Siege Module Blueprint
+  - 525       # Freighter Blueprint
+  - 532       # Gang Coordinator Blueprint
+  - 535       # Construction Platform Blueprint
+  - 537       # Dreadnought Blueprint
+  - 643       # Carrier Blueprint
+  - 651       # Super Weapon Blueprint
+  - 718       # Booster Blueprints
+  - 722       # Advanced Hybrid Charge Blueprint
+  - 723       # Tractor Beam Blueprint
+  - 724       # Implant Blueprints
+  - 725       # Advanced Projectile Ammo Blueprint
+  - 726       # Advanced Frequency Crystal Blueprint
+  - 727       # Mining Crystal Blueprint
+  - 787       # Rig Blueprint
+  - 841       # Starbase - Control Tower Blueprints
+  - 853       # Starbase - Laser Battery Blueprints
+  - 854       # Starbase - Projectile Battery Blueprints
+  - 855       # Starbase - Hybrid Battery Blueprints
+  - 856       # Starbase - ECM Jamming Array Blueprints
+  - 857       # Starbase - Warp Scrambling Battery Blueprints
+  - 858       # Starbase - Stasis Webification Battery Blueprints
+  - 859       # Starbase - Sensor Dampening Array Blueprints
+  - 860       # Starbase - Energy Neutralizing Battery Blueprints
+  - 870       # Remote Hull Repairer Blueprint
+  - 871       # Starbase - Missile Battery Blueprints
+  - 888       # Ore Compression Blueprints
+  - 889       # Ore Enhancement Blueprints
+  - 890       # Ice Compression Blueprints
+  - 891       # Starbase - Mobile Laboratory Blueprints
+  - 912       # Script Blueprint
+  - 914       # Advanced Capital Construction Component Blueprints
+  - 915       # Capital Construction Blueprints
+  - 917       # Data Miner Blueprint
+  - 918       # Scan Probe Launcher Blueprint
+  - 944       # Capital Industrial Ship Blueprint
+  - 945       # Industrial Command Ship Blueprint
+  - 965       # Hybrid Component Blueprints
+  - 973       # Subsystem Blueprints
+  - 996       # Strategic Cruiser Blueprints
+  - 1013      # Supercarrier Blueprints
+  - 1045      # Sovereignty Structure Blueprint
+  - 1046      # Nanite Repair Paste Blueprint
+  - 1048      # Starbase Blueprint
+  - 1123      # Salvager Blueprint
+  - 1137      # Fuel Block Blueprint
+  - 1139      # Mining Laser Upgrade Blueprint
+  - 1142      # Energy Neutralizer Drone Blueprint
+  - 1143      # Electronic Warfare Drone Blueprint
+  - 1144      # Logistic Drone Blueprint
+  - 1145      # Heavy Fighter Blueprint
+  - 1146      # Light Fighter Blueprint
+  - 1147      # Stasis Webifying Drone Blueprint
+  - 1151      # Armor Resistance Shift Hardener Blueprint
+  - 1152      # Drone Damage Module Blueprint
+  - 1155      # Signature Suppressor Blueprint
+  - 1157      # Fueled Shield Booster Blueprint
+  - 1160      # Survey Probe Blueprints
+  - 1162      # Container Blueprints
+  - 1190      # Salvage Drone Blueprint
+  - 1191      # Micro Jump Drive Blueprint
+  - 1197      # Special Edition Commodity Blueprints
+  - 1200      # Fueled Armor Repairer Blueprint
+  - 1222      # ECM Stabilizer Blueprint
+  - 1224      # Scanning Upgrade Blueprint
+  - 1227      # Survey Probe Launcher Blueprint
+  - 1239      # Scanning Upgrade Time Blueprint
+  - 1267      # Mobile Siphon Unit Blueprint
+  - 1268      # Mobile Cynosural Inhibitor Blueprint
+  - 1269      # Mobile Depot Blueprint
+  - 1270      # Mobile Tractor Unit Blueprint
+  - 1277      # Encounter Surveillance System Blueprint
+  - 1293      # Mobile Scan Inhibitor Blueprint
+  - 1294      # Mobile Micro Jump Unit Blueprint
+  - 1295      # Mobile Decoy Unit Blueprint
+  - 1309      # Tactical Destroyer Blueprint
+  - 1317      # Infrastructure Upgrade Blueprint
+  - 1318      # Entosis Link Blueprint
+  - 1397      # Missile Guidance Enhancer Blueprint
+  - 1399      # Missile Guidance Computer Blueprint
+  - 1461      # Unknown Blueprint
+  - 1462      # Structure Blueprints
+  - 1542      # Command Destroyer Blueprint
+  - 1543      # Micro Jump Field Generator Blueprint
+  - 1679      # Support Fighter Blueprint
+  - 1703      # Burst Projector Blueprint
+  - 1707      # Structure Module Blueprint
+  - 1708      # Structure Rig Blueprint
+  - 1709      # Unpublished Structure Module and Rig Blueprints
+  - 1718      # Force Auxiliary Blueprint
+  - 1723      # Shield Resistance Shift Hardener Blueprint
+  - 1810      # Command Burst Charge Blueprint
+  - 1812      # Command Burst Blueprint
+  - 1888      # Composite Reaction Formulas
+  - 1889      # Polymer Reaction Formulas
+  - 1890      # Biochemical Reaction Formulas
+  - 1891      # Depricated Subsystem Blueprints
+  - 1948      # Cyber Scanning Implant Blueprints
+  - 1990      # Precursor Weapon Blueprint
+  - 1992      # Entropic Radiation Sink Blueprint
+  - 1993      # Exotic Plasma Charge Blueprint
+  - 1994      # Advanced Exotic Plasma Charge Blueprint
+  - 2010      # Mass Entangler Blueprints
+  - 2019      # Mutadaptive Remote Armor Repairer Blueprint
+  - 2023      # Cyber Electronics Implant Blueprints
+  - 4052      # Jump Filament Blueprint
+  - 4064      # Vorton Projector Blueprint
+  - 4065      # Condenser Pack Blueprint
+  - 4066      # Advanced Condenser Pack Blueprint
+  - 4069      # Vorton Projector Upgrade Blueprints
+  - 4095      # Mobile Cynosural Beacon Blueprint
+  - 4097      # Molecular-Forged Reaction Formulas
+  - 4108      # Mobile Observatory Blueprint
+  - 4118      # Interdiction Nullifier Blueprint
+  - 4139      # Gas Harvester Blueprint
+  - 4141      # Mobile Analysis Beacon Blueprint
+  - 4175      # Compressors Blueprints
+  - 4188      # Structure Area Denial Ammo Blueprint
+  - 4493      # Mobile Objective Blueprint
+

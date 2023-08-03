@@ -1,0 +1,10 @@
+---
+types:
+  - 436       # Simple Reaction
+  - 484       # Complex Reactions
+  - 661       # Simple Biochemical Reactions
+  - 662       # Complex Biochemical Reactions
+  - 881       # Freedom Programs
+  - 882       # Enslavement Programs
+  - 977       # Hybrid Reactions
+

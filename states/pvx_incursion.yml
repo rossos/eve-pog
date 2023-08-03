@@ -1,0 +1,8 @@
+---
+show: []
+hide: 
+  - 11        # Pilot is in your fleet
+  - 17        # Pilot has Neutral Standing.
+  - 21        # Pilot (agent) is interactable
+  - 48        # Pilot has No Standing.
+

@@ -1,0 +1,9 @@
+---
+types:
+  - 971       # Sleeper Propulsion Relics
+  - 990       # Sleeper Electronics Relics
+  - 991       # Sleeper Offensive Relics
+  - 992       # Sleeper Engineering Relics
+  - 993       # Sleeper Defensive Relics
+  - 997       # Sleeper Hull Relics
+

@@ -1,0 +1,9 @@
+---
+types:
+  - 728       # Decryptors - Amarr
+  - 729       # Decryptors - Minmatar
+  - 730       # Decryptors - Gallente
+  - 731       # Decryptors - Caldari
+  - 979       # Decryptors - Hybrid
+  - 1304      # Generic Decryptor
+

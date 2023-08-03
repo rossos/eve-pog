@@ -1,0 +1,7 @@
+---
+types:
+  - 97        # Proximity Drone
+  - 299       # Repair Drone
+  - 470       # Unanchoring Drone
+  - 545       # Warp Scrambling Drone
+

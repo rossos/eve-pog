@@ -1,0 +1,129 @@
+---
+types:
+  - 550       # Asteroid Angel Cartel Frigate
+  - 551       # Asteroid Angel Cartel Cruiser
+  - 552       # Asteroid Angel Cartel Battleship
+  - 553       # Asteroid Angel Cartel Officer
+  - 554       # Asteroid Angel Cartel Hauler
+  - 555       # Asteroid Blood Raiders Cruiser
+  - 556       # Asteroid Blood Raiders Battleship
+  - 557       # Asteroid Blood Raiders Frigate
+  - 558       # Asteroid Blood Raiders Hauler
+  - 559       # Asteroid Blood Raiders Officer
+  - 560       # Asteroid Guristas Battleship
+  - 561       # Asteroid Guristas Cruiser
+  - 562       # Asteroid Guristas Frigate
+  - 563       # Asteroid Guristas Hauler
+  - 564       # Asteroid Guristas Officer
+  - 565       # Asteroid Sansha's Nation Battleship
+  - 566       # Asteroid Sansha's Nation Cruiser
+  - 567       # Asteroid Sansha's Nation Frigate
+  - 568       # Asteroid Sansha's Nation Hauler
+  - 569       # Asteroid Sansha's Nation Officer
+  - 570       # Asteroid Serpentis Battleship
+  - 571       # Asteroid Serpentis Cruiser
+  - 572       # Asteroid Serpentis Frigate
+  - 573       # Asteroid Serpentis Hauler
+  - 574       # Asteroid Serpentis Officer
+  - 575       # Asteroid Angel Cartel Destroyer
+  - 576       # Asteroid Angel Cartel BattleCruiser
+  - 577       # Asteroid Blood Raiders Destroyer
+  - 578       # Asteroid Blood Raiders BattleCruiser
+  - 579       # Asteroid Guristas Destroyer
+  - 580       # Asteroid Guristas BattleCruiser
+  - 581       # Asteroid Sansha's Nation Destroyer
+  - 582       # Asteroid Sansha's Nation BattleCruiser
+  - 583       # Asteroid Serpentis Destroyer
+  - 584       # Asteroid Serpentis BattleCruiser
+  - 593       # Deadspace Angel Cartel BattleCruiser
+  - 594       # Deadspace Angel Cartel Battleship
+  - 595       # Deadspace Angel Cartel Cruiser
+  - 596       # Deadspace Angel Cartel Destroyer
+  - 597       # Deadspace Angel Cartel Frigate
+  - 602       # Deadspace Blood Raiders BattleCruiser
+  - 603       # Deadspace Blood Raiders Battleship
+  - 604       # Deadspace Blood Raiders Cruiser
+  - 605       # Deadspace Blood Raiders Destroyer
+  - 606       # Deadspace Blood Raiders Frigate
+  - 611       # Deadspace Guristas BattleCruiser
+  - 612       # Deadspace Guristas Battleship
+  - 613       # Deadspace Guristas Cruiser
+  - 614       # Deadspace Guristas Destroyer
+  - 615       # Deadspace Guristas Frigate
+  - 620       # Deadspace Sansha's Nation BattleCruiser
+  - 621       # Deadspace Sansha's Nation Battleship
+  - 622       # Deadspace Sansha's Nation Cruiser
+  - 623       # Deadspace Sansha's Nation Destroyer
+  - 624       # Deadspace Sansha's Nation Frigate
+  - 629       # Deadspace Serpentis BattleCruiser
+  - 630       # Deadspace Serpentis Battleship
+  - 631       # Deadspace Serpentis Cruiser
+  - 632       # Deadspace Serpentis Destroyer
+  - 633       # Deadspace Serpentis Frigate
+  - 755       # Asteroid Rogue Drone BattleCruiser
+  - 756       # Asteroid Rogue Drone Battleship
+  - 757       # Asteroid Rogue Drone Cruiser
+  - 758       # Asteroid Rogue Drone Destroyer
+  - 759       # Asteroid Rogue Drone Frigate
+  - 760       # Asteroid Rogue Drone Hauler
+  - 761       # Asteroid Rogue Drone Swarm
+  - 789       # Asteroid Angel Cartel Commander Frigate
+  - 790       # Asteroid Angel Cartel Commander Cruiser
+  - 791       # Asteroid Blood Raiders Commander Cruiser
+  - 792       # Asteroid Blood Raiders Commander Frigate
+  - 793       # Asteroid Angel Cartel Commander BattleCruiser
+  - 794       # Asteroid Angel Cartel Commander Destroyer
+  - 795       # Asteroid Blood Raiders Commander BattleCruiser
+  - 796       # Asteroid Blood Raiders Commander Destroyer
+  - 797       # Asteroid Guristas Commander BattleCruiser
+  - 798       # Asteroid Guristas Commander Cruiser
+  - 799       # Asteroid Guristas Commander Destroyer
+  - 800       # Asteroid Guristas Commander Frigate
+  - 801       # Deadspace Rogue Drone BattleCruiser
+  - 802       # Deadspace Rogue Drone Battleship
+  - 803       # Deadspace Rogue Drone Cruiser
+  - 804       # Deadspace Rogue Drone Destroyer
+  - 805       # Deadspace Rogue Drone Frigate
+  - 806       # Deadspace Rogue Drone Swarm
+  - 807       # Asteroid Sansha's Nation Commander BattleCruiser
+  - 808       # Asteroid Sansha's Nation Commander Cruiser
+  - 809       # Asteroid Sansha's Nation Commander Destroyer
+  - 810       # Asteroid Sansha's Nation Commander Frigate
+  - 811       # Asteroid Serpentis Commander BattleCruiser
+  - 812       # Asteroid Serpentis Commander Cruiser
+  - 813       # Asteroid Serpentis Commander Destroyer
+  - 814       # Asteroid Serpentis Commander Frigate
+  - 819       # Deadspace Overseer Frigate
+  - 820       # Deadspace Overseer Cruiser
+  - 821       # Deadspace Overseer Battleship
+  - 843       # Asteroid Rogue Drone Commander BattleCruiser
+  - 844       # Asteroid Rogue Drone Commander Battleship
+  - 845       # Asteroid Rogue Drone Commander Cruiser
+  - 846       # Asteroid Rogue Drone Commander Destroyer
+  - 847       # Asteroid Rogue Drone Commander Frigate
+  - 848       # Asteroid Angel Cartel Commander Battleship
+  - 849       # Asteroid Blood Raiders Commander Battleship
+  - 850       # Asteroid Guristas Commander Battleship
+  - 851       # Asteroid Sansha's Nation Commander Battleship
+  - 852       # Asteroid Serpentis Commander Battleship
+  - 861       # Mission Fighter Drone
+  - 865       # Mission Amarr Empire Carrier
+  - 866       # Mission Caldari State Carrier
+  - 867       # Mission Gallente Federation Carrier
+  - 868       # Mission Minmatar Republic Carrier
+  - 875       # Mission Faction Transports
+  - 959       # Deadspace Sleeper Sleepless Sentinel
+  - 960       # Deadspace Sleeper Awakened Sentinel
+  - 961       # Deadspace Sleeper Emergent Sentinel
+  - 982       # Deadspace Sleeper Sleepless Defender
+  - 983       # Deadspace Sleeper Sleepless Patroller
+  - 984       # Deadspace Sleeper Awakened Defender
+  - 985       # Deadspace Sleeper Awakened Patroller
+  - 986       # Deadspace Sleeper Emergent Defender
+  - 987       # Deadspace Sleeper Emergent Patroller
+  - 1051      # Incursion Sansha's Nation Industrial
+  - 1052      # Incursion Sansha's Nation Capital
+  - 1053      # Incursion Sansha's Nation Frigate
+  - 1054      # Incursion Sansha's Nation Cruiser
+  - 1056      # Incursion Sansha's Nation Battleship
+

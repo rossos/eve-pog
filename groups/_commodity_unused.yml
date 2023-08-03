@@ -1,0 +1,61 @@
+---
+types:
+  - 267       # Obsolete Books
+  - 280       # General
+  - 281       # Frozen
+  - 282       # Radioactive
+  - 283       # Livestock
+  - 284       # Biohazard
+  - 313       # Drugs
+  - 314       # Miscellaneous
+  - 332       # Tool
+  - 333       # Datacores
+  - 334       # Construction Components
+  - 355       # Refinables
+  - 369       # Ship Logs
+  - 370       # Criminal Tags
+  - 409       # Empire Insignia Drops
+  - 474       # Acceleration Gate Keys
+  - 493       # Overseer Personal Effects
+  - 521       # Identification
+  - 526       # Commodities
+  - 528       # Artifacts and Prototypes
+  - 530       # Materials and Compounds
+  - 536       # Structure Components
+  - 652       # Lease
+  - 716       # Data Interfaces
+  - 732       # Decryptors - Sleepers
+  - 733       # Decryptors - Yan Jung
+  - 734       # Decryptors - Takmahl
+  - 735       # Decryptors - Talocan
+  - 873       # Capital Construction Components
+  - 879       # Slave Reception
+  - 880       # Sleeper Components
+  - 884       # Test Compressed Ore
+  - 913       # Advanced Capital Construction Components
+  - 955       # Depricated Subsystems
+  - 964       # Hybrid Tech Components
+  - 1031      # Planetary Resources
+  - 1118      # Surface Infrastructure Prefab Units
+  - 1141      # Research Data
+  - 1206      # Security Tags
+  - 1248      # Bounty Encrypted Bonds
+  - 1314      # Unknown Components
+  - 1818      # Strong Boxes
+  - 1886      # Technical Data Chips
+  - 1964      # Mutaplasmids
+  - 1977      # Trinary Data Vaults
+  - 1979      # Abyssal Filaments
+  - 1995      # Triglavian Data
+  - 2002      # Triglavian Datastreams
+  - 2026      # Triglavian Artifacts
+  - 4041      # Jump Filaments
+  - 4050      # Abyssal Proving Filaments
+  - 4072      # Expired Jump Filaments
+  - 4087      # Triglavian Space Filaments
+  - 4102      # ESS Reserve Bank Keys
+  - 4142      # Rogue Drone Analysis Data
+  - 4145      # Warp Matrix Filaments
+  - 4165      # Peculiar Materials
+  - 4575      # Homefront Operations Commodity
+

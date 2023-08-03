@@ -1,0 +1,20 @@
+---
+types:
+  - 350858    # Infantry Weapons
+  - 351064    # Infantry Dropsuits
+  - 351121    # Infantry Modules
+  - 351210    # Infantry Vehicles
+  - 351648    # Infantry Skills
+  - 351844    # Infantry Equipment
+  - 354641    # Infantry Skill Enhancers
+  - 354753    # Infantry Installations
+  - 364204    # Surface Infrastructure
+  - 367487    # Services
+  - 367580    # Agents
+  - 367594    # Visual Customization
+  - 367774    # Salvage Containers
+  - 367776    # Salvage Decryptors
+  - 368656    # Battle Salvage
+  - 368666    # Warbarge
+  - 368726    # Infantry Color Skin
+

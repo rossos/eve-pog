@@ -1,0 +1,7 @@
+---
+types:
+  - 954       # Defensive Subsystem
+  - 956       # Offensive Subsystem
+  - 957       # Propulsion Subsystem
+  - 958       # Core Subsystem
+

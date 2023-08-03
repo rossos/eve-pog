@@ -1,0 +1,10 @@
+---
+types:
+  - 1950      # Permanent SKIN
+  - 1951      # Volatile SKIN
+  - 1952      # 7-Day SKIN
+  - 1953      # 30-Day SKIN
+  - 1954      # 90-Day SKIN
+  - 1955      # 1-Year SKIN
+  - 4040      # 180-Day SKIN
+

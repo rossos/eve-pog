@@ -1,0 +1,10 @@
+---
+show: []
+hide: 
+  - 13        # Pilot is at war with your corporation/alliance
+  - 17        # Pilot has Neutral Standing.
+  - 18        # Pilot has Bad Standing.
+  - 19        # Pilot has Terrible Standing.
+  - 21        # Pilot (agent) is interactable
+  - 44        # Pilot is at war with your militia
+

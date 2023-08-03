@@ -1,0 +1,6 @@
+---
+types:
+  - 1032      # Planet Solid - Raw Resource
+  - 1033      # Planet Liquid-Gas - Raw Resource
+  - 1035      # Planet Organic - Raw Resource
+
