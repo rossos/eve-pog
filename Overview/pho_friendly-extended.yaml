@@ -271,44 +271,55 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Capitals</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: All Caps</color>'
+    - - color
+      - 
 - - 1
   - - - name
-      - '<color=0xNone>   <fontsize=12><color=0xFF66CCFF><b> PHO Friendly Extended
-        loaded! </b></color></fontsize>
+      - '<fontsize=12><color=0xFF3676BB><b> PHO Friendly Extended loaded! </b></color></fontsize>
 
-        <fontsize=12><color=0xFFFF6666><b> • Apply another Preset Pack, or </b></color></fontsize>
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        another Preset Pack, or </b></color></fontsize>
 
-        <fontsize=12><color=0xFF66FF66><b> • Apply a Layout to finish </b></color></fontsize>   </color>'
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        a Layout to finish </b></color></fontsize>'
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: Carriers</color>'
+    - - color
+      - 
 - - 2
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Dreads</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: Dictors</color>'
+    - - color
+      - 
 - - 3
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Logistics</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: Flag</color>'
+    - - color
+      - 
 - - 4
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: SC/T</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: Recons</color>'
+    - - color
+      - 
 presets:
 - - ' <color=0xFF66CCFF>✪ Friendly: Dictors</color>'
   - - - alwaysShownStates

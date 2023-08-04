@@ -271,51 +271,64 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Battlecruisers</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Antibombers (!)</color>'
+    - - color
+      - 
 - - 1
   - - - name
-      - '<color=0xNone>   <fontsize=12><color=0xFF66CCFF><b> PHO Target Subcaps loaded!
-        </b></color></fontsize>
+      - '<fontsize=12><color=0xFF3676BB><b> PHO Target Subcaps loaded! </b></color></fontsize>
 
-        <fontsize=12><color=0xFFFF6666><b> • Apply another Preset Pack, or </b></color></fontsize>
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        another Preset Pack, or </b></color></fontsize>
 
-        <fontsize=12><color=0xFF66FF66><b> • Apply a Layout to finish </b></color></fontsize>   </color>'
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        a Layout to finish </b></color></fontsize>'
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Cmd Dest</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Battleships</color>'
+    - - color
+      - 
 - - 2
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: CS/T3</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Cruisers</color>'
+    - - color
+      - 
 - - 3
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Flag</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Dictors</color>'
+    - - color
+      - 
 - - 4
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Logistics</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Frig/Dest</color>'
+    - - color
+      - 
 - - 5
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Recons</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Pods</color>'
+    - - color
+      - 
 presets:
 - - ' <color=0xFFFFFF66>✥ Target: Logistics</color>'
   - - - alwaysShownStates

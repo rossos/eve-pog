@@ -271,43 +271,55 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - '<color=0x>      </color>'
+      - ''
     - - overview
       - ' ⌘ Brackets: Incursion'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+    - - color
+      - 
 - - 1
   - - - name
-      - '<color=0x>   <fontsize=12><color=0xFF66CCFF><b> PHO Core loaded! </b></color></fontsize>
+      - '<fontsize=12><color=0xFF3676BB><b> PHO Core loaded! </b></color></fontsize>
 
-        <fontsize=12><color=0xFFFF6666><b> • Apply another Preset Pack, or </b></color></fontsize>
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        another Preset Pack, or </b></color></fontsize>
 
-        <fontsize=12><color=0xFF66FF66><b> • Apply a Layout to finish </b></color></fontsize>   </color>'
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        a Layout to finish </b></color></fontsize>'
     - - overview
       - ' ⌘ Brackets: Travel'
     - - bracket
       - ' ⌘ Brackets: Misc'
+    - - color
+      - 
 - - 2
   - - - name
-      - '<color=0x>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFFFF>✈ --- Travel: All</color>'
     - - bracket
       - ' <color=0xFF66FF66>➲ Extra: Align Points</color>'
+    - - color
+      - 
 - - 3
   - - - name
-      - '<color=0x>      </color>'
+      - ''
     - - overview
       - ' <color=0xFF66CCFF>✪ = Friendly: Fleet</color>'
     - - bracket
       - ' <color=0xFFFFFFFF>✈ Travel (+Ship -Sta)</color>'
+    - - color
+      - 
 - - 4
   - - - name
-      - '<color=0x>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut +NPC)</color>'
     - - bracket
       - ' <color=0xFFFD96CF>※ --- D-Scan: All</color>'
+    - - color
+      - 
 presets:
 - - ' <color=0xFFFFFFFF>✈ --- Travel: All</color>'
   - - - alwaysShownStates

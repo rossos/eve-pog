@@ -271,43 +271,55 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFF6666>✜ --- PvX: Basic (-Neut +NPC)</color>'
     - - bracket
       - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut -NPC)</color>'
+    - - color
+      - 
 - - 1
   - - - name
-      - '<color=0xNone>   <fontsize=12><color=0xFF66CCFF><b> PHO PvX 1 loaded! </b></color></fontsize>
+      - '<fontsize=12><color=0xFF3676BB><b> PHO PvX 1 loaded! </b></color></fontsize>
 
-        <fontsize=12><color=0xFFFF6666><b> • Apply another Preset Pack, or </b></color></fontsize>
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        another Preset Pack, or </b></color></fontsize>
 
-        <fontsize=12><color=0xFF66FF66><b> • Apply a Layout to finish </b></color></fontsize>   </color>'
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        a Layout to finish </b></color></fontsize>'
     - - overview
       - ' <color=0xFFFF6666>✜ -- Ships only</color>'
     - - bracket
       - ' <color=0xFFFF6666>✜ --- PvX: Basic (-Neut -NPC)</color>'
+    - - color
+      - 
 - - 2
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFF6666>✜ = Deployables</color>'
     - - bracket
       - ' <color=0xFFFF6666>✜ = CovOps: Collidables</color>'
+    - - color
+      - 
 - - 3
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFF6666>✜ = Structures</color>'
     - - bracket
       - ' <color=0xFFFF6666>✜ = NPSI</color>'
+    - - color
+      - 
 - - 4
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut +NPC)</color>'
     - - bracket
       - ' <color=0xFFFF6666>✜ = Wartargets</color>'
+    - - color
+      - 
 presets:
 - - ' <color=0xFFFF6666>✜ = Structures</color>'
   - - - alwaysShownStates

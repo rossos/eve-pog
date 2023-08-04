@@ -271,37 +271,46 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Carriers</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: All Caps</color>'
+    - - color
+      - 
 - - 1
   - - - name
-      - '<color=0xNone>   <fontsize=12><color=0xFF66CCFF><b> PHO Target Caps loaded!
-        </b></color></fontsize>
+      - '<fontsize=12><color=0xFF3676BB><b> PHO Target Caps loaded! </b></color></fontsize>
 
-        <fontsize=12><color=0xFFFF6666><b> • Apply another Preset Pack, or </b></color></fontsize>
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        another Preset Pack, or </b></color></fontsize>
 
-        <fontsize=12><color=0xFF66FF66><b> • Apply a Layout to finish </b></color></fontsize>   </color>'
+        <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
+        a Layout to finish </b></color></fontsize>'
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Fax</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Dreads</color>'
+    - - color
+      - 
 - - 2
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: SC/T</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Fighters</color>'
+    - - color
+      - 
 - - 3
   - - - name
-      - '<color=0xNone>      </color>'
+      - ''
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Titans</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Supercarriers</color>'
+    - - color
+      - 
 presets:
 - - ' <color=0xFFFFFF66>✥ Target: Carriers</color>'
   - - - alwaysShownStates

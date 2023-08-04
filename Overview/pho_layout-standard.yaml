@@ -271,46 +271,70 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - '<color=0x>   <color=0xFFFFFFFF><fontsize=13><b>  ✈  </b></fontsize></color>   </color>'
+      - '<fontsize=13><b>  ✈  </b></fontsize>'
     - - overview
       - ' <color=0xFFFFFFFF>✈ Travel (-Ship +Sta)</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
+        - 1.0
+        - 1.0
 - - 1
   - - - name
-      - '<color=0x>   <color=0xFFFF6666><b>  Combat  </b></color>   </color>'
+      - '<b>  Combat  </b>'
     - - overview
       - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut +NPC)</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
+        - 0.4
+        - 0.4
 - - 2
   - - - name
-      - '<color=0x>   <color=0xFFFFFF66><b>  Targets  </b></color>   </color>'
+      - '<b>  Targets  </b>'
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Drones</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
+        - 1.0
+        - 0.4
 - - 3
   - - - name
-      - '<color=0x>   <color=0xFFD38FFD><b>  Misc  </b></color>   </color>'
+      - '<b>  Misc  </b>'
     - - overview
       - ' <color=0xFFFF6666>✜ PvX: Salvage/Loot</color>'
     - - bracket
       - ' ⌘ Brackets: Misc'
+    - - color
+      - - 0.8274
+        - 0.5607
+        - 0.9921
 - - 4
   - - - name
-      - '<color=0x>   <color=0xFF66CCFF><b>  Friendly  </b></color>   </color>'
+      - '<b>  Friendly  </b>'
     - - overview
       - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.4
+        - 0.8
+        - 1.0
 - - 5
   - - - name
-      - '<color=0x>   <color=0xFF66FF66><b>  Warpout!  </b></color>   </color>'
+      - '<b>  Warpout!  </b>'
     - - overview
       - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
     - - bracket
       - ' ⌘ Brackets: Warpout (!)'
+    - - color
+      - - 0.4
+        - 1.0
+        - 0.4
 presets:
 - - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut +NPC)</color>'
   - - - alwaysShownStates
