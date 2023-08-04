@@ -1,139 +1,139 @@
 ---
 flagOrder:
-  - 13
-  - 44
-  - 52
-  - 11
-  - 12
-  - 14
-  - 15
-  - 16
-  - 45
-  - 9
-  - 51
-  - 50
-  - 53
-  - 19
-  - 18
-  - 49
-  - 10
-  - 17
-  - 48
-  - 21
-  - 20
-  - 66
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
+- 52        # Pilot has a limited engagement with you
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 45        # Pilot is in your militia or allied to your militia
+- 9         # Pilot has a security status below -5
+- 51        # Pilot is a criminal
+- 50        # Pilot is a suspect
+- 53        # Pilot has a kill right on them that you can activate
+- 19        # Pilot has Terrible Standing.
+- 18        # Pilot has Bad Standing.
+- 49        # Pilot is an ally in one or more of your wars
+- 10        # Pilot has a security status below 0
+- 17        # Pilot has Neutral Standing.
+- 48        # Pilot has No Standing.
+- 21        # Pilot (agent) is interactable
+- 20        # Unknown
+- 66        # Pilot is in your Non Capsuleer corporation
 flagStates:
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 44
-  - 45
-  - 48
-  - 49
-  - 50
-  - 51
-  - 52
-  - 53
+- 9         # Pilot has a security status below -5
+- 10        # Pilot has a security status below 0
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 13        # Pilot is at war with your corporation/alliance
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 17        # Pilot has Neutral Standing.
+- 18        # Pilot has Bad Standing.
+- 19        # Pilot has Terrible Standing.
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 44        # Pilot is at war with your militia
+- 45        # Pilot is in your militia or allied to your militia
+- 48        # Pilot has No Standing.
+- 49        # Pilot is an ally in one or more of your wars
+- 50        # Pilot is a suspect
+- 51        # Pilot is a criminal
+- 52        # Pilot has a limited engagement with you
+- 53        # Pilot has a kill right on them that you can activate
 backgroundOrder:
-  - 13
-  - 44
-  - 52
-  - 11
-  - 12
-  - 14
-  - 15
-  - 16
-  - 45
-  - 49
-  - 19
-  - 18
-  - 9
-  - 51
-  - 50
-  - 53
-  - 10
-  - 20
-  - 21
-  - 17
-  - 48
-  - 66
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
+- 52        # Pilot has a limited engagement with you
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 45        # Pilot is in your militia or allied to your militia
+- 49        # Pilot is an ally in one or more of your wars
+- 19        # Pilot has Terrible Standing.
+- 18        # Pilot has Bad Standing.
+- 9         # Pilot has a security status below -5
+- 51        # Pilot is a criminal
+- 50        # Pilot is a suspect
+- 53        # Pilot has a kill right on them that you can activate
+- 10        # Pilot has a security status below 0
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 17        # Pilot has Neutral Standing.
+- 48        # Pilot has No Standing.
+- 66        # Pilot is in your Non Capsuleer corporation
 backgroundStates:
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 44
-  - 45
-  - 48
-  - 49
-  - 50
-  - 51
-  - 52
-  - 53
+- 9         # Pilot has a security status below -5
+- 10        # Pilot has a security status below 0
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 13        # Pilot is at war with your corporation/alliance
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 17        # Pilot has Neutral Standing.
+- 18        # Pilot has Bad Standing.
+- 19        # Pilot has Terrible Standing.
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 44        # Pilot is at war with your militia
+- 45        # Pilot is in your militia or allied to your militia
+- 48        # Pilot has No Standing.
+- 49        # Pilot is an ally in one or more of your wars
+- 50        # Pilot is a suspect
+- 51        # Pilot is a criminal
+- 52        # Pilot has a limited engagement with you
+- 53        # Pilot has a kill right on them that you can activate
 stateBlinks:
-  - - background_13
-    - false
-  - - background_44
-    - false
-  - - flag_13
-    - true
-  - - flag_44
-    - true
-  - - flag_50
-    - false
-  - - flag_51
-    - true
-  - - flag_52
-    - true
-  - - flag_9
-    - true
+- - background_13
+  - false
+- - background_44
+  - false
+- - flag_13
+  - true
+- - flag_44
+  - true
+- - flag_50
+  - false
+- - flag_51
+  - true
+- - flag_52
+  - true
+- - flag_9
+  - true
 stateColorsNameList:
-  - - background_10
-    - white
-  - - background_12
-    - darkBlue
-  - - background_16
-    - darkBlue
-  - - background_18
-    - red
-  - - background_20
-    - white
-  - - background_21
-    - white
-  - - background_44
-    - red
-  - - background_45
-    - blue
-  - - background_48
-    - white
-  - - background_49
-    - blue
-  - - background_50
-    - orange
-  - - background_51
-    - orange
-  - - background_52
-    - orange
-  - - background_9
-    - orange
-  - - flag_48
-    - white
+- - background_10
+  - white
+- - background_12
+  - darkBlue
+- - background_16
+  - darkBlue
+- - background_18
+  - red
+- - background_20
+  - white
+- - background_21
+  - white
+- - background_44
+  - red
+- - background_45
+  - blue
+- - background_48
+  - white
+- - background_49
+  - blue
+- - background_50
+  - orange
+- - background_51
+  - orange
+- - background_52
+  - orange
+- - background_9
+  - orange
+- - flag_48
+  - white

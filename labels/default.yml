@@ -1,105 +1,105 @@
 ---
 shipLabelOrder:
-  - ship type
-  - alliance
-  - corporation
-  - ship name
-  - null
-  - linebreak
-  - pilot name
+- ship type
+- alliance
+- corporation
+- ship name
+- 
+- linebreak
+- pilot name
 shipLabels:
-  - - null
-    - - - post
-        - ''
-      - - pre
-        - ''
-      - - state
-        - 1
-      - - type
-        - null
-  - - alliance
-    - - - bold
-        - 1
-      - - color
-        - - 0.996
-          - 1.0
-          - 0.435
-      - - fontsize
-        - 12
-      - - post
-        - ']'
-      - - pre
-        - ' ['
-      - - state
-        - 1
-      - - type
-        - alliance
-  - - corporation
-    - - - bold
-        - 1
-      - - post
-        - ']'
-      - - pre
-        - ' ['
-      - - state
-        - 1
-      - - type
-        - corporation
-  - - linebreak
-    - - - bold
-        - false
-      - - color
-        - null
-      - - fontsize
-        - null
-      - - italic
-        - false
-      - - post
-        - null
-      - - pre
-        - null
-      - - state
-        - null
-      - - type
-        - linebreak
-      - - underline
-        - false
-  - - pilot name
-    - - - post
-        - ']<color=0xFFFFFFFF><b> -'
-      - - pre
-        - ' ['
-      - - state
-        - 1
-      - - type
-        - pilot name
-  - - ship name
-    - - - italic
-        - 1
-      - - post
-        - ''
-      - - pre
-        - ' '
-      - - state
-        - 0
-      - - type
-        - ship name
-  - - ship type
-    - - - bold
-        - 1
-      - - color
-        - - 1.0
-          - 0.725
-          - 0.0
-      - - fontsize
-        - 12
-      - - post
-        - ''
-      - - pre
-        - ' '
-      - - state
-        - 1
-      - - type
-        - ship type
-      - - underline
-        - 1
+- - 
+  - - - post
+      - ''
+    - - pre
+      - ''
+    - - state
+      - 1
+    - - type
+      - 
+- - alliance
+  - - - bold
+      - 1
+    - - color
+      - - 0.996
+        - 1.0
+        - 0.435
+    - - fontsize
+      - 12
+    - - post
+      - ']'
+    - - pre
+      - ' ['
+    - - state
+      - 1
+    - - type
+      - alliance
+- - corporation
+  - - - bold
+      - 1
+    - - post
+      - ']'
+    - - pre
+      - ' ['
+    - - state
+      - 1
+    - - type
+      - corporation
+- - linebreak
+  - - - bold
+      - false
+    - - color
+      - 
+    - - fontsize
+      - 
+    - - italic
+      - false
+    - - post
+      - 
+    - - pre
+      - 
+    - - state
+      - 
+    - - type
+      - linebreak
+    - - underline
+      - false
+- - pilot name
+  - - - post
+      - ']<color=0xFFFFFFFF><b> -'
+    - - pre
+      - ' ['
+    - - state
+      - 1
+    - - type
+      - pilot name
+- - ship name
+  - - - italic
+      - 1
+    - - post
+      - ''
+    - - pre
+      - ' '
+    - - state
+      - 0
+    - - type
+      - ship name
+- - ship type
+  - - - bold
+      - 1
+    - - color
+      - - 1.0
+        - 0.725
+        - 0.0
+    - - fontsize
+      - 12
+    - - post
+      - ''
+    - - pre
+      - ' '
+    - - state
+      - 1
+    - - type
+      - ship type
+    - - underline
+      - 1

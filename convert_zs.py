@@ -271,7 +271,7 @@ def convert_zs_style():
                             else:
                                 data[k].yaml_add_eol_comment(state_desc, idx, column=12)
 
-                write_yaml_file(data, name + "/default_test.yml")
+                write_yaml_file(data, name + "/default.yml", write_preamble=False)
 
         break  # only process the first ZS file, under the assumption that all have identical 'appearance' traits
 
