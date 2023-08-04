@@ -3,95 +3,93 @@
 # Created for Pandemic Horde.
 ---
 flagOrder:
-- 13
-- 44
-- 52
-- 11
-- 12
-- 14
-- 15
-- 16
-- 45
-- 9
-- 51
-- 50
-- 53
-- 19
-- 18
-- 49
-- 10
-- 17
-- 48
-- 21
-- 20
-- 66
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
+- 52        # Pilot has a limited engagement with you
+- 19        # Pilot has Terrible Standing.
+- 18        # Pilot has Bad Standing.
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 14        # Pilot is in your alliance
+- 45        # Pilot is in your militia or allied to your militia
+- 9         # Pilot has a security status below -5
+- 51        # Pilot is a criminal
+- 50        # Pilot is a suspect
+- 53        # Pilot has a kill right on them that you can activate
+- 49        # Pilot is an ally in one or more of your wars
+- 10        # Pilot has a security status below 0
+- 17        # Pilot has Neutral Standing.
+- 48        # Pilot has No Standing.
+- 21        # Pilot (agent) is interactable
+- 20        # Unknown
+- 66        # Pilot is in your Non Capsuleer corporation
 flagStates:
-- 9
-- 10
-- 11
-- 12
-- 13
-- 14
-- 15
-- 16
-- 17
-- 18
-- 19
-- 20
-- 21
-- 44
-- 45
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
+- 9         # Pilot has a security status below -5
+- 10        # Pilot has a security status below 0
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 13        # Pilot is at war with your corporation/alliance
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 17        # Pilot has Neutral Standing.
+- 18        # Pilot has Bad Standing.
+- 19        # Pilot has Terrible Standing.
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 44        # Pilot is at war with your militia
+- 45        # Pilot is in your militia or allied to your militia
+- 48        # Pilot has No Standing.
+- 50        # Pilot is a suspect
+- 51        # Pilot is a criminal
+- 52        # Pilot has a limited engagement with you
+- 53        # Pilot has a kill right on them that you can activate
 backgroundOrder:
-- 13
-- 44
-- 52
-- 11
-- 12
-- 14
-- 15
-- 16
-- 45
-- 49
-- 19
-- 18
-- 9
-- 51
-- 50
-- 53
-- 10
-- 20
-- 21
-- 17
-- 48
-- 66
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
+- 52        # Pilot has a limited engagement with you
+- 19        # Pilot has Terrible Standing.
+- 18        # Pilot has Bad Standing.
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 14        # Pilot is in your alliance
+- 45        # Pilot is in your militia or allied to your militia
+- 49        # Pilot is an ally in one or more of your wars
+- 9         # Pilot has a security status below -5
+- 51        # Pilot is a criminal
+- 50        # Pilot is a suspect
+- 53        # Pilot has a kill right on them that you can activate
+- 10        # Pilot has a security status below 0
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 17        # Pilot has Neutral Standing.
+- 48        # Pilot has No Standing.
+- 66        # Pilot is in your Non Capsuleer corporation
 backgroundStates:
-- 9
-- 10
-- 11
-- 12
-- 13
-- 14
-- 15
-- 16
-- 17
-- 18
-- 19
-- 20
-- 21
-- 44
-- 45
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
+- 9         # Pilot has a security status below -5
+- 10        # Pilot has a security status below 0
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 13        # Pilot is at war with your corporation/alliance
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 17        # Pilot has Neutral Standing.
+- 18        # Pilot has Bad Standing.
+- 19        # Pilot has Terrible Standing.
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 44        # Pilot is at war with your militia
+- 45        # Pilot is in your militia or allied to your militia
+- 48        # Pilot has No Standing.
+- 50        # Pilot is a suspect
+- 51        # Pilot is a criminal
+- 52        # Pilot has a limited engagement with you
+- 53        # Pilot has a kill right on them that you can activate
 stateBlinks:
 - - background_13
   - false
@@ -269,11 +267,7 @@ shipLabels:
       - ship type
     - - underline
       - 1
-userSettings:
-- - hideCorpTicker
-  - true
-- - overviewBroadcastsToTop
-  - false
+userSettings: []
 tabSetup:
 - - 0
   - - - name
@@ -326,7 +320,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 9
@@ -651,7 +644,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -659,7 +651,6 @@ presets:
         - 1286
         - 1287
         - 1288
-        - 1297
         - 1305
         - 1307
         - 1310
@@ -775,6 +766,9 @@ presets:
         - 4037
         - 4053
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: Anoms</color>'
   - - - alwaysShownStates
       - []
@@ -786,7 +780,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 9
@@ -1092,7 +1085,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -1199,6 +1191,9 @@ presets:
         - 4053
         - 4073
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: PI</color>'
   - - - alwaysShownStates
       - []
@@ -1210,7 +1205,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 7
@@ -1397,6 +1391,7 @@ presets:
         - 1174
         - 1201
         - 1202
+        - 1247
         - 1249
         - 1252
         - 1255
@@ -1404,7 +1399,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -1466,6 +1460,9 @@ presets:
         - 4037
         - 4053
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: Mission Filter (+LCO +LCS)</color>'
   - - - alwaysShownStates
       - []
@@ -1477,7 +1474,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 9
@@ -1785,7 +1781,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -1898,6 +1893,9 @@ presets:
         - 4053
         - 4073
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: FW</color>'
   - - - alwaysShownStates
       - []
@@ -1909,7 +1907,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 10
@@ -2149,6 +2146,7 @@ presets:
         - 1201
         - 1202
         - 1207
+        - 1247
         - 1249
         - 1252
         - 1255
@@ -2156,7 +2154,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -2250,6 +2247,9 @@ presets:
         - 4037
         - 4053
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: Exploring</color>'
   - - - alwaysShownStates
       - []
@@ -2261,7 +2261,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 10
@@ -2474,6 +2473,7 @@ presets:
         - 1202
         - 1207
         - 1246
+        - 1247
         - 1249
         - 1250
         - 1252
@@ -2482,7 +2482,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -2558,6 +2557,9 @@ presets:
         - 4053
         - 4073
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: Incursion</color>'
   - - - alwaysShownStates
       - []
@@ -2897,7 +2899,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 9
@@ -3203,7 +3204,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -3316,6 +3316,9 @@ presets:
         - 4073
         - 4081
         - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFF6666>✜ PvX: Mining - Moon</color>'
   - - - alwaysShownStates
       - []
@@ -3327,7 +3330,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 6
         - 9
@@ -3635,7 +3637,6 @@ presets:
         - 1262
         - 1265
         - 1273
-        - 1274
         - 1275
         - 1276
         - 1283
@@ -3643,7 +3644,6 @@ presets:
         - 1286
         - 1287
         - 1288
-        - 1297
         - 1305
         - 1307
         - 1310
@@ -3753,3 +3753,6 @@ presets:
         - 4037
         - 4053
         - 4088
+        - 4093
+        - 4107
+        - 4137

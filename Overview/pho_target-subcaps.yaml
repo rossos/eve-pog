@@ -3,95 +3,93 @@
 # Created for Pandemic Horde.
 ---
 flagOrder:
-- 13
-- 44
-- 52
-- 11
-- 12
-- 14
-- 15
-- 16
-- 45
-- 9
-- 51
-- 50
-- 53
-- 19
-- 18
-- 49
-- 10
-- 17
-- 48
-- 21
-- 20
-- 66
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
+- 52        # Pilot has a limited engagement with you
+- 19        # Pilot has Terrible Standing.
+- 18        # Pilot has Bad Standing.
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 14        # Pilot is in your alliance
+- 45        # Pilot is in your militia or allied to your militia
+- 9         # Pilot has a security status below -5
+- 51        # Pilot is a criminal
+- 50        # Pilot is a suspect
+- 53        # Pilot has a kill right on them that you can activate
+- 49        # Pilot is an ally in one or more of your wars
+- 10        # Pilot has a security status below 0
+- 17        # Pilot has Neutral Standing.
+- 48        # Pilot has No Standing.
+- 21        # Pilot (agent) is interactable
+- 20        # Unknown
+- 66        # Pilot is in your Non Capsuleer corporation
 flagStates:
-- 9
-- 10
-- 11
-- 12
-- 13
-- 14
-- 15
-- 16
-- 17
-- 18
-- 19
-- 20
-- 21
-- 44
-- 45
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
+- 9         # Pilot has a security status below -5
+- 10        # Pilot has a security status below 0
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 13        # Pilot is at war with your corporation/alliance
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 17        # Pilot has Neutral Standing.
+- 18        # Pilot has Bad Standing.
+- 19        # Pilot has Terrible Standing.
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 44        # Pilot is at war with your militia
+- 45        # Pilot is in your militia or allied to your militia
+- 48        # Pilot has No Standing.
+- 50        # Pilot is a suspect
+- 51        # Pilot is a criminal
+- 52        # Pilot has a limited engagement with you
+- 53        # Pilot has a kill right on them that you can activate
 backgroundOrder:
-- 13
-- 44
-- 52
-- 11
-- 12
-- 14
-- 15
-- 16
-- 45
-- 49
-- 19
-- 18
-- 9
-- 51
-- 50
-- 53
-- 10
-- 20
-- 21
-- 17
-- 48
-- 66
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
+- 52        # Pilot has a limited engagement with you
+- 19        # Pilot has Terrible Standing.
+- 18        # Pilot has Bad Standing.
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 14        # Pilot is in your alliance
+- 45        # Pilot is in your militia or allied to your militia
+- 49        # Pilot is an ally in one or more of your wars
+- 9         # Pilot has a security status below -5
+- 51        # Pilot is a criminal
+- 50        # Pilot is a suspect
+- 53        # Pilot has a kill right on them that you can activate
+- 10        # Pilot has a security status below 0
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 17        # Pilot has Neutral Standing.
+- 48        # Pilot has No Standing.
+- 66        # Pilot is in your Non Capsuleer corporation
 backgroundStates:
-- 9
-- 10
-- 11
-- 12
-- 13
-- 14
-- 15
-- 16
-- 17
-- 18
-- 19
-- 20
-- 21
-- 44
-- 45
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
+- 9         # Pilot has a security status below -5
+- 10        # Pilot has a security status below 0
+- 11        # Pilot is in your fleet
+- 12        # Pilot is in your Capsuleer corporation
+- 13        # Pilot is at war with your corporation/alliance
+- 14        # Pilot is in your alliance
+- 15        # Pilot has Excellent Standing.
+- 16        # Pilot has Good Standing.
+- 17        # Pilot has Neutral Standing.
+- 18        # Pilot has Bad Standing.
+- 19        # Pilot has Terrible Standing.
+- 20        # Unknown
+- 21        # Pilot (agent) is interactable
+- 44        # Pilot is at war with your militia
+- 45        # Pilot is in your militia or allied to your militia
+- 48        # Pilot has No Standing.
+- 50        # Pilot is a suspect
+- 51        # Pilot is a criminal
+- 52        # Pilot has a limited engagement with you
+- 53        # Pilot has a kill right on them that you can activate
 stateBlinks:
 - - background_13
   - false
@@ -269,11 +267,7 @@ shipLabels:
       - ship type
     - - underline
       - 1
-userSettings:
-- - hideCorpTicker
-  - true
-- - overviewBroadcastsToTop
-  - false
+userSettings: []
 tabSetup:
 - - 0
   - - - name
@@ -334,7 +328,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 832
@@ -353,7 +346,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 863
@@ -370,7 +362,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 26
         - 90
@@ -393,7 +384,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 361
@@ -414,7 +404,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 833
@@ -432,7 +421,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 863
@@ -449,7 +437,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 419
@@ -468,7 +455,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 834
 - - ' <color=0xFFFFFF66>✥ Target: Frig/Dest</color>'
@@ -482,7 +468,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 25
         - 31
@@ -513,7 +498,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 90
         - 540
@@ -531,7 +515,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 29
         - 90
@@ -548,7 +531,6 @@ presets:
         - 16
         - 21
         - 45
-        - 49
     - - groups
       - - 27
         - 90
