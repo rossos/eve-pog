@@ -5,11 +5,11 @@
   color:
   overview: dscan_hunter-minus-dro
   bracket: dscan_hunter-plus-dro
-- name: '<fontsize=12><color=0xFF66CCFF><b> PHO D-Scan Extended loaded! </b></color></fontsize>
+- name: '<fontsize=12><color=0xFF3676BB><b> PHO D-Scan Extended loaded! </b></color></fontsize>
 
-    <fontsize=12><color=0xFFFF6666><b> • Apply another Preset Pack, or </b></color></fontsize>
+    <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
 
-    <fontsize=12><color=0xFF66FF66><b> • Apply a Layout to finish </b></color></fontsize>'
+    <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply a Layout to finish </b></color></fontsize>'
   color:
   overview: pvx_basic-plus-neut-plus-npc
   bracket: dscan_ships

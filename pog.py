@@ -39,6 +39,24 @@ def merge_groups(group_names):
     return list(sorted(reduce_groups([], group_names)))
 
 
+def format_tab_color(tab):
+    """Formats a tab's color (given in 6-digit hex code) into a list of non-negative floats each <= 1.0. """
+
+    def floatify(s):
+        # Ex:  "F5" --> 245/255 --> 0.9607
+        return int((int(s, 16) / 255) * 10000) / 10000
+
+    color_string = tab.get('color', None)
+    try:
+        return [
+            floatify(color_string[0:2]),
+            floatify(color_string[2:4]),
+            floatify(color_string[4:6]),
+        ]
+    except (IndexError, TypeError, ValueError):  # wrong str len, color == None, color == ''
+        return None
+
+
 def format_tabs(tabs):
     """Parses tab information to be in a YAML-friendly format.
 
@@ -48,7 +66,8 @@ def format_tabs(tabs):
     tabs = [[i, [
             ['name', format_tab_name(v)],
             ['overview', format_preset_name(load_preset(v['overview']))],
-            ['bracket', format_preset_name(load_preset(v['bracket']))]
+            ['bracket', format_preset_name(load_preset(v['bracket']))],
+            ['color', format_tab_color(v)]
             ]] for (i, v) in enumerate(tabs)]
 
     return {'tabSetup': tabs}
@@ -112,12 +131,6 @@ def format_preset_name(preset):
     """
     #return SQ(f"{preset['symbol']} {'- ' * (4 - preset['level'])}{preset['name']}")
     name = f"{preset['symbol']} {preset['name']}"
-    try:
-        color = preset['color']
-    except KeyError:
-        pass
-    else:
-        name = f"<color=0x{color}>" + name + "</color"
     return SQ(name)
 
 
@@ -127,7 +140,7 @@ def format_tab_name(tab):
     :param tab: a dictionary of tab information
     :return: a Single Quoted string representing the tab's name, ready for export to a YAML file
     """
-    return SQ(f"<color=0x{tab['color']}>   {tab['name']}   </color>")
+    return SQ(f"{tab['name']}")
 
 
 def compile_overview(path, ov):
