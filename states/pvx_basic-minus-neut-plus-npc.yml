@@ -9,5 +9,4 @@ hide:
   - 17        # Pilot has Neutral Standing.
   - 45        # Pilot is in your militia or allied to your militia
   - 48        # Pilot has No Standing.
-  - 49        # Pilot is an ally in one or more of your wars
 
