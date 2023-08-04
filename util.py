@@ -4,7 +4,7 @@ import os.path
 # Enables pluralizing nouns; a less-than-perfect holdover from the Ruby implementation
 plu = inflect.engine()
 
-# Working with YAML can be done with either the pyyaml library or the ruamel.yaml library
+# Working with YAML can be done with either the pyyaml library or the ruamel.yaml library; pyyaml should be deprecated.
 use_pyyaml = False
 
 if use_pyyaml:

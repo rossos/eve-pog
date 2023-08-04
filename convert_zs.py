@@ -2,6 +2,34 @@ import os
 import csv
 import re
 from util import load_yaml_file, write_yaml_file, SQ
+from ruamel.yaml import CommentedMap
+
+
+all_states = {9: "Pilot has a security status below -5",
+              10: "Pilot has a security status below 0",
+              11: "Pilot is in your fleet",
+              12: "Pilot is in your Capsuleer corporation",
+              13: "Pilot is at war with your corporation/alliance",
+              14: "Pilot is in your alliance",
+              15: "Pilot has Excellent Standing.",
+              16: "Pilot has Good Standing.",
+              17: "Pilot has Neutral Standing.",
+              18: "Pilot has Bad Standing.",
+              19: "Pilot has Terrible Standing.",
+              21: "Pilot (agent) is interactable",
+              36: "Wreck is already viewed",
+              37: "Wreck is empty",
+              44: "Pilot is at war with your militia",
+              45: "Pilot is in your militia or allied to your militia",
+              48: "Pilot has No Standing.",
+              49: "Pilot is an ally in one or more of your wars",
+              50: "Pilot is a suspect",
+              51: "Pilot is a criminal",
+              52: "Pilot has a limited engagement with you",
+              53: "Pilot has a kill right on them that you can activate",
+              66: "Pilot is in your Non Capsuleer corporation"
+              }
+
 
 def load_invcategories():
     with open("invCategories.csv", "r") as file:
@@ -32,59 +60,36 @@ def get_existing_presets_by_name():
     return existing_presets
 
 
-def write_annotated_states(filename, show, hide):
-    all_states = {9: "Pilot has a security status below -5",
-                  10: "Pilot has a security status below 0",
-                  11: "Pilot is in your fleet",
-                  12: "Pilot is in your Capsuleer corporation",
-                  13: "Pilot is at war with your corporation/alliance",
-                  14: "Pilot is in your alliance",
-                  15: "Pilot has Excellent Standing.",
-                  16: "Pilot has Good Standing.",
-                  17: "Pilot has Neutral Standing.",
-                  18: "Pilot has Bad Standing.",
-                  19: "Pilot has Terrible Standing.",
-                  21: "Pilot (agent) is interactable",
-                  36: "Wreck is already viewed",
-                  37: "Wreck is empty",
-                  44: "Pilot is at war with your militia",
-                  45: "Pilot is in your militia or allied to your militia",
-                  48: "Pilot has No Standing.",
-                  49: "Pilot is an ally in one or more of your wars",
-                  50: "Pilot is a suspect",
-                  51: "Pilot is a criminal",
-                  52: "Pilot has a limited engagement with you",
-                  53: "Pilot has a kill right on them that you can activate",
-                  66: "Pilot is in your Non Capsuleer corporation"
-                  }
-
+def write_states_file(filename, show, hide):
     show, hide = sorted(show), sorted(hide)
 
     with open(filename, "w") as fileout:
-        def write_state_line(s):
-            try:
-                fileout.write(f"  - {s:<10}# {all_states[s]}\n")
-            except KeyError:
-                print(f"No such state '{s}' - skipping writing to file")
-
         fileout.write("---\nshow: ")
         if len(show) < 1:
             fileout.write("[]\n")
         else:
             fileout.write("\n")
-        for state in show:
-            write_state_line(state)
+        write_annotated_states(fileout, show)
 
         fileout.write("hide: ")
         if len(hide) < 1:
             fileout.write("[]\n")
         else:
             fileout.write("\n")
-        for state in hide:
-            write_state_line(state)
+        write_annotated_states(fileout, hide)
         fileout.write("\n")
 
     print(f"Wrote to file {filename}")
+
+
+def write_annotated_states(file_handle, states):
+    def write_state_line(s):
+        try:
+            file_handle.write(f"  - {s:<10}# {all_states[s]}\n")
+        except KeyError:
+            print(f"No such state '{s}' - skipping writing to file")
+    for state in states:
+        write_state_line(state)
 
 
 def parse_zs_preset(preset):
@@ -222,15 +227,56 @@ def merge_state_references(state_filename):
                 return 0
 
 
+def convert_zs_style():
+    for filename in sorted(os.listdir("zs")):
+        if os.path.isfile(os.path.join("zs", filename)) and filename[-5:] == ".yaml":
+            print(f"Opening file {filename}")
+            filename = filename[:-5]
+            zs_file = load_yaml_file("zs", filename)
+
+            appearance = {}
+            keys_by_name = {
+                "appearances": [
+                    "flagOrder",
+                    "flagStates",
+                    "backgroundOrder",
+                    "backgroundStates",
+                    "stateBlinks",
+                    "stateColorsNameList",
+                ],
+                "columns": [
+                    "columnOrder",
+                    "overviewColumns",
+                ],
+                "labels": [
+                    "shipLabelOrder",
+                    "shipLabels",
+                ],
+                "settings": [
+                    "userSettings",
+                ],
+            }
+
+            for name,keys in keys_by_name.items():
+                data = CommentedMap()
+                for k in keys:
+                    data[k] = zs_file[k]
+                    if k == "flagOrder" or k == "flagStates" or k == "backgroundOrder" or k == "backgroundStates":
+                        for idx,d in enumerate(data[k]):
+                            try:
+                                state_desc = all_states[int(str(d))]
+                            except KeyError:
+                                # Handle state 20
+                                data[k].yaml_add_eol_comment("Unknown", idx, column=12)
+                            else:
+                                data[k].yaml_add_eol_comment(state_desc, idx, column=12)
+
+                write_yaml_file(data, name + "/default_test.yml")
+
+        break  # only process the first ZS file, under the assumption that all have identical 'appearance' traits
+
+
 def convert_zs_tabs():
-    all_tabs, existing_presets, existing_filenames = [], [], []
-
-    for filename in sorted(os.listdir("presets")):
-        if os.path.isfile(os.path.join("presets", filename)) and filename[-4:] == ".yml":
-            preset = load_yaml_file("presets", filename[:-4])
-            existing_presets.append(preset['name'])
-            existing_filenames.append(filename[:-4])
-
     existing_presets = get_existing_presets_by_name()
 
     for filename in sorted(os.listdir("zs")):
@@ -268,7 +314,7 @@ def convert_zs_tabs():
             print("  Wrote to file " + "tabs/" + re.sub('zs', 'pho', filename) + ".yml")
 
 
-def generate_zs_style_overview_files():
+def generate_overview_file():
     existing_presets = get_existing_presets_by_name()
 
     output = {
@@ -299,6 +345,7 @@ compatible with the format used by POG / EVE Online Overview Generator.
 Not yet handled: appearance-related settings.
 """
 if __name__ == "__main__":
-    convert_zs_presets(skip_existing=False)
-    convert_zs_tabs()
-    generate_zs_style_overview_files()
+    #convert_zs_presets(skip_existing=False)
+    #convert_zs_tabs()
+    convert_zs_style()
+    #generate_overview_file()
