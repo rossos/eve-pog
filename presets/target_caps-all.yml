@@ -6,12 +6,7 @@ symbol: ''
 level: 0
 groups:
 - _charge_bomb
-- _ship_capital-indy
-- _ship_carrier
-- _ship_dread
-- _ship_fax
+- ship_caps-combat
 - _ship_industrial
-- _ship_super
-- _ship_titan
 states:
 - hostile

@@ -1,0 +1,27 @@
+---
+includes:
+  - _ship_capital-indy
+  - _ship_hac
+  - _ship_battleship
+  - _ship_super
+  - _ship_pod
+  - _ship_flag-cruiser
+  - _ship_dic
+  - _ship_logi
+  - _ship_recon
+  - _ship_logi-frigate
+  - _ship_citizen
+  - _ship_battlecruiser
+  - _ship_strategic-cruiser
+  - _ship_bomber
+  - _ship_command
+  - _ship_misc-destroyer-down
+  - _ship_hic
+  - _ship_titan
+  - _ship_dread
+  - _ship_fax
+  - _ship_carrier
+  - _ship_lancer-dread
+  - _ship_cmd-destroyer
+  - _ship_industrial
+  - _ship_subcap-indy

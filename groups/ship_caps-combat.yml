@@ -1,0 +1,8 @@
+---
+includes:
+- _ship_capital-indy
+- _ship_carrier
+- _ship_dread
+- _ship_fax
+- _ship_super
+- _ship_titan
