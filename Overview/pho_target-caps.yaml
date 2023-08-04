@@ -335,6 +335,7 @@ presets:
         - 485
         - 863
         - 864
+        - 4594
 - - ' <color=0xFFFFFF66>✥ Target: SC/T</color>'
   - - - alwaysShownStates
       - []
@@ -400,18 +401,12 @@ presets:
         - 21
         - 45
     - - groups
-      - - 30
-        - 90
-        - 485
+      - - 90
         - 513
-        - 547
-        - 659
         - 863
         - 864
-        - 883
         - 902
         - 941
-        - 1538
 - - ' <color=0xFFFFFF66>✥ Target: Fax</color>'
   - - - alwaysShownStates
       - []
