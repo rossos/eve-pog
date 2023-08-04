@@ -42,14 +42,9 @@ groups:
 - _charge_survey-probe
 - _charge_wubble
 - _deployable_deployable-advert
-- _deployable_ess
-- _deployable_micro-jump
-- _deployable_mobile-bubble
-- _deployable_mobile-cyno-inhib
-- _deployable_mobile-depot
-- _deployable_mtu
-- _deployable_scan-inhib
-- _deployable_siphon-unit
+- deployable_combat
+- deployable_pve
+- deployable_travel
 - _drone_common
 - _drone_mining
 - _drone_salvage

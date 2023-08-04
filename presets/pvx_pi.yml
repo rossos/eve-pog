@@ -17,14 +17,8 @@ groups:
 - _charge_bubble
 - _charge_probe
 - _charge_wubble
-- _deployable_decoy-unit
-- _deployable_ess
-- _deployable_micro-jump
-- _deployable_mobile-bubble
-- _deployable_mobile-cyno-inhib
-- _deployable_mobile-jump-disruptor
-- _deployable_obs
-- _deployable_scan-inhib
+- deployable_combat
+- deployable_travel
 - _entity_drifter-battleship
 - _entity_drifter-reinforcements
 - _entity_drifter-response-battleship
