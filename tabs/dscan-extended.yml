@@ -12,4 +12,13 @@
     <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply a Layout to finish </b></color></fontsize>'
   color:
   overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-minus-dro
+- name: ''
+  color:
+  overview: dscan_ships
   bracket: dscan_ships
+
+
+
+
+

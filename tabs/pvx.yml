@@ -1,0 +1,37 @@
+---
+- name: ''
+  color: ''
+  overview: pvx_incursion
+  bracket: pvx_fw
+- name: '<fontsize=12><color=0xFF3676BB><b> PHO PvX loaded! </b></color></fontsize>
+
+    <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
+
+    <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply a Layout to finish </b></color></fontsize>'
+  color: ''
+  overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-minus-dro
+- name: ''
+  color: ''
+  overview: pvx_mission-filter
+  bracket: pvx_anoms
+- name: ''
+  color: ''
+  overview: deployables
+  bracket: pvx_basic-plus-neut-minus-npc
+- name: ''
+  color: ''
+  overview: covops_collidables
+  bracket: wartargets
+- name: ''
+  color: ''
+  overview: pvx_basic-minus-neut-minus-npc
+  bracket: ships_only
+- name: ''
+  color: ''
+  overview: npsi
+  bracket: pvx_basic-minus-neut-plus-npc
+- name: ''
+  color: ''
+  overview: structures
+  bracket: structures

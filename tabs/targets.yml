@@ -1,0 +1,55 @@
+---
+- name: ''
+  color: ''
+  overview: target_battleships
+  bracket: target_pods
+- name: '<fontsize=12><color=0xFF3676BB><b> PHO Targets loaded! </b></color></fontsize>
+
+    <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
+
+    <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply a Layout to finish </b></color></fontsize>'
+  color: ''
+  overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-minus-dro
+- name: ''
+  color: ''
+  overview: target_cs-t3
+  bracket: target_frig-dest
+- name: ''
+  color: ''
+  overview: target_antibombers
+  bracket: target_battlecruisers
+- name: ''
+  color: ''
+  overview: target_flag
+  bracket: target_recons
+- name: ''
+  color: ''
+  overview: target_dictors
+  bracket: target_cruisers
+- name: ''
+  color: ''
+  overview: target_cmd-dest
+  bracket: target_logi
+- name: ''
+  color: ''
+  overview: target_supercarriers
+  bracket: target_fax
+- name: ''
+  color: ''
+  overview: target_caps-all
+  bracket: target_titans
+- name: ''
+  color: ''
+  overview: target_fighters
+  bracket: target_supers
+- name: ''
+  color: ''
+  overview: target_dreads
+  bracket: target_carriers
+- name: ''
+  color: ''
+  overview: target_drones
+  bracket: target_screening
+
+

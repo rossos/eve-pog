@@ -3,25 +3,41 @@
 ---
 - name: ''
   color: ''
-  overview: brackets_incursion
-  bracket: brackets_combat-minus-dro
+  overview: travel_all
+  bracket: brackets_travel
 - name: '<fontsize=12><color=0xFF3676BB><b> PHO Core loaded! </b></color></fontsize>
 
     <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
 
     <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply a Layout to finish </b></color></fontsize>'
   color: ''
-  overview: brackets_travel
+  overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-minus-dro
+- name: ''
+  color: ''
+  overview: extra_align-points
+  bracket: brackets_combat-minus-dro
+- name: ''
+  color: ''
+  overview: dscan_all
   bracket: brackets_misc
 - name: ''
   color: ''
-  overview: travel_all
-  bracket: extra_align-points
+  overview: travel_plus-ship-minus-sta
+  bracket: friendly_fleet
 - name: ''
   color: ''
-  overview: friendly_fleet
-  bracket: travel_plus-ship-minus-sta
+  overview: pvx_mining-all
+  bracket: pvx_pi
 - name: ''
   color: ''
-  overview: pvx_basic-plus-neut-plus-npc
-  bracket: dscan_all
+  overview: pvx_explo
+  bracket: pvx_ratting
+- name: ''
+  color: ''
+  overview: pvx_mining-moon
+  bracket: dscan_hunter-plus-dro
+- name: ''
+  color: ''
+  overview: dscan_ships
+  bracket: dscan_hunter-minus-dro
