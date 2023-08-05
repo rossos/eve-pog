@@ -7,30 +7,31 @@ labels: default
 settings: default
 tabs:
 - core
-- dscan-extended
-- friendly-extended
+- friendly
+- pvx
+- targets
 - layout-compact
 - layout-standard
-- pvx-1
-- pvx-2
-- target-caps
-- target-subcaps
 presets:
   core:
+  - pvx_basic-plus-neut-plus-npc
   - travel_all
   - brackets_travel
   - extra_align-points
-  - brackets_incursion
   - brackets_combat-minus-dro
   - brackets_misc
   - dscan_all
   - travel_plus-ship-minus-sta
   - friendly_fleet
-  dscan-extended:
+  - pvx_mining-all
+  - pvx_pi
+  - pvx_explo
+  - pvx_ratting
+  - pvx_mining-moon
   - dscan_hunter-plus-dro
   - dscan_ships
   - dscan_hunter-minus-dro
-  friendly-extended:
+  friendly:
   - friendly_dictors
   - friendly_supers
   - friendly_flag
@@ -41,9 +42,8 @@ presets:
   - friendly_dreads
   - friendly_command-dest
   - friendly_recons
+  - friendly_snowflakes
   layout-compact:
-  - pvx_basic-plus-neut-plus-npc
-  - target_drones
   - brackets_warpout
   - travel_minus-ship-plus-sta
   - friendly_all
@@ -52,8 +52,6 @@ presets:
   - brackets_combat-plus-dro
   - extra_podsaver
   layout-standard:
-  - pvx_basic-plus-neut-plus-npc
-  - target_drones
   - brackets_warpout
   - travel_minus-ship-plus-sta
   - friendly_all
@@ -61,36 +59,16 @@ presets:
   - pvx_salvage-loot
   - brackets_combat-plus-dro
   - extra_podsaver
-  pvx-1:
-  - structures
-  - pvx_basic-minus-neut-plus-npc
-  - npsi
-  - ships_only
-  - pvx_basic-minus-neut-minus-npc
-  - wartargets
-  - covops_collidables
-  - pvx_basic-plus-neut-minus-npc
-  - deployables
-  pvx-2:
-  - pvx_mining-all
-  - pvx_anoms
-  - pvx_pi
-  - pvx_mission-filter
-  - pvx_fw
-  - pvx_explo
-  - pvx_incursion
-  - pvx_ratting
-  - pvx_mining-moon
-  target-caps:
+  targets:
   - target_carriers
   - target_dreads
+  - target_drones
   - target_supers
   - target_fighters
   - target_titans
   - target_caps-all
   - target_fax
   - target_supercarriers
-  target-subcaps:
   - target_logi
   - target_cmd-dest
   - target_cruisers
@@ -103,3 +81,18 @@ presets:
   - target_cs-t3
   - target_pods
   - target_battleships
+  - target_screening
+  pvx:
+  - structures
+  - pvx_basic-minus-neut-plus-npc
+  - npsi
+  - ships_only
+  - pvx_basic-minus-neut-minus-npc
+  - wartargets
+  - covops_collidables
+  - pvx_basic-plus-neut-minus-npc
+  - deployables
+  - pvx_anoms
+  - pvx_mission-filter
+  - pvx_fw
+  - pvx_incursion
