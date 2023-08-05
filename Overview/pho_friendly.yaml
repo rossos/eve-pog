@@ -280,7 +280,7 @@ tabSetup:
       - 
 - - 1
   - - - name
-      - '<fontsize=12><color=0xFF3676BB><b> PHO Friendly Extended loaded! </b></color></fontsize>
+      - '<fontsize=12><color=0xFF3676BB><b> PHO Friendly Targets loaded! </b></color></fontsize>
 
         <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
         another Preset Pack, or </b></color></fontsize>
@@ -288,12 +288,21 @@ tabSetup:
         <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
         a Layout to finish </b></color></fontsize>'
     - - overview
+      - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut +NPC)</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (-Dro)'
+    - - color
+      - 
+- - 2
+  - - - name
+      - ''
+    - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: Carriers</color>'
     - - color
       - 
-- - 2
+- - 3
   - - - name
       - ''
     - - overview
@@ -302,7 +311,7 @@ tabSetup:
       - ' <color=0xFF66CCFF>✪ Friendly: Dictors</color>'
     - - color
       - 
-- - 3
+- - 4
   - - - name
       - ''
     - - overview
@@ -311,13 +320,22 @@ tabSetup:
       - ' <color=0xFF66CCFF>✪ Friendly: Flag</color>'
     - - color
       - 
-- - 4
+- - 5
   - - - name
       - ''
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: SC/T</color>'
     - - bracket
       - ' <color=0xFF66CCFF>✪ Friendly: Recons</color>'
+    - - color
+      - 
+- - 6
+  - - - name
+      - ''
+    - - overview
+      - ' <color=0xFF66CCFF>✪ = Friendly: Snowflakes</color>'
+    - - bracket
+      - ' <color=0xFF66CCFF>✪ = Friendly: Snowflakes</color>'
     - - color
       - 
 presets:
@@ -689,3 +707,42 @@ presets:
         - 864
         - 906
         - 1548
+- - ' <color=0xFF66CCFF>✪ = Friendly: Snowflakes</color>'
+  - - - alwaysShownStates
+      - - 11
+    - - filteredStates
+      - - 9
+        - 10
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 21
+        - 36
+        - 37
+        - 44
+        - 45
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    - - groups
+      - - 6
+        - 10
+        - 366
+        - 540
+        - 541
+        - 832
+        - 833
+        - 894
+        - 906
+        - 988
+        - 1527
+        - 1534
+        - 1972
