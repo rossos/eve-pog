@@ -57,7 +57,7 @@ groups:
 - _entity_sleeper-avenger
 - _entity_spawn-container
 - _entity_temp-collidable-structure
-- _fighter_unused
+- _fighter_all
 - ship_all
 - _sovereignty_structures_sov-blockade-unit
 - _sovereignty_structures_tcu-ihub

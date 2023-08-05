@@ -10,6 +10,6 @@ groups:
 - _drone_fighter
 - _drone_mining
 - _drone_salvage
-- _fighter_unused
+- _fighter_all
 states:
 - hostile

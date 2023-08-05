@@ -34,7 +34,7 @@ groups:
 - _entity_drifter-response-battleship
 - _entity_irregular-capsule
 - _entity_retaliating
-- _fighter_unused
+- _fighter_all
 - _orbitals_orbital-cons-platform
 - _orbitals_orbital-infra
 - _orbitals_unused

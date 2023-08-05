@@ -7,6 +7,6 @@ level: 0
 groups:
 - _charge_bomb
 - _drone_fighter
-- _fighter_unused
+- _fighter_all
 states:
 - hostile

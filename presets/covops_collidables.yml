@@ -82,7 +82,7 @@ groups:
 - _entity_sleeper-avenger
 - _entity_spawn-container
 - _entity_temp-collidable-structure
-- _fighter_unused
+- _fighter_all
 - _orbitals_orbital-cons-platform
 - _orbitals_orbital-infra
 - ship_all
