@@ -80,6 +80,7 @@ presets:
   - target_pods
   - target_battleships
   - target_screening
+  - target_tackle
   pvx:
   - structures
   - pvx_basic-minus-neut-plus-npc
@@ -94,3 +95,7 @@ presets:
   - pvx_mission-filter
   - pvx_fw
   - pvx_incursion
+  - pvx_mining-r8-up
+  - pvx_mining-r16-up
+  - pvx_mining-r32-up
+  - pvx_mining-r64
