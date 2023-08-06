@@ -378,9 +378,18 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Drones</color>'
+      - ' <color=0xFFFFFF66>✥ Target: Drones+Fighters</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ = Target: Boosh+HIC+Dic </color>'
+    - - color
+      - 
+- - 12
+  - - - name
+      - ''
+    - - overview
+      - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+    - - bracket
+      - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
     - - color
       - 
 presets:
@@ -417,7 +426,7 @@ presets:
         - 863
         - 864
         - 4594
-- - ' <color=0xFFFFFF66>✥ Target: Drones</color>'
+- - ' <color=0xFFFFFF66>✥ Target: Drones+Fighters</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -700,9 +709,7 @@ presets:
         - 45
     - - groups
       - - 25
-        - 31
         - 90
-        - 237
         - 324
         - 420
         - 541
@@ -787,3 +794,23 @@ presets:
         - 864
         - 894
         - 1534
+- - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 21
+        - 45
+    - - groups
+      - - 25
+        - 90
+        - 324
+        - 541
+        - 831
+        - 863
+        - 864
+        - 894

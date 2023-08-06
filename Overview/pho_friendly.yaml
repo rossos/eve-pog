@@ -273,9 +273,9 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Capitals</color>'
+      - ' <color=0xFF66CCFF>✪ Friendly: Capitals (Combat)</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: All Caps</color>'
+      - ' <color=0xFF66CCFF>✪ Friendly: Capitals (All)</color>'
     - - color
       - 
 - - 1
@@ -299,7 +299,7 @@ tabSetup:
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Carriers</color>'
+      - ' <color=0xFF66CCFF>✪ Friendly: Carriers+FAX</color>'
     - - color
       - 
 - - 3
@@ -308,7 +308,7 @@ tabSetup:
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Dreads</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Dictors</color>'
+      - ' <color=0xFF66CCFF>✪ Friendly: Dictors+HIC</color>'
     - - color
       - 
 - - 4
@@ -339,7 +339,7 @@ tabSetup:
     - - color
       - 
 presets:
-- - ' <color=0xFF66CCFF>✪ Friendly: Dictors</color>'
+- - ' <color=0xFF66CCFF>✪ Friendly: Dictors+HIC</color>'
   - - - alwaysShownStates
       - - 11
         - 12
@@ -449,7 +449,7 @@ presets:
         - 864
         - 1548
         - 1972
-- - ' <color=0xFF66CCFF>✪ Friendly: All Caps</color>'
+- - ' <color=0xFF66CCFF>✪ Friendly: Capitals (All)</color>'
   - - - alwaysShownStates
       - - 11
         - 12
@@ -525,7 +525,7 @@ presets:
         - 1527
         - 1538
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Capitals</color>'
+- - ' <color=0xFF66CCFF>✪ Friendly: Capitals (Combat)</color>'
   - - - alwaysShownStates
       - - 11
         - 12
@@ -560,7 +560,7 @@ presets:
         - 863
         - 864
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Carriers</color>'
+- - ' <color=0xFF66CCFF>✪ Friendly: Carriers+FAX</color>'
   - - - alwaysShownStates
       - - 11
         - 12
