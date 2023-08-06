@@ -15,7 +15,9 @@ include:
   - _ship_strategic-cruiser
   - _ship_bomber
   - _ship_command
-  - _ship_misc-destroyer-down
+  - _ship_destroyer-misc
+_ship_frigate-misc
+_ship_frigate-tackle
   - _ship_hic
   - _ship_titan
   - _ship_dread
