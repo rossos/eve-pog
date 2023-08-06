@@ -6,7 +6,7 @@ symbol: ''
 level: 0
 groups:
 - _asteroid_event
-- _asteroid_moon
+- asteroid_moon-all
 - other_non-asteroid-mining
 states:
 - hostile
