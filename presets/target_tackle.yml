@@ -1,0 +1,11 @@
+---
+name: '<color=0xFFFFFF66>✥ = Target: Tackle </color>'
+symbol: ''
+level: 0
+groups:
+- _charge_bomb
+- _ship_hic
+- _ship_dic
+- _ship_frigate-tackle
+states:
+- hostile
