@@ -1,0 +1,8 @@
+---
+include:
+  - _asteroid_moon-r4
+  - _asteroid_moon-r8
+  - _asteroid_moon-r16
+  - _asteroid_moon-r32
+  - _asteroid_moon-r64
+

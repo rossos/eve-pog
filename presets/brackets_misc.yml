@@ -5,8 +5,7 @@ name: '⌘ Brackets: Misc'
 symbol: ''
 level: 0
 groups:
-- _asteroid_common
-- _asteroid_moon
+- asteroid_all
 - _celestial_beacon
 - _celestial_biomass
 - _celestial_cargo-container

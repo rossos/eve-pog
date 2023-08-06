@@ -1,0 +1,9 @@
+---
+include:
+  - _asteroid_abyssal
+  - _asteroid_air
+  - _asteroid_blue-star
+  - _asteroid_common
+  - _asteroid_event
+  - _asteroid_event-2
+  - asteroid_moon-all

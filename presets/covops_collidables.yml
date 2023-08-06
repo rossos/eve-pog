@@ -5,10 +5,7 @@ name: '<color=0xFFFF6666>✜ = CovOps: Collidables</color>'
 symbol: ''
 level: 0
 groups:
-- _asteroid_common
-- _asteroid_event-2
-- _asteroid_event
-- _asteroid_moon
+- asteroid_all
 - _celestial_agents-in-space
 - _celestial_audit-secure-container
 - _celestial_beacon

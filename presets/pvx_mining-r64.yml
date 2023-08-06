@@ -1,0 +1,10 @@
+---
+name: '<color=0xFFFF6666>✜ PvX: Mining - Moon R64</color>'
+symbol: ''
+level: 0
+groups:
+- _asteroid_event
+- _asteroid_moon-r64
+- other_non-asteroid-mining
+states:
+- hostile

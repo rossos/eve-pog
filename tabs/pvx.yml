@@ -34,4 +34,12 @@
 - name: ''
   color: ''
   overview: structures
-  bracket: structures
+  bracket: pvx_mining-r64
+- name: ''
+  color: ''
+  overview:  pvx_mining-r32-up
+  bracket:  pvx_mining-r16-up
+- name: ''
+  color: ''
+  overview:  pvx_mining-r8-up
+  bracket: pvx_mining-r8-up
