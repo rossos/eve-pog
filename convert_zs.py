@@ -340,6 +340,72 @@ def generate_overview_file():
     write_yaml_file(output, "overviews/pho.yml")
 
 
+def check_zs_presets_against_groups(category_prefix="_"):
+    """Loads all presets given in .YML files contained in 'zs' subdirectory and checks them against the set of all .YML
+    files contained in 'groups' subdirectory. For each preset, generates a list of groups files that share at least
+    one group ID with the preset. For each groups file a non-empty intersection, list the group IDs from the groups file
+    that are contained in the preset, as well as those IDs that are missing from the preset. Writes the results to
+    'preset_check.txt'.
+
+    :param category_prefix: prefix used for limiting the groups files checked against, e.g. "_entity". Default "_"
+    """
+    invgroups = load_invgroups()
+
+    entity_groups = {}
+    for file in sorted(os.listdir("groups")):
+        if os.path.isfile(os.path.join("groups", file)) and file[-4:] == ".yml":
+            if category_prefix is None or file[:len(category_prefix)] == category_prefix:
+                print(f"Loading group file {file}")
+                filename = file[:-4]
+                entity_groups[filename] = set(load_yaml_file("groups", filename)['types'])
+
+    zs_presets = []
+    for filename in sorted(os.listdir("zs")):
+        if os.path.isfile(os.path.join("zs", filename)) and filename[-5:] == ".yaml":
+            print(f"Opening file {filename}")
+            zs_file = load_yaml_file("zs", filename[:-5])
+
+            zs_presets.extend(zs_file['presets'])
+
+    entity_files, missing = {}, {}
+    for preset in zs_presets:
+        preset_name, preset_groups, show, hide = parse_zs_preset(preset)
+        preset_groups = set(preset_groups)
+
+        entity_files[preset_name], missing[preset_name] = {}, {}
+
+        for filename, groupset in entity_groups.items():
+            i = groupset.intersection(preset_groups)
+            if len(i) > 0:
+                # entity_files[preset_name].append(filename)  # add on filename for matching entity groups
+                entity_files[preset_name][filename] = i
+                d = groupset.difference(i)
+                # print(f"groupset size {len(groupset)}, found intersection size {len(i)}, difference size {(len(d))}")
+                if len(d) > 0:
+                    missing[preset_name][filename] = d  # add on groupIDs missing from preset, if any
+
+    with open("preset_check.txt", "w") as fileout:
+        for name, files in entity_files.items():
+            fileout.write(name + "\n\n")
+            for filename, intersection in files.items():
+                fileout.write("  - " + filename + "\n")
+            fileout.write("\n")
+
+            for fn, missing_set in missing[name].items():
+                intersection = entity_files[name][fn]
+                fileout.write(
+                    f"  --- Groups missing from {fn} - ({len(missing_set)} / {len(intersection) + len(missing_set)}): \n")
+                for m in missing_set:
+                    fileout.write(f"    {m}  {invgroups[m]['name']} \n")
+                fileout.write(
+                    f"  +++ Groups contained in {fn} -  ({len(intersection)} / {len(intersection) + len(missing_set)}): \n")
+                for e in intersection:
+                    fileout.write(f"    {e}  {invgroups[e]['name']} \n")
+                fileout.write("\n")
+
+            fileout.write("\n\n")
+
+
 """Attempts to convert an existing set of Z-S Overview files (contained in subdirectory "zs") into a set of files 
 compatible with the format used by POG / EVE Online Overview Generator.
 Not yet handled: appearance-related settings.
@@ -349,3 +415,6 @@ if __name__ == "__main__":
     #convert_zs_tabs()
     convert_zs_style()
     #generate_overview_file()
+    #check_zs_presets_against_groups("_entity")
+
+
