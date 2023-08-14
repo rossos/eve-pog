@@ -14,7 +14,15 @@ types:
   - 1724      # Irregular Dreadnought
   - 1725      # Irregular Force Auxiliary
   - 1726      # Irregular Carrier
+  - 1731      # Irregular Super Carrier
   - 1759      # Irregular Titan
   - 1761      # Irregular Mining Frigate
   - 1762      # Irregular Mining Barge
+  - 1895      # Irregular Industrial
+  - 1925      # Irregular Industrial Command Ship
+  - 1926      # Irregular Freighter
+  - 1927      # Irregular Structure
+  - 1928      # Irregular Container
+  - 1929      # Irregular - Unidentified
+  - 4053      # Irregular Capsule
 

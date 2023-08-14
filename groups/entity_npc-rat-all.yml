@@ -1,0 +1,20 @@
+---
+include:
+  - _entity_abyssal
+  - _entity_air
+  - _entity_convoy
+  - _entity_diamond-rat
+  - _entity_drifter
+  - _entity_faction-rat
+  - _entity_fw-faction-rat
+  - _entity_ghost-rat
+  - _entity_hidden-zenith
+  - _entity_homefront
+  - _entity_irregular-rat
+  - _entity_misc-rat
+  - _entity_mission-rat
+  - _entity_retaliating
+  - _entity_roaming-amarr
+  - _entity_roaming-rat
+  - _entity_sleeper-avenger
+  - _entity_unidentified

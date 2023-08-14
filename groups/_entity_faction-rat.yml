@@ -112,6 +112,8 @@ types:
   - 867       # Mission Gallente Federation Carrier
   - 868       # Mission Minmatar Republic Carrier
   - 875       # Mission Faction Transports
+  - 924       # Mission Faction Battleship
+  - 927       # Mission Faction Haulers
   - 959       # Deadspace Sleeper Sleepless Sentinel
   - 960       # Deadspace Sleeper Awakened Sentinel
   - 961       # Deadspace Sleeper Emergent Sentinel
@@ -121,9 +123,26 @@ types:
   - 985       # Deadspace Sleeper Awakened Patroller
   - 986       # Deadspace Sleeper Emergent Defender
   - 987       # Deadspace Sleeper Emergent Patroller
+  - 1006      # Mission Faction Cruiser
+  - 1007      # Mission Faction Frigate
   - 1051      # Incursion Sansha's Nation Industrial
   - 1052      # Incursion Sansha's Nation Capital
   - 1053      # Incursion Sansha's Nation Frigate
   - 1054      # Incursion Sansha's Nation Cruiser
   - 1056      # Incursion Sansha's Nation Battleship
-
+  - 1174      # Asteroid Rogue Drone Officer
+  - 1285      # Asteroid Mordus Legion Commander Frigate
+  - 1286      # Asteroid Mordus Legion Commander Cruiser
+  - 1287      # Asteroid Mordus Legion Commander Battleship
+  - 1681      # Asteroid Angel Cartel Dreadnought
+  - 1682      # Asteroid Angel Cartel Titan
+  - 1683      # Asteroid Blood Raider Dreadnought
+  - 1684      # Asteroid Blood Raider Titan
+  - 1685      # Asteroid Guristas Dreadnought
+  - 1686      # Asteroid Guristas Titan
+  - 1687      # Asteroid Sansha's Nation Dreadnought
+  - 1688      # Asteroid Sansha's Nation Supercarrier
+  - 1689      # Asteroid Serpentis Dreadnought
+  - 1690      # Asteroid Serpentis Titan
+  - 1691      # Asteroid Rogue Drone Carrier
+  - 1692      # Asteroid Rogue Drone Supercarrier

@@ -4,6 +4,11 @@ types:
   - 1765      # ♦ Mining Barge
   - 1766      # ♦ Mining Exhumer
   - 1767      # ♦ Mining Hauler
-  - 1768      # Seeker Scouts
+  - 1803      # ♦ Frigate
+  - 1813      # ♦ Cruiser
+  - 1814      # ♦ Battleship
+  - 1878      # ♦ Titan
+  - 1879      # ♦ Force Auxiliary
+  - 1880      # ♦ Dreadnought
   - 1896      # ♦ Industrial Command
-
+  - 1909      # ♦ Battlecruiser

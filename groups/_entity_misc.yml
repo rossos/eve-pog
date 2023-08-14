@@ -1,5 +1,9 @@
 ---
 types:
+  - 279       # LCO Drone
+  - 323       # Billboard
   - 335       # Temporary Cloud
+  - 784       # Large Collidable Ship
   - 934       # Zombie Entities
+  - 1872      # Structure Entities
 

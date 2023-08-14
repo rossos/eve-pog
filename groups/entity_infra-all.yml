@@ -1,0 +1,7 @@
+---
+include:
+  - _entity_capture-point
+  - _entity_destructible-sentry-gun
+  - _entity_fw-war-zones
+  - _entity_protective-sentry-gun
+  - _entity_sentry-gun
