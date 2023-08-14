@@ -24,7 +24,7 @@ groups:
 - deployable_combat
 - deployable_travel
 - _deployable_mobile-depot
-- _entity_fw-ihub
+- _entity_fw-war-zones
 - ship_all
 - _sovereignty_structures_sov-blockade-unit
 - _sovereignty_structures_tcu-ihub

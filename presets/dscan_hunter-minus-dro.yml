@@ -14,7 +14,7 @@ groups:
 - deployable_combat
 - deployable_travel
 - deployable_pve
-- _entity_drifter-response-battleship
+- _entity_drifter
 - ship_all
 - _structure_ansi
 - _structure_cyno-beacon

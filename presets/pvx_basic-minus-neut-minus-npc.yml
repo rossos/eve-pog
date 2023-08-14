@@ -25,12 +25,8 @@ groups:
 - deployable_combat
 - deployable_travel
 - deployable_pve
-- _entity_destructible-sentry-gun
-- _entity_fw-ihub
-- _entity_irregular-super
-- _entity_minor-thread
-- _entity_precursor-cache
-- _entity_spawn-container
+- entity_infra-all
+- entity_lootable-all
 - _entity_temp-collidable-structure
 - ship_all
 - _sovereignty_structures_sov-blockade-unit

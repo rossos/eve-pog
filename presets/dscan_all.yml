@@ -31,7 +31,7 @@ groups:
 - _drone_common
 - _drone_fighter
 - _drone_mining
-- _entity_drifter-response-battleship
+- _entity_drifter
 - _entity_irregular-capsule
 - _entity_retaliating
 - _fighter_all

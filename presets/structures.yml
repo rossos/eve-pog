@@ -19,10 +19,7 @@ groups:
 - deployable_combat
 - deployable_travel
 - deployable_pve
-- _entity_faction-rat
-- _entity_fw-ihub
-- _entity_mission-rat
-- _entity_retaliating
+- entity_infra-all
 - _entity_temp-collidable-structure
 - _orbitals_orbital-cons-platform
 - _orbitals_orbital-infra

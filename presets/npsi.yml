@@ -24,13 +24,9 @@ groups:
 - _charge_wubble
 - deployable_combat
 - deployable_travel
-- _entity_destructible-sentry-gun
-- _entity_drifter-battleship
-- _entity_faction-rat
-- _entity_fw-ihub
-- _entity_minor-thread
-- _entity_mission-rat
-- _entity_retaliating
+- entity_npc-rat-all
+- entity_infra-all
+- entity_lootable-all
 - _entity_temp-collidable-structure
 - ship_all
 - _sovereignty_structures_tcu-ihub

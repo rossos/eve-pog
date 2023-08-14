@@ -23,15 +23,8 @@ groups:
 - _charge_probe
 - _charge_wubble
 - deployable_travel
-- _entity_drifter-battleship
-- _entity_drifter-reinforcements
-- _entity_drifter-response-battleship
-- _entity_faction-rat
-- _entity_fw-ihub
-- _entity_ghost-rat
-- _entity_protective-sentry-gun
-- _entity_retaliating
-- _entity_roaming-rat
+- entity_npc-rat-all
+- _entity_fw-war-zones
 - ship_all
 - _sovereignty_structures_sov-blockade-unit
 - _sovereignty_structures_tcu-ihub

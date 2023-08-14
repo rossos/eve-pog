@@ -25,7 +25,7 @@ groups:
 - deployable_travel
 - _entity_destructible-sentry-gun
 - _entity_faction-rat
-- _entity_fw-ihub
+- _entity_fw-war-zones
 - _entity_mission-rat
 - _entity_retaliating
 - _entity_temp-collidable-structure
