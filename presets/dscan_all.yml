@@ -30,7 +30,7 @@ groups:
 - _drone_fighter
 - _drone_mining
 - _entity_drifter
-- _entity_irregular-capsule
+- _entity_irregular-rat
 - _entity_retaliating
 - _fighter_all
 - _orbitals_orbital-cons-platform
