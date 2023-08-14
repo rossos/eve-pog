@@ -22,7 +22,7 @@
 - name: ''
   color: ''
   overview: travel_plus-ship-minus-sta
-  bracket: friendly_fleet
+  bracket: fleet_all
 - name: ''
   color: ''
   overview: pvx_mining-all

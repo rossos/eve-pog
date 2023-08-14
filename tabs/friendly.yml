@@ -29,5 +29,5 @@
   bracket: friendly_recons
 - name: ''
   color: ''
-  overview: friendly_snowflakes
-  bracket: friendly_snowflakes
+  overview: fleet_snowflakes
+  bracket: fleet_snowflakes
