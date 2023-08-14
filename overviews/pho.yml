@@ -20,7 +20,7 @@ presets:
   - brackets_misc
   - dscan_all
   - travel_plus-ship-minus-sta
-  - friendly_fleet
+  - fleet_all
   - pvx_mining-all
   - pvx_pi
   - pvx_explo
@@ -40,7 +40,7 @@ presets:
   - friendly_dreads
   - friendly_command-dest
   - friendly_recons
-  - friendly_snowflakes
+  - fleet_snowflakes
   layout-compact:
   - brackets_warpout
   - travel_minus-ship-plus-sta
