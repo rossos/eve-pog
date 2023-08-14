@@ -25,7 +25,7 @@
   bracket: brackets_combat-plus-dro
 - name: '<b><fontsize=18> ❄ </fontsize></b>'
   color: 'D6FFFA'
-  overview: friendly_snowflakes
+  overview: fleet_snowflakes
   bracket: brackets_combat-plus-dro
 - name: '<b> Exit! </b>'
   color: '66FF66'
