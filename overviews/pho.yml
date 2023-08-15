@@ -74,7 +74,7 @@ presets:
   - target_recons
   - target_flag
   - target_battlecruisers
-  - target_antibombers
+  - target_bombers
   - target_frig-dest
   - target_cs-t3
   - target_pods
