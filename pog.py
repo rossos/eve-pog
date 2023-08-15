@@ -166,9 +166,16 @@ def compile_overview(path, ov):
                     )
                 )
         else:
-            opts = load_yaml_file(k_plural, v)
+            try:
+                opts = load_yaml_file(k_plural, v)
+            except FileNotFoundError as e:
+                raise Exception("File not found while processing overview file " + path) from e
+
             if k == "tab":
-                merged_overviews.update(format_tabs(opts))
+                try:
+                    merged_overviews.update(format_tabs(opts))
+                except FileNotFoundError as e:
+                    raise Exception("File not found while processing overview file " + path) from e
             else:
                 merged_overviews.update(opts)
 
