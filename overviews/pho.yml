@@ -9,7 +9,7 @@ tabs:
 - pvx
 - targets
 - layout-compact
-- layout-standard
+- layout-subcap
 presets:
   core:
   - pvx_basic-plus-neut-plus-npc
@@ -80,6 +80,7 @@ presets:
   - target_pods
   - target_battleships
   - target_screening
+  - target_snowflakes
   - target_tackle
   pvx:
   - structures
@@ -99,3 +100,4 @@ presets:
   - pvx_mining-r16-up
   - pvx_mining-r32-up
   - pvx_mining-r64
+  layout-subcap:
