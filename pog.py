@@ -159,12 +159,15 @@ def compile_overview(path, ov):
         if k == "tabs":
             pass
         elif k == "presets":
-            for p in v:
-                presets.append(
-                    format_preset(
-                        load_preset(p)
+            try:
+                for p in v:
+                    presets.append(
+                        format_preset(
+                            load_preset(p)
+                        )
                     )
-                )
+            except TypeError:  # 'NoneType' is not iterable
+                pass
         else:
             try:
                 opts = load_yaml_file(k_plural, v)
@@ -190,8 +193,7 @@ def compile_overviews():
 
     def get_all_presets():
         if len(get_all_presets.all) < 1:
-            get_all_presets.all = [format_preset(load_yaml_file("presets", filename[:-4])) for filename in
-                                   sorted(os.listdir("presets"))
+            get_all_presets.all = [filename for filename in sorted(os.listdir("presets"))
                                    if filename[-4:] == ".yml" and os.path.isfile(os.path.join("presets", filename))
                                    ]
         return get_all_presets.all
