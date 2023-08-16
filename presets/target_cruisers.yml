@@ -5,6 +5,7 @@ level: 0
 groups:
 - _charge_bomb
 - _ship_hac
+- _ship_cruiser
 - _ship_hic
 - _ship_logi
 - _ship_recon
