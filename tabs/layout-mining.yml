@@ -1,0 +1,37 @@
+---
+- name: '<fontsize=13><b> ✈ </b></fontsize>'
+  color: 'FFFFFF'
+  overview: travel_minus-ship-plus-sta
+  bracket: brackets_combat-plus-dro
+- name: '<b> Main </b>'
+  color: 'FF6666'
+  overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-plus-dro
+- name: '<b> All </b>'
+  color: 'FFFFFF'
+  overview: pvx_mining-all
+  bracket: brackets_combat-plus-dro
+- name: '<b> ☽ </b>'
+  color: 'D6FFFA'
+  overview: pvx_mining-moon
+  bracket: brackets_combat-plus-dro
+- name: '<b> ☽ R64 </b>'
+  color: 'D6FFFA'
+  overview: pvx_mining-r64
+  bracket: brackets_combat-plus-dro
+- name: '<b> ☽ R32+ </b>'
+  color: 'D6FFFA'
+  overview: pvx_mining-r32-up
+  bracket: brackets_combat-plus-dro
+- name: '<b> ☽ R16+ </b>'
+  color: 'D6FFFA'
+  overview: pvx_mining-r16-up
+  bracket: brackets_combat-plus-dro
+- name: '<b> ☽ R8+ </b>'
+  color: 'D6FFFA'
+  overview: pvx_mining-r8-up
+  bracket: brackets_combat-plus-dro
+- name: '<b> Exit! </b>'
+  color: '66FF66'
+  overview: extra_podsaver
+  bracket: brackets_warpout
