@@ -1,5 +1,8 @@
 ---
-show: []
+show:
+  - 13        # Pilot is at war with your corporation/alliance
+  - 18        # Pilot has Bad Standing.
+  - 19        # Pilot has Terrible Standing.
 hide: 
   - 11        # Pilot is in your fleet
   - 12        # Pilot is in your Capsuleer corporation
