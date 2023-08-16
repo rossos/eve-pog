@@ -4,9 +4,11 @@ symbol: ''
 level: 0
 groups:
 - _charge_bomb
+- _charge_guided-bomb
 - _deployable_mobile-bubble
 - _ship_hic
 - _ship_dic
 - _ship_frigate-tackle
+- _ship_destroyer-t3
 states:
 - hostile
