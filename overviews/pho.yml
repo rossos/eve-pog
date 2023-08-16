@@ -10,6 +10,7 @@ tabs:
 - targets
 - layout-compact
 - layout-subcap
+- layout-logi
 presets:
   core:
   - pvx_basic-plus-neut-plus-npc
@@ -29,6 +30,11 @@ presets:
   - dscan_hunter-plus-dro
   - dscan_ships
   - dscan_hunter-minus-dro
+  - brackets_warpout
+  - travel_minus-ship-plus-sta
+  - brackets_misc
+  - brackets_combat-plus-dro
+  - extra_podsaver
   friendly:
   - friendly_dictors
   - friendly_supers
@@ -41,22 +47,7 @@ presets:
   - friendly_command-dest
   - friendly_recons
   - fleet_snowflakes
-  layout-compact:
-  - brackets_warpout
-  - travel_minus-ship-plus-sta
   - friendly_all
-  - brackets_misc
-  - pvx_salvage-loot
-  - brackets_combat-plus-dro
-  - extra_podsaver
-  layout-standard:
-  - brackets_warpout
-  - travel_minus-ship-plus-sta
-  - friendly_all
-  - brackets_misc
-  - pvx_salvage-loot
-  - brackets_combat-plus-dro
-  - extra_podsaver
   targets:
   - target_carriers
   - target_dreads
@@ -100,4 +91,8 @@ presets:
   - pvx_mining-r16-up
   - pvx_mining-r32-up
   - pvx_mining-r64
+  - pvx_salvage-loot
+  layout-compact:
+  layout-standard:
   layout-subcap:
+  layout-logi:
