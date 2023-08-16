@@ -15,6 +15,10 @@
   color: 'D6FFFA'
   overview: fleet_snowflakes
   bracket: brackets_combat-plus-dro
+- name: '<b> Tackle </b>'
+  color: '9926E5'
+  overview: fleet_tackle
+  bracket: brackets_combat-plus-dro
 - name: '<b> Logi </b>'
   color: '66CCFF'
   overview: friendly_logi
@@ -22,6 +26,10 @@
 - name: '<b> Recon </b>'
   color: '66CCFF'
   overview: friendly_recons
+  bracket: brackets_combat-plus-dro
+- name: '<b><fontsize=13> ♟ </fontsize></b>'
+  color: 'FCB13F'
+  overview: target_screening
   bracket: brackets_combat-plus-dro
 - name: '<b> Exit! </b>'
   color: '66FF66'

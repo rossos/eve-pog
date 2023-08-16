@@ -1,0 +1,23 @@
+---
+name: '<color=0xFF9926E5>★ Fleet: Tackle</color>'
+symbol: ''
+level: 0
+groups:
+- _celestial_effect-beacon
+- _celestial_stargate
+- _celestial_sun
+- _celestial_super-weapon-beacon
+- _celestial_warp-gate
+- _celestial_wormhole
+- _charge_bomb
+- _charge_bubble
+- _charge_guided-bomb
+- _charge_wubble
+- deployable_combat
+- deployable_travel
+- _ship_hic
+- _ship_dic
+- _ship_frigate-tackle
+- _ship_destroyer-t3
+states:
+- friendly_fleet

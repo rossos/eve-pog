@@ -23,9 +23,9 @@
   color: 'FFFF66'
   overview: target_bombers
   bracket: brackets_combat-plus-dro
-- name: '<b> Flag </b>'
-  color: 'FFFF66'
-  overview: target_flag
+- name: '<b> Friendly </b>'
+  color: '66CCFF'
+  overview: friendly_all
   bracket: brackets_combat-plus-dro
 - name: '<b> Exit! </b>'
   color: '66FF66'

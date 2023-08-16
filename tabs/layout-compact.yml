@@ -8,17 +8,17 @@
   overview: pvx_basic-plus-neut-plus-npc
   bracket: brackets_combat-plus-dro
 - name: '<b> 1 </b>'
-  color: 'FFFF66'
-  overview: pvx_mining-moon
-  bracket: brackets_misc
-- name: '<b> 2 </b>'
-  color: 'D38FFD'
-  overview: pvx_salvage-loot
-  bracket: brackets_misc
-- name: '<b> 3 </b>'
   color: '66CCFF'
   overview: friendly_all
   bracket: brackets_combat-plus-dro
+- name: '<b> 2 </b>'
+  color: 'FFFF66'
+  overview: pvx_mining-all
+  bracket: brackets_misc
+- name: '<b> 3 </b>'
+  color: 'D38FFD'
+  overview: pvx_salvage-loot
+  bracket: brackets_misc
 - name: '<b> 4 </b>'
   color: 'E50000'
   overview: target_screening
