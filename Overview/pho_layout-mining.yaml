@@ -359,6 +359,17 @@ tabSetup:
         - 0.9803
 - - 8
   - - - name
+      - '<b> Inhib </b>'
+    - - overview
+      - ' <color=0xFF66FF66>➲ Extra: Cyno Inhib</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
+        - 0.4
+        - 0.4
+- - 9
+  - - - name
       - '<b> Exit! </b>'
     - - overview
       - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'

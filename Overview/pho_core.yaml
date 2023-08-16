@@ -381,7 +381,7 @@ tabSetup:
     - - overview
       - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
     - - bracket
-      - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+      - ' <color=0xFF66FF66>➲ Extra: Cyno Inhib</color>'
     - - color
       - 
 presets:
@@ -6304,3 +6304,10 @@ presets:
         - 1081
         - 1082
         - 4081
+- - ' <color=0xFF66FF66>➲ Extra: Cyno Inhib</color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - []
+    - - groups
+      - - 1249
