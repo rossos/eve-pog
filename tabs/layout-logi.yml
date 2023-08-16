@@ -7,7 +7,7 @@
   color: 'FF6666'
   overview: pvx_basic-plus-neut-plus-npc
   bracket: brackets_combat-plus-dro
-- name: '<b><fontsize=13> Fleet </fontsize></b>'
+- name: '<b> Fleet </b>'
   color: '9926E5'
   overview: fleet_all
   bracket: brackets_combat-plus-dro

@@ -11,6 +11,7 @@ tabs:
 - layout-compact
 - layout-subcap
 - layout-logi
+- layout-mining
 presets:
   core:
   - pvx_basic-plus-neut-plus-npc
@@ -96,3 +97,4 @@ presets:
   layout-standard:
   layout-subcap:
   layout-logi:
+  layout-mining:
