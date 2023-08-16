@@ -293,20 +293,20 @@ tabSetup:
         - 0.4
 - - 2
   - - - name
-      - '<b> Fleet </b>'
+      - '<b> All </b>'
     - - overview
-      - ' <color=0xFF9926E5>★ --- Fleet: All</color>'
+      - ' <color=0xFFFF6666>✜ PvX: Mining - All</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 0.6
-        - 0.149
-        - 0.898
+      - - 1.0
+        - 1.0
+        - 1.0
 - - 3
   - - - name
-      - '<b><fontsize=18> ❄ </fontsize></b>'
+      - '<b> ☽ </b>'
     - - overview
-      - ' <color=0xFF9926E5>★ Fleet: Snowflakes</color>'
+      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
@@ -315,27 +315,49 @@ tabSetup:
         - 0.9803
 - - 4
   - - - name
-      - '<b> Logi </b>'
+      - '<b> ☽ R64 </b>'
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Logistics</color>'
+      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon R64</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 0.4
-        - 0.8
+      - - 0.8392
         - 1.0
+        - 0.9803
 - - 5
   - - - name
-      - '<b> Recon </b>'
+      - '<b> ☽ R32+ </b>'
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Recons</color>'
+      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon R32 + </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 0.4
-        - 0.8
+      - - 0.8392
         - 1.0
+        - 0.9803
 - - 6
+  - - - name
+      - '<b> ☽ R16+ </b>'
+    - - overview
+      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon R16 +</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.8392
+        - 1.0
+        - 0.9803
+- - 7
+  - - - name
+      - '<b> ☽ R8+ </b>'
+    - - overview
+      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon R8 +</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.8392
+        - 1.0
+        - 0.9803
+- - 8
   - - - name
       - '<b> Exit! </b>'
     - - overview
