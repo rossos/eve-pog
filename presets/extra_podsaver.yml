@@ -4,6 +4,7 @@ symbol: ''
 level: 0
 groups:
 - _celestial_asteroid-belt
+- _celestial_beacon
 - _celestial_disrupted-gate
 - _celestial_moon
 - _celestial_planet
