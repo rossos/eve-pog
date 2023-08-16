@@ -50,6 +50,7 @@ presets:
   - friendly_recons
   - fleet_snowflakes
   - friendly_all
+  - fleet_tackle
   targets:
   - target_carriers
   - target_dreads

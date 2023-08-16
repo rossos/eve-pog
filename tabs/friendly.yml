@@ -31,3 +31,7 @@
   color: ''
   overview: fleet_snowflakes
   bracket: friendly_all
+- name: ''
+  color: ''
+  overview: fleet_tackle
+  bracket: fleet_tackle
