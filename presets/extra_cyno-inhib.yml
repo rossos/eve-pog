@@ -1,0 +1,8 @@
+---
+name: '<color=0xFF66FF66>➲ Extra: Cyno Inhib</color>'
+symbol: ''
+level: 0
+groups:
+- _deployable_mobile-cyno-inhib
+states:
+- all

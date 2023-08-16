@@ -31,6 +31,10 @@
   color: 'D6FFFA'
   overview: pvx_mining-r8-up
   bracket: brackets_combat-plus-dro
+- name: '<b> Inhib </b>'
+  color: 'FF6666'
+  overview: extra_cyno-inhib
+  bracket: brackets_combat-plus-dro
 - name: '<b> Exit! </b>'
   color: '66FF66'
   overview: extra_podsaver

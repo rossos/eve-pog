@@ -36,6 +36,7 @@ presets:
   - brackets_misc
   - brackets_combat-plus-dro
   - extra_podsaver
+  - extra_cyno-inhib
   friendly:
   - friendly_dictors
   - friendly_supers
