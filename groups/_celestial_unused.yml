@@ -23,12 +23,8 @@ types:
   - 1983      # Abyssal Environment
   - 4055      # Invisible Beacon
   - 4070      # Exotic Artefact
-  - 4079      # Encounter Surveillance System
   - 4100      # Logo Display Monument
   - 4168      # Compressed Gas
   - 4430      # Asteroid Belt
-  - 4547      # Interstellar Shipcaster Beacon
-  - 4548      # Shipcaster Beacon Constructor
-  - 4549      # Interstellar Shipcaster
   - 4579      # Scalable Non-Interactable Object
 
