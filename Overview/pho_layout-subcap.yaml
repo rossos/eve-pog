@@ -271,7 +271,7 @@ userSettings: []
 tabSetup:
 - - 0
   - - - name
-      - ' ✈ '
+      - '<fontsize=13><b> ✈ </b></fontsize>'
     - - overview
       - ' <color=0xFFFFFFFF>✈ Travel (-Ship +Sta)</color>'
     - - bracket
@@ -293,59 +293,59 @@ tabSetup:
         - 0.4
 - - 2
   - - - name
-      - '<b> 1 </b>'
-    - - overview
-      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon</color>'
-    - - bracket
-      - ' ⌘ Brackets: Misc'
-    - - color
-      - - 1.0
-        - 1.0
-        - 0.4
-- - 3
-  - - - name
-      - '<b> 2 </b>'
-    - - overview
-      - ' <color=0xFFFF6666>✜ PvX: Salvage/Loot</color>'
-    - - bracket
-      - ' ⌘ Brackets: Misc'
-    - - color
-      - - 0.8274
-        - 0.5607
-        - 0.9921
-- - 4
-  - - - name
-      - '<b> 3 </b>'
-    - - overview
-      - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
-    - - bracket
-      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
-    - - color
-      - - 0.4
-        - 0.8
-        - 1.0
-- - 5
-  - - - name
-      - '<b> 4 </b>'
+      - '<b><fontsize=13> ♟ </fontsize></b>'
     - - overview
       - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 0.898
-        - 0.0
-        - 0.0
-- - 6
+      - - 0.9882
+        - 0.6941
+        - 0.247
+- - 3
   - - - name
-      - '<b> 5 </b>'
+      - '<b><fontsize=18> ❄ </fontsize></b>'
     - - overview
-      - ' <color=0xFF9926E5>★ Fleet: Snowflakes</color>'
+      - ' <color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 0.8392
+      - - 0.9882
+        - 0.6941
+        - 0.247
+- - 4
+  - - - name
+      - '<b> Tackle </b>'
+    - - overview
+      - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
         - 1.0
-        - 0.9803
+        - 0.4
+- - 5
+  - - - name
+      - '<b> Bombers </b>'
+    - - overview
+      - ' <color=0xFFFFFF66>✥ Target: Bombers</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
+        - 1.0
+        - 0.4
+- - 6
+  - - - name
+      - '<b> Flag </b>'
+    - - overview
+      - ' <color=0xFFFFFF66>✥ Target: Flag</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 1.0
+        - 1.0
+        - 0.4
 - - 7
   - - - name
       - '<b> Exit! </b>'

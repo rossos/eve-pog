@@ -280,7 +280,8 @@ tabSetup:
       - 
 - - 1
   - - - name
-      - '<fontsize=12><color=0xFF3676BB><b> PHO Targets loaded! </b></color></fontsize>
+      - '<fontsize=28><color=0xFFFCB13F>☣</color></fontsize><fontsize=12><color=0xFF3676BB><b>  PHO
+        Targets loaded! </b></color></fontsize>
 
         <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
         another Preset Pack, or </b></color></fontsize>
@@ -306,7 +307,7 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Antibombers (!)</color>'
+      - ' <color=0xFFFFFF66>✥ Target: Bombers</color>'
     - - bracket
       - ' <color=0xFFFFFF66>✥ Target: Battlecruisers</color>'
     - - color
@@ -380,7 +381,7 @@ tabSetup:
     - - overview
       - ' <color=0xFFFFFF66>✥ Target: Drones+Fighters</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ = Target: Boosh+HIC+Dic </color>'
+      - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
     - - color
       - 
 - - 12
@@ -389,7 +390,7 @@ tabSetup:
     - - overview
       - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+      - ' <color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
     - - color
       - 
 presets:
@@ -683,7 +684,7 @@ presets:
         - 863
         - 864
         - 1201
-- - ' <color=0xFFFFFF66>✥ Target: Antibombers (!)</color>'
+- - ' <color=0xFFFFFF66>✥ Target: Bombers</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -776,7 +777,7 @@ presets:
         - 864
         - 898
         - 900
-- - ' <color=0xFFFFFF66>✥ = Target: Boosh+HIC+Dic </color>'
+- - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -789,11 +790,51 @@ presets:
         - 45
     - - groups
       - - 90
+        - 361
         - 541
+        - 834
         - 863
         - 864
         - 894
         - 1534
+- - ' <color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
+  - - - alwaysShownStates
+      - []
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 21
+        - 45
+    - - groups
+      - - 90
+        - 361
+        - 540
+        - 541
+        - 548
+        - 832
+        - 833
+        - 863
+        - 864
+        - 894
+        - 906
+        - 1149
+        - 1247
+        - 1249
+        - 1273
+        - 1275
+        - 1276
+        - 1312
+        - 1527
+        - 1534
+        - 1548
+        - 1972
+        - 4088
+        - 4093
+        - 4107
+        - 4137
 - - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
   - - - alwaysShownStates
       - []
@@ -809,6 +850,7 @@ presets:
       - - 25
         - 90
         - 324
+        - 361
         - 541
         - 831
         - 863

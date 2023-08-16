@@ -275,12 +275,13 @@ tabSetup:
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Capitals (Combat)</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Capitals (All)</color>'
+      - ' <color=0xFF66CCFF>✪ Friendly: Capitals +Indy</color>'
     - - color
       - 
 - - 1
   - - - name
-      - '<fontsize=12><color=0xFF3676BB><b> PHO Friendly Targets loaded! </b></color></fontsize>
+      - '<fontsize=28><color=0xFFFCB13F>☣</color></fontsize><fontsize=12><color=0xFF3676BB><b>  PHO
+        Friendly Targets loaded! </b></color></fontsize>
 
         <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply
         another Preset Pack, or </b></color></fontsize>
@@ -299,7 +300,7 @@ tabSetup:
     - - overview
       - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Carriers+FAX</color>'
+      - ' <color=0xFF66CCFF>✪ Friendly: Carriers +FAX</color>'
     - - color
       - 
 - - 3
@@ -333,9 +334,9 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ = Friendly: Snowflakes</color>'
+      - ' <color=0xFF9926E5>★ Fleet: Snowflakes</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ = Friendly: Snowflakes</color>'
+      - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
     - - color
       - 
 presets:
@@ -449,7 +450,7 @@ presets:
         - 864
         - 1548
         - 1972
-- - ' <color=0xFF66CCFF>✪ Friendly: Capitals (All)</color>'
+- - ' <color=0xFF66CCFF>✪ Friendly: Capitals +Indy</color>'
   - - - alwaysShownStates
       - - 11
         - 12
@@ -560,7 +561,7 @@ presets:
         - 863
         - 864
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Carriers+FAX</color>'
+- - ' <color=0xFF66CCFF>✪ Friendly: Carriers +FAX</color>'
   - - - alwaysShownStates
       - - 11
         - 12
@@ -637,16 +638,14 @@ presets:
 - - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
   - - - alwaysShownStates
       - - 11
-        - 12
-        - 14
-        - 15
-        - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
+        - 12
         - 13
+        - 14
+        - 15
+        - 16
         - 17
         - 18
         - 19
@@ -654,7 +653,9 @@ presets:
         - 36
         - 37
         - 44
+        - 45
         - 48
+        - 49
         - 50
         - 51
         - 52
@@ -707,7 +708,7 @@ presets:
         - 864
         - 906
         - 1548
-- - ' <color=0xFF66CCFF>✪ = Friendly: Snowflakes</color>'
+- - ' <color=0xFF9926E5>★ Fleet: Snowflakes</color>'
   - - - alwaysShownStates
       - - 11
     - - filteredStates
@@ -735,14 +736,148 @@ presets:
     - - groups
       - - 6
         - 10
+        - 90
+        - 361
         - 366
         - 540
         - 541
+        - 548
         - 832
         - 833
+        - 863
+        - 864
         - 894
         - 906
+        - 920
         - 988
+        - 1149
+        - 1247
+        - 1249
+        - 1273
+        - 1275
+        - 1276
+        - 1312
         - 1527
         - 1534
+        - 1548
+        - 1704
         - 1972
+        - 4088
+        - 4093
+        - 4107
+        - 4137
+- - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
+  - - - alwaysShownStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 45
+        - 49
+    - - filteredStates
+      - - 9
+        - 10
+        - 13
+        - 17
+        - 18
+        - 19
+        - 21
+        - 36
+        - 37
+        - 44
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+    - - groups
+      - - 6
+        - 10
+        - 15
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 90
+        - 310
+        - 324
+        - 358
+        - 361
+        - 366
+        - 380
+        - 381
+        - 419
+        - 420
+        - 463
+        - 479
+        - 485
+        - 492
+        - 513
+        - 540
+        - 541
+        - 543
+        - 547
+        - 548
+        - 659
+        - 830
+        - 831
+        - 832
+        - 833
+        - 834
+        - 835
+        - 836
+        - 863
+        - 864
+        - 883
+        - 893
+        - 894
+        - 897
+        - 898
+        - 900
+        - 902
+        - 906
+        - 920
+        - 925
+        - 941
+        - 963
+        - 988
+        - 1003
+        - 1005
+        - 1012
+        - 1022
+        - 1149
+        - 1201
+        - 1202
+        - 1246
+        - 1247
+        - 1249
+        - 1273
+        - 1275
+        - 1276
+        - 1283
+        - 1305
+        - 1312
+        - 1316
+        - 1404
+        - 1406
+        - 1408
+        - 1527
+        - 1534
+        - 1538
+        - 1548
+        - 1657
+        - 1704
+        - 1972
+        - 2001
+        - 2016
+        - 2017
+        - 2020
+        - 4088
+        - 4093
+        - 4107
+        - 4137
+        - 4494
+        - 4594
