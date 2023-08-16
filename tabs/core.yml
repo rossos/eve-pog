@@ -3,7 +3,7 @@
   color: ''
   overview: travel_all
   bracket: brackets_travel
-- name: '<fontsize=12><color=0xFF3676BB><b> PHO Core loaded! </b></color></fontsize>
+- name: '<fontsize=28><color=0xFFFCB13F>☣</color></fontsize><fontsize=12><color=0xFF3676BB><b>  PHO Core loaded! </b></color></fontsize>
 
     <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
 
@@ -39,3 +39,15 @@
   color: ''
   overview: dscan_ships
   bracket: dscan_hunter-minus-dro
+- name: ''
+  color: ''
+  overview: brackets_warpout
+  bracket: travel_minus-ship-plus-sta
+- name: ''
+  color: ''
+  overview: brackets_misc
+  bracket: brackets_combat-plus-dro
+- name: ''
+  color: ''
+  overview: extra_podsaver
+  bracket: extra_podsaver

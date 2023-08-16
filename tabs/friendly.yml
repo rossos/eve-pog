@@ -3,7 +3,7 @@
   color:
   overview: friendly_capitals
   bracket: friendly_caps-all
-- name: '<fontsize=12><color=0xFF3676BB><b> PHO Friendly Targets loaded! </b></color></fontsize>
+- name: '<fontsize=28><color=0xFFFCB13F>☣</color></fontsize><fontsize=12><color=0xFF3676BB><b>  PHO Friendly Targets loaded! </b></color></fontsize>
 
     <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
 
@@ -30,4 +30,4 @@
 - name: ''
   color: ''
   overview: fleet_snowflakes
-  bracket: fleet_snowflakes
+  bracket: friendly_all

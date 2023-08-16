@@ -3,7 +3,7 @@
   color: ''
   overview: pvx_incursion
   bracket: pvx_fw
-- name: '<fontsize=12><color=0xFF3676BB><b> PHO PvX loaded! </b></color></fontsize>
+- name: '<fontsize=28><color=0xFFFCB13F>☣</color></fontsize><fontsize=12><color=0xFF3676BB><b>  PHO PvX loaded! </b></color></fontsize>
 
     <fontsize=12><color=0xFFFFFFFF><b> → </b></color><color=0xFFFCB13F><b> Apply another Preset Pack, or </b></color></fontsize>
 
@@ -42,4 +42,4 @@
 - name: ''
   color: ''
   overview:  pvx_mining-r8-up
-  bracket: pvx_mining-r8-up
+  bracket: pvx_salvage-loot

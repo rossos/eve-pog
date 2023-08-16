@@ -1,0 +1,33 @@
+---
+- name: '<fontsize=13><b> ✈ </b></fontsize>'
+  color: 'FFFFFF'
+  overview: travel_minus-ship-plus-sta
+  bracket: brackets_combat-plus-dro
+- name: '<b> Main </b>'
+  color: 'FF6666'
+  overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-plus-dro
+- name: '<b><fontsize=13> ♟ </fontsize></b>'
+  color: 'FCB13F'
+  overview: target_screening
+  bracket: brackets_combat-plus-dro
+- name: '<b><fontsize=18> ❄ </fontsize></b>'
+  color: 'FCB13F'
+  overview: target_snowflakes
+  bracket: brackets_combat-plus-dro
+- name: '<b> Tackle </b>'
+  color: 'FFFF66'
+  overview: target_tackle
+  bracket: brackets_combat-plus-dro
+- name: '<b> Bombers </b>'
+  color: 'FFFF66'
+  overview: target_bombers
+  bracket: brackets_combat-plus-dro
+- name: '<b> Flag </b>'
+  color: 'FFFF66'
+  overview: target_flag
+  bracket: brackets_combat-plus-dro
+- name: '<b> Exit! </b>'
+  color: '66FF66'
+  overview: extra_podsaver
+  bracket: brackets_warpout

@@ -1,5 +1,5 @@
 ---
-- name: '<fontsize=13><b> ✈ </b></fontsize>'
+- name: ' ✈ '
   color: 'FFFFFF'
   overview: travel_minus-ship-plus-sta
   bracket: brackets_combat-plus-dro
@@ -7,23 +7,23 @@
   color: 'FF6666'
   overview: pvx_basic-plus-neut-plus-npc
   bracket: brackets_combat-plus-dro
-- name: '<b> 3 </b>'
+- name: '<b> 1 </b>'
   color: 'FFFF66'
   overview: pvx_mining-moon
   bracket: brackets_misc
-- name: '<b> 4 </b>'
+- name: '<b> 2 </b>'
   color: 'D38FFD'
   overview: pvx_salvage-loot
   bracket: brackets_misc
-- name: '<b> 5 </b>'
+- name: '<b> 3 </b>'
   color: '66CCFF'
   overview: friendly_all
   bracket: brackets_combat-plus-dro
-- name: '<b><fontsize=21> ▲ </fontsize></b>'
+- name: '<b> 4 </b>'
   color: 'E50000'
   overview: target_screening
   bracket: brackets_combat-plus-dro
-- name: '<b><fontsize=18> ❄ </fontsize></b>'
+- name: '<b> 5 </b>'
   color: 'D6FFFA'
   overview: fleet_snowflakes
   bracket: brackets_combat-plus-dro

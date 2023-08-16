@@ -1,0 +1,29 @@
+---
+- name: '<fontsize=13><b> ✈ </b></fontsize>'
+  color: 'FFFFFF'
+  overview: travel_minus-ship-plus-sta
+  bracket: brackets_combat-plus-dro
+- name: '<b> Main </b>'
+  color: 'FF6666'
+  overview: pvx_basic-plus-neut-plus-npc
+  bracket: brackets_combat-plus-dro
+- name: '<b><fontsize=13> Fleet </fontsize></b>'
+  color: '9926E5'
+  overview: fleet_all
+  bracket: brackets_combat-plus-dro
+- name: '<b><fontsize=18> ❄ </fontsize></b>'
+  color: 'D6FFFA'
+  overview: fleet_snowflakes
+  bracket: brackets_combat-plus-dro
+- name: '<b> Logi </b>'
+  color: '66CCFF'
+  overview: friendly_logi
+  bracket: brackets_combat-plus-dro
+- name: '<b> Recon </b>'
+  color: '66CCFF'
+  overview: friendly_recons
+  bracket: brackets_combat-plus-dro
+- name: '<b> Exit! </b>'
+  color: '66FF66'
+  overview: extra_podsaver
+  bracket: brackets_warpout
