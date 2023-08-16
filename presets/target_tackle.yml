@@ -4,6 +4,7 @@ symbol: ''
 level: 0
 groups:
 - _charge_bomb
+- _deployable_mobile-bubble
 - _ship_hic
 - _ship_dic
 - _ship_frigate-tackle
