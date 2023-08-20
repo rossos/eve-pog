@@ -304,7 +304,7 @@ tabSetup:
         - 0.898
 - - 3
   - - - name
-      - '<b><fontsize=18> ❄ </fontsize></b>'
+      - '<b> <fontsize=18>❄</fontsize> </b>'
     - - overview
       - ' <color=0xFF9926E5>★ Fleet: Snowflakes</color>'
     - - bracket
@@ -315,20 +315,20 @@ tabSetup:
         - 0.9803
 - - 4
   - - - name
-      - '<b> Logi </b>'
+      - '<b> <fontsize=19>⊗</fontsize> </b>'
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Logistics</color>'
+      - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 0.4
-        - 0.8
-        - 1.0
+      - - 0.6
+        - 0.149
+        - 0.898
 - - 5
   - - - name
-      - '<b> Recon </b>'
+      - '<b> Logi </b>'
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Recons</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Logistics</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
@@ -337,9 +337,31 @@ tabSetup:
         - 1.0
 - - 6
   - - - name
+      - '<b> Recon </b>'
+    - - overview
+      - ' <color=0xFF66CCFF>✇ Friendly: Recons</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.4
+        - 0.8
+        - 1.0
+- - 7
+  - - - name
+      - '<b> <fontsize=13>♟</fontsize> </b>'
+    - - overview
+      - ' <color=0xFFFFFF66>☩ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.9882
+        - 0.6941
+        - 0.247
+- - 8
+  - - - name
       - '<b> Exit! </b>'
     - - overview
-      - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+      - ' <color=0xFF66FF66>❧ Extra: Podsaver (!)</color>'
     - - bracket
       - ' ⌘ Brackets: Warpout (!)'
     - - color

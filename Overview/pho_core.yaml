@@ -298,7 +298,7 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66FF66>➲ Extra: Align Points</color>'
+      - ' <color=0xFF66FF66>❧ Extra: Align Points</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (-Dro)'
     - - color
@@ -379,9 +379,9 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+      - ' <color=0xFF66FF66>❧ Extra: Podsaver (!)</color>'
     - - bracket
-      - ' <color=0xFF66FF66>➲ Extra: Cyno Inhib</color>'
+      - ' <color=0xFF66FF66>❧ Extra: Cyno Inhib</color>'
     - - color
       - 
 presets:
@@ -954,7 +954,9 @@ presets:
         - 4594
 - - ' ⌘ Brackets: Travel'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -1380,7 +1382,7 @@ presets:
         - 4576
         - 4577
         - 4594
-- - ' <color=0xFF66FF66>➲ Extra: Align Points</color>'
+- - ' <color=0xFF66FF66>❧ Extra: Align Points</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -1398,6 +1400,7 @@ presets:
         - 15
         - 310
         - 361
+        - 366
         - 548
         - 897
         - 925
@@ -2496,7 +2499,9 @@ presets:
         - 4594
 - - ' <color=0xFFFFFFFF>✈ Travel (+Ship -Sta)</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -2629,36 +2634,33 @@ presets:
         - 28
         - 29
         - 30
-        - 90
+        - 310
         - 324
         - 358
-        - 361
         - 366
         - 380
         - 381
         - 419
         - 420
         - 463
-        - 479
         - 485
-        - 492
         - 513
         - 540
         - 541
         - 543
         - 547
-        - 548
         - 659
         - 830
         - 831
         - 832
         - 833
         - 834
-        - 863
-        - 864
+        - 835
+        - 836
         - 883
         - 893
         - 894
+        - 897
         - 898
         - 900
         - 902
@@ -2668,32 +2670,33 @@ presets:
         - 963
         - 988
         - 1022
-        - 1149
         - 1201
         - 1202
-        - 1247
+        - 1246
         - 1249
-        - 1273
-        - 1275
-        - 1276
+        - 1250
         - 1283
         - 1305
-        - 1312
+        - 1316
+        - 1404
+        - 1406
+        - 1408
         - 1527
         - 1534
         - 1538
-        - 1548
+        - 1657
         - 1704
         - 1972
         - 2001
-        - 4088
+        - 2020
         - 4093
-        - 4107
         - 4137
         - 4594
 - - ' <color=0xFFFF6666>✜ PvX: Mining - All</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -3199,7 +3202,9 @@ presets:
         - 4594
 - - ' <color=0xFFFF6666>✜ PvX: PI</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -3624,7 +3629,9 @@ presets:
         - 4594
 - - ' <color=0xFFFF6666>✜ PvX: Exploring</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -4065,7 +4072,9 @@ presets:
         - 4594
 - - ' <color=0xFFFF6666>✜ PvX: Ratting</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -4534,7 +4543,9 @@ presets:
         - 4594
 - - ' <color=0xFFFF6666>✜ PvX: Mining - Moon</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -5278,7 +5289,9 @@ presets:
         - 4494
 - - ' <color=0xFFFFFFFF>✈ Travel (-Ship +Sta)</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -6289,7 +6302,7 @@ presets:
         - 4576
         - 4577
         - 4594
-- - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+- - ' <color=0xFF66FF66>❧ Extra: Podsaver (!)</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates
@@ -6300,11 +6313,12 @@ presets:
         - 8
         - 9
         - 10
+        - 310
         - 988
         - 1081
         - 1082
         - 4081
-- - ' <color=0xFF66FF66>➲ Extra: Cyno Inhib</color>'
+- - ' <color=0xFF66FF66>❧ Extra: Cyno Inhib</color>'
   - - - alwaysShownStates
       - []
     - - filteredStates

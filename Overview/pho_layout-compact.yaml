@@ -295,16 +295,27 @@ tabSetup:
   - - - name
       - '<b> 1 </b>'
     - - overview
-      - ' <color=0xFFFF6666>✜ PvX: Mining - Moon</color>'
+      - ' <color=0xFF66CCFF>✇ --- Friendly: All</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.4
+        - 0.8
+        - 1.0
+- - 3
+  - - - name
+      - '<b> 2 </b>'
+    - - overview
+      - ' <color=0xFFFF6666>✜ PvX: Mining - All</color>'
     - - bracket
       - ' ⌘ Brackets: Misc'
     - - color
       - - 1.0
         - 1.0
         - 0.4
-- - 3
+- - 4
   - - - name
-      - '<b> 2 </b>'
+      - '<b> 3 </b>'
     - - overview
       - ' <color=0xFFFF6666>✜ PvX: Salvage/Loot</color>'
     - - bracket
@@ -313,22 +324,11 @@ tabSetup:
       - - 0.8274
         - 0.5607
         - 0.9921
-- - 4
-  - - - name
-      - '<b> 3 </b>'
-    - - overview
-      - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
-    - - bracket
-      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
-    - - color
-      - - 0.4
-        - 0.8
-        - 1.0
 - - 5
   - - - name
       - '<b> 4 </b>'
     - - overview
-      - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
@@ -350,7 +350,7 @@ tabSetup:
   - - - name
       - '<b> Exit! </b>'
     - - overview
-      - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+      - ' <color=0xFF66FF66>❧ Extra: Podsaver (!)</color>'
     - - bracket
       - ' ⌘ Brackets: Warpout (!)'
     - - color

@@ -273,9 +273,9 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Capitals (Combat)</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Capitals (Combat)</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Capitals +Indy</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Capitals +Indy</color>'
     - - color
       - 
 - - 1
@@ -298,36 +298,36 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Command Dest</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Carriers +FAX</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Carriers +FAX</color>'
     - - color
       - 
 - - 3
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Dreads</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Dreads</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Dictors+HIC</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Dictors+HIC</color>'
     - - color
       - 
 - - 4
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: Logistics</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Logistics</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Flag</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Flag</color>'
     - - color
       - 
 - - 5
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF66CCFF>✪ Friendly: SC/T</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: SC/T</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ Friendly: Recons</color>'
+      - ' <color=0xFF66CCFF>✇ Friendly: Recons</color>'
     - - color
       - 
 - - 6
@@ -336,19 +336,26 @@ tabSetup:
     - - overview
       - ' <color=0xFF9926E5>★ Fleet: Snowflakes</color>'
     - - bracket
-      - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
+      - ' <color=0xFF66CCFF>✇ --- Friendly: All</color>'
+    - - color
+      - 
+- - 7
+  - - - name
+      - ''
+    - - overview
+      - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
+    - - bracket
+      - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
     - - color
       - 
 presets:
-- - ' <color=0xFF66CCFF>✪ Friendly: Dictors+HIC</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Dictors+HIC</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -377,15 +384,13 @@ presets:
         - 864
         - 894
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: SC/T</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: SC/T</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -414,15 +419,13 @@ presets:
         - 863
         - 864
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Flag</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Flag</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -450,15 +453,13 @@ presets:
         - 864
         - 1548
         - 1972
-- - ' <color=0xFF66CCFF>✪ Friendly: Capitals +Indy</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Capitals +Indy</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -488,15 +489,13 @@ presets:
         - 902
         - 941
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Logistics</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Logistics</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -526,15 +525,13 @@ presets:
         - 1527
         - 1538
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Capitals (Combat)</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Capitals (Combat)</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -561,15 +558,13 @@ presets:
         - 863
         - 864
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Carriers +FAX</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Carriers +FAX</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -598,15 +593,13 @@ presets:
         - 864
         - 1538
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Dreads</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Dreads</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -635,7 +628,7 @@ presets:
         - 864
         - 1548
         - 4594
-- - ' <color=0xFF66CCFF>✪ Friendly: Command Dest</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Command Dest</color>'
   - - - alwaysShownStates
       - - 11
     - - filteredStates
@@ -671,15 +664,13 @@ presets:
         - 864
         - 1534
         - 1548
-- - ' <color=0xFF66CCFF>✪ Friendly: Recons</color>'
+- - ' <color=0xFF66CCFF>✇ Friendly: Recons</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -736,45 +727,41 @@ presets:
     - - groups
       - - 6
         - 10
-        - 90
-        - 361
+        - 310
         - 366
         - 540
         - 541
-        - 548
         - 832
         - 833
-        - 863
-        - 864
+        - 835
+        - 836
         - 894
+        - 897
         - 906
         - 920
         - 988
-        - 1149
-        - 1247
+        - 1246
         - 1249
-        - 1273
-        - 1275
-        - 1276
-        - 1312
+        - 1250
+        - 1316
+        - 1404
+        - 1406
+        - 1408
         - 1527
         - 1534
-        - 1548
+        - 1657
         - 1704
         - 1972
-        - 4088
+        - 2020
         - 4093
-        - 4107
         - 4137
-- - ' <color=0xFF66CCFF>✪ --- Friendly: All</color>'
+- - ' <color=0xFF66CCFF>✇ --- Friendly: All</color>'
   - - - alwaysShownStates
       - - 11
         - 12
         - 14
         - 15
         - 16
-        - 45
-        - 49
     - - filteredStates
       - - 9
         - 10
@@ -881,3 +868,56 @@ presets:
         - 4137
         - 4494
         - 4594
+- - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
+  - - - alwaysShownStates
+      - - 11
+    - - filteredStates
+      - - 9
+        - 10
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 21
+        - 36
+        - 37
+        - 44
+        - 45
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    - - groups
+      - - 6
+        - 10
+        - 25
+        - 310
+        - 324
+        - 366
+        - 541
+        - 831
+        - 835
+        - 836
+        - 894
+        - 897
+        - 920
+        - 988
+        - 1246
+        - 1249
+        - 1250
+        - 1305
+        - 1316
+        - 1404
+        - 1406
+        - 1408
+        - 1657
+        - 1704
+        - 2020
+        - 4093
+        - 4137

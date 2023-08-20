@@ -273,9 +273,9 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Battleships</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Battleships</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Pods</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Pods</color>'
     - - color
       - 
 - - 1
@@ -298,105 +298,116 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: CS/T3</color>'
+      - ' <color=0xFFFFFF66>☩ Target: CS/T3</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Frig/Dest</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Frig/Dest</color>'
     - - color
       - 
 - - 3
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Bombers</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Bombers</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Battlecruisers</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Battlecruisers</color>'
     - - color
       - 
 - - 4
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Flag</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Flag</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Recons</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Recons</color>'
     - - color
       - 
 - - 5
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Dictors</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Dictors</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Cruisers</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Cruisers</color>'
     - - color
       - 
 - - 6
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Cmd Dest</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Cmd Dest</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Logistics</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Logistics</color>'
     - - color
       - 
 - - 7
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Supercarriers</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Supercarriers</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Fax</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Fax</color>'
     - - color
       - 
 - - 8
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: All Caps</color>'
+      - ' <color=0xFFFFFF66>☩ Target: All Caps</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Titans</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Titans</color>'
     - - color
       - 
 - - 9
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Fighters</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Fighters</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: SC/T</color>'
+      - ' <color=0xFFFFFF66>☩ Target: SC/T</color>'
     - - color
       - 
 - - 10
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Dreads</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Dreads</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ Target: Carriers</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Carriers</color>'
     - - color
       - 
 - - 11
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Drones+Fighters</color>'
+      - ' <color=0xFFFFFF66>☩ Target: Drones+Fighters</color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
     - - color
       - 
 - - 12
   - - - name
       - ''
     - - overview
-      - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Tackle </color>'
     - - bracket
-      - ' <color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Snowflakes </color>'
+    - - color
+      - 
+- - 13
+  - - - name
+      - ''
+    - - overview
+      - ' <color=0xFFFFFF66>☩ --- Target: Ships Only</color>'
+    - - bracket
+      - ' <color=0xFFFFFF66>☩ --- Target: Ships Only</color>'
     - - color
       - 
 presets:
-- - ' <color=0xFFFFFF66>✥ Target: Carriers</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Carriers</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -410,9 +421,11 @@ presets:
         - 547
         - 863
         - 864
-- - ' <color=0xFFFFFF66>✥ Target: Dreads</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Dreads</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -427,9 +440,11 @@ presets:
         - 863
         - 864
         - 4594
-- - ' <color=0xFFFFFF66>✥ Target: Drones+Fighters</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Drones+Fighters</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -454,9 +469,11 @@ presets:
         - 1537
         - 1652
         - 1653
-- - ' <color=0xFFFFFF66>✥ Target: SC/T</color>'
+- - ' <color=0xFFFFFF66>☩ Target: SC/T</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -471,9 +488,11 @@ presets:
         - 659
         - 863
         - 864
-- - ' <color=0xFFFFFF66>✥ Target: Fighters</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Fighters</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -491,9 +510,11 @@ presets:
         - 1537
         - 1652
         - 1653
-- - ' <color=0xFFFFFF66>✥ Target: Titans</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Titans</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -507,9 +528,11 @@ presets:
         - 90
         - 863
         - 864
-- - ' <color=0xFFFFFF66>✥ Target: All Caps</color>'
+- - ' <color=0xFFFFFF66>☩ Target: All Caps</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -525,9 +548,11 @@ presets:
         - 864
         - 902
         - 941
-- - ' <color=0xFFFFFF66>✥ Target: Fax</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Fax</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -541,9 +566,11 @@ presets:
         - 863
         - 864
         - 1538
-- - ' <color=0xFFFFFF66>✥ Target: Supercarriers</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Supercarriers</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -557,9 +584,11 @@ presets:
         - 659
         - 863
         - 864
-- - ' <color=0xFFFFFF66>✥ Target: Logistics</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Logistics</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -575,9 +604,11 @@ presets:
         - 864
         - 1527
         - 1538
-- - ' <color=0xFFFFFF66>✥ Target: Cmd Dest</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Cmd Dest</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -591,9 +622,11 @@ presets:
         - 863
         - 864
         - 1534
-- - ' <color=0xFFFFFF66>✥ Target: Cruisers</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Cruisers</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -613,9 +646,11 @@ presets:
         - 894
         - 906
         - 963
-- - ' <color=0xFFFFFF66>✥ Target: Dictors</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Dictors</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -633,9 +668,11 @@ presets:
         - 864
         - 894
         - 4088
-- - ' <color=0xFFFFFF66>✥ Target: Recons</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Recons</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -650,9 +687,11 @@ presets:
         - 863
         - 864
         - 906
-- - ' <color=0xFFFFFF66>✥ Target: Flag</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Flag</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -666,9 +705,11 @@ presets:
         - 863
         - 864
         - 1972
-- - ' <color=0xFFFFFF66>✥ Target: Battlecruisers</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Battlecruisers</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -684,9 +725,11 @@ presets:
         - 863
         - 864
         - 1201
-- - ' <color=0xFFFFFF66>✥ Target: Bombers</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Bombers</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -697,9 +740,11 @@ presets:
         - 45
     - - groups
       - - 834
-- - ' <color=0xFFFFFF66>✥ Target: Frig/Dest</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Frig/Dest</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -725,9 +770,11 @@ presets:
         - 1305
         - 1527
         - 1534
-- - ' <color=0xFFFFFF66>✥ Target: CS/T3</color>'
+- - ' <color=0xFFFFFF66>☩ Target: CS/T3</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -742,9 +789,11 @@ presets:
         - 863
         - 864
         - 963
-- - ' <color=0xFFFFFF66>✥ Target: Pods</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Pods</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -758,9 +807,11 @@ presets:
         - 90
         - 863
         - 864
-- - ' <color=0xFFFFFF66>✥ Target: Battleships</color>'
+- - ' <color=0xFFFFFF66>☩ Target: Battleships</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -777,9 +828,11 @@ presets:
         - 864
         - 898
         - 900
-- - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
+- - ' <color=0xFFFFFF66>☩ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -792,14 +845,83 @@ presets:
       - - 90
         - 361
         - 541
+        - 548
         - 834
         - 863
         - 864
         - 894
         - 1534
-- - ' <color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
+        - 1548
+        - 1704
+- - ' <color=0xFFFFFF66>☩ --- Target: Ships Only</color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
+    - - filteredStates
+      - - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 21
+        - 45
+    - - groups
+      - - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 90
+        - 324
+        - 358
+        - 380
+        - 381
+        - 419
+        - 420
+        - 463
+        - 485
+        - 513
+        - 540
+        - 541
+        - 543
+        - 547
+        - 659
+        - 830
+        - 831
+        - 832
+        - 833
+        - 834
+        - 863
+        - 864
+        - 883
+        - 893
+        - 894
+        - 898
+        - 900
+        - 902
+        - 906
+        - 941
+        - 963
+        - 1022
+        - 1201
+        - 1202
+        - 1283
+        - 1305
+        - 1527
+        - 1534
+        - 1538
+        - 1548
+        - 1704
+        - 1972
+        - 2001
+        - 4594
+- - ' <color=0xFFFFFF66>☩ = Target: Snowflakes </color>'
+  - - - alwaysShownStates
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -813,7 +935,6 @@ presets:
         - 361
         - 540
         - 541
-        - 548
         - 832
         - 833
         - 863
@@ -830,14 +951,16 @@ presets:
         - 1527
         - 1534
         - 1548
+        - 1704
         - 1972
-        - 4088
         - 4093
         - 4107
         - 4137
-- - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+- - ' <color=0xFFFFFF66>☩ = Target: Tackle </color>'
   - - - alwaysShownStates
-      - []
+      - - 13
+        - 18
+        - 19
     - - filteredStates
       - - 11
         - 12
@@ -856,3 +979,6 @@ presets:
         - 863
         - 864
         - 894
+        - 1305
+        - 1548
+        - 1704

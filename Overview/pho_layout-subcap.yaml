@@ -293,20 +293,20 @@ tabSetup:
         - 0.4
 - - 2
   - - - name
-      - '<b><fontsize=13> ♟ </fontsize></b>'
+      - '<b> <fontsize=19>☣</fontsize> </b>'
     - - overview
-      - ' <color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
+      - ' <color=0xFFFF6666>✜ --- PvX: Clean (PvP)</color>'
     - - bracket
-      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+      - ' ⌘ Brackets: Combat/Targets/Friendly (-Dro)'
     - - color
       - - 0.9882
         - 0.6941
         - 0.247
 - - 3
   - - - name
-      - '<b><fontsize=18> ❄ </fontsize></b>'
+      - '<b> <fontsize=13>♟</fontsize> </b>'
     - - overview
-      - ' <color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
@@ -315,20 +315,20 @@ tabSetup:
         - 0.247
 - - 4
   - - - name
-      - '<b> Tackle </b>'
+      - '<b> <fontsize=18>❄</fontsize> </b>'
     - - overview
-      - ' <color=0xFFFFFF66>✥ = Target: Tackle </color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Snowflakes </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 1.0
-        - 1.0
-        - 0.4
+      - - 0.9882
+        - 0.6941
+        - 0.247
 - - 5
   - - - name
-      - '<b> Bombers </b>'
+      - '<b> <fontsize=19>⊗</fontsize> </b>'
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Bombers</color>'
+      - ' <color=0xFFFFFF66>☩ = Target: Tackle </color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
@@ -337,20 +337,20 @@ tabSetup:
         - 0.4
 - - 6
   - - - name
-      - '<b> Flag </b>'
+      - '<b> Friendly </b>'
     - - overview
-      - ' <color=0xFFFFFF66>✥ Target: Flag</color>'
+      - ' <color=0xFF66CCFF>✇ --- Friendly: All</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color
-      - - 1.0
+      - - 0.4
+        - 0.8
         - 1.0
-        - 0.4
 - - 7
   - - - name
       - '<b> Exit! </b>'
     - - overview
-      - ' <color=0xFF66FF66>➲ Extra: Podsaver (!)</color>'
+      - ' <color=0xFF66FF66>❧ Extra: Podsaver (!)</color>'
     - - bracket
       - ' ⌘ Brackets: Warpout (!)'
     - - color
