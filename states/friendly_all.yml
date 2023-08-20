@@ -5,8 +5,6 @@ show:
   - 14        # Pilot is in your alliance
   - 15        # Pilot has Excellent Standing.
   - 16        # Pilot has Good Standing.
-  - 45        # Pilot is in your militia or allied to your militia
-  - 49        # Pilot is an ally in one or more of your wars
 hide: 
   - 9         # Pilot has a security status below -5
   - 10        # Pilot has a security status below 0
