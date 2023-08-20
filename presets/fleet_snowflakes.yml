@@ -3,18 +3,21 @@ name: '<color=0xFF9926E5>★ Fleet: Snowflakes</color>'
 symbol: ''
 level: 0
 groups:
+- _celestial_beacon
+- _celestial_cyno
+- _celestial_entosis
+- _celestial_station-platforms
 - _celestial_effect-beacon
 - _celestial_stargate
 - _celestial_sun
 - _celestial_super-weapon-beacon
 - _celestial_warp-gate
 - _celestial_wormhole
-- _charge_bomb
-- _charge_bubble
-- _charge_guided-bomb
-- _charge_wubble
-- deployable_combat
-- deployable_travel
+- _deployable_crab
+- _deployable_mobile-cyno-inhib
+- _deployable_mobile-cyno
+- _deployable_mobile-depot
+- _deployable_mtu
 - _ship_command
 - _ship_cmd-destroyer
 - _ship_dic
@@ -23,5 +26,7 @@ groups:
 - _ship_logi
 - _ship_logi-frigate
 - _ship_recon
+- _structure_ansi
+- _structure_upwell
 states:
 - friendly_fleet

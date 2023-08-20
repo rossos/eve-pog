@@ -1,8 +1,9 @@
 ---
-name: '<color=0xFFFFFF66>✥ = Target: Tackle </color>'
+name: '<color=0xFFFFFF66>☩ = Target: Tackle </color>'
 symbol: ''
 level: 0
 groups:
+- _celestial_super-weapon-beacon
 - _charge_bomb
 - _charge_guided-bomb
 - _deployable_mobile-bubble

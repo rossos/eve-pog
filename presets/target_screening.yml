@@ -1,8 +1,9 @@
 ---
-name: '<color=0xFFFFFF66>✥ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
+name: '<color=0xFFFFFF66>☩ = Target: Boosh+Bmb+HIC+Dic (Screening) </color>'
 symbol: ''
 level: 0
 groups:
+- _celestial_super-weapon-beacon
 - _charge_bomb
 - _charge_bubble
 - _charge_guided-bomb

@@ -7,15 +7,15 @@
   color: 'FF6666'
   overview: pvx_basic-plus-neut-plus-npc
   bracket: brackets_combat-plus-dro
-- name: '<b><fontsize=13> ♟ </fontsize></b>'
+- name: '<b> <fontsize=13>♟</fontsize> </b>'
   color: 'FCB13F'
   overview: target_screening
   bracket: brackets_combat-plus-dro
-- name: '<b><fontsize=18> ❄ </fontsize></b>'
+- name: '<b> <fontsize=18>❄</fontsize> </b>'
   color: 'FCB13F'
   overview: target_snowflakes
   bracket: brackets_combat-plus-dro
-- name: '<b> Tackle </b>'
+- name: '<b> <fontsize=19>⊗</fontsize> </b>'
   color: 'FFFF66'
   overview: target_tackle
   bracket: brackets_combat-plus-dro

@@ -26,7 +26,7 @@
 - name: ''
   color: ''
   overview: pvx_basic-minus-neut-minus-npc
-  bracket: ships_only
+  bracket: target_ships-only
 - name: ''
   color: ''
   overview: npsi
@@ -43,3 +43,7 @@
   color: ''
   overview:  pvx_mining-r8-up
   bracket: pvx_salvage-loot
+- name: ''
+  color: ''
+  overview:  pvx_clean
+  bracket: pvx_clean

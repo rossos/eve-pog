@@ -1,12 +1,11 @@
 ---
-name: '<color=0xFFFFFF66>✥ = Target: Snowflakes </color>'
+name: '<color=0xFFFFFF66>☩ = Target: Snowflakes </color>'
 symbol: ''
 level: 0
 groups:
+- _celestial_super-weapon-beacon
 - _charge_bomb
-- _charge_bubble
 - _charge_guided-bomb
-- _charge_wubble
 - deployable_combat
 - deployable_travel
 - _ship_command
