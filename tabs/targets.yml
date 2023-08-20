@@ -55,4 +55,10 @@
   color: ''
   overview: target_tackle
   bracket: target_snowflakes
+- name: ''
+  color: ''
+  overview: target_ships-only
+  bracket: target_ships-only
+
+
 

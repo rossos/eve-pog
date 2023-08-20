@@ -74,13 +74,13 @@ presets:
   - target_pods
   - target_battleships
   - target_screening
+  - target_ships-only
   - target_snowflakes
   - target_tackle
   pvx:
   - structures
   - pvx_basic-minus-neut-plus-npc
   - npsi
-  - ships_only
   - pvx_basic-minus-neut-minus-npc
   - wartargets
   - covops_collidables
@@ -95,6 +95,7 @@ presets:
   - pvx_mining-r32-up
   - pvx_mining-r64
   - pvx_salvage-loot
+  - pvx_clean
   layout-compact:
   layout-standard:
   layout-subcap:
