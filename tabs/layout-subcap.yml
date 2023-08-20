@@ -7,6 +7,10 @@
   color: 'FF6666'
   overview: pvx_basic-plus-neut-plus-npc
   bracket: brackets_combat-plus-dro
+- name: '<b> <fontsize=19>☣</fontsize> </b>'
+  color: 'FCB13F'
+  overview: pvx_clean
+  bracket: brackets_combat-minus-dro
 - name: '<b> <fontsize=13>♟</fontsize> </b>'
   color: 'FCB13F'
   overview: target_screening
@@ -18,10 +22,6 @@
 - name: '<b> <fontsize=19>⊗</fontsize> </b>'
   color: 'FFFF66'
   overview: target_tackle
-  bracket: brackets_combat-plus-dro
-- name: '<b> Bombers </b>'
-  color: 'FFFF66'
-  overview: target_bombers
   bracket: brackets_combat-plus-dro
 - name: '<b> Friendly </b>'
   color: '66CCFF'
