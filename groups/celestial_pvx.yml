@@ -1,0 +1,16 @@
+---
+include:
+  - _celestial_beacon
+  - _celestial_cyno
+  - _celestial_destructible-effect-beacon
+  - _celestial_disrupted-gate
+  - _celestial_effect-beacon
+  - _celestial_entosis
+  - _celestial_filament-trace
+  - _celestial_shipcaster
+  - _celestial_stargate
+  - _celestial_sun
+  - _celestial_super-weapon-beacon
+  - _celestial_warp-gate
+  - _celestial_wormhole
+

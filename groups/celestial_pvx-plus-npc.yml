@@ -1,0 +1,8 @@
+---
+include:
+  - celestial_pvx
+  - _celestial_agents-in-space
+  - _celestial_cargo-container
+  - _celestial_effect-beacon
+  - _celestial_freight-container
+

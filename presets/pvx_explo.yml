@@ -3,15 +3,8 @@ name: '<color=0xFFFF6666>✜ PvX: Exploring</color>'
 symbol: ''
 level: 0
 groups:
-- _celestial_beacon
-- _celestial_cyno
-- _celestial_filament-trace
-- _celestial_stargate
-- _celestial_station-platforms
-- _celestial_sun
+- celestial_pvx
 - _celestial_trig-pylon
-- _celestial_warp-gate
-- _celestial_wormhole
 - _charge_bomb
 - _charge_bubble
 - _charge_probe
