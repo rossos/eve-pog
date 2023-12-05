@@ -97,7 +97,6 @@ presets:
   - pvx_salvage-loot
   - pvx_clean
   layout-compact:
-  layout-standard:
   layout-subcap:
   layout-logi:
   layout-mining:

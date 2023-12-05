@@ -1,6 +1,6 @@
 import os.path
 from itertools import chain
-from util import load_yaml_file, write_yaml_file, plu, SQ
+from util import load_yaml_file, write_yaml_file, plu, SQ, write_annotated_groups
 
 
 def reduce_group_from_file(name):
@@ -143,6 +143,29 @@ def format_tab_name(tab):
     return SQ(f"{tab['name']}")
 
 
+def determine_new_entities(filename="__new"):
+    """
+    Uses an exported overview file from the game client marked to show 'All' entities to determine new group IDs that
+    are not yet included in one of the group files contained in the 'groups' subdirectory.
+    Will attempt to annotate the output file with comments, but this depends on invGroups and invCategories files
+    being present in the current directory:  https://www.fuzzwork.co.uk/dump/latest/
+    :param filename: optional filename where the results will be written
+    """
+    group_filenames = [f for f in os.listdir('groups') if os.path.isfile(os.path.join("groups", f))]
+    group_names = [fn[:-4] for fn in group_filenames]
+    merged_groups = set(merge_groups(group_names))
+    # Above now contains all groups merged from all group files in 'groups' subdir
+
+    o = load_yaml_file("Overview", "overview_all")
+    groups_from_client = set(o['presets'][0][1][2][1])
+    # Above now contains all groups according to exported overview from EVE client
+
+    new_groups = sorted(groups_from_client - merged_groups)
+    # Take the set difference then sort the result into a list
+
+    write_annotated_groups("groups/" + filename + ".yml", new_groups)  # E.g., "_entity_insurgency-pirates"
+
+
 def compile_overview(path, ov):
     """Combines all given information to produce a single YAML file formatted to be imported as an EVE overview.
 
@@ -191,13 +214,22 @@ def compile_overviews():
     """Compile all overview files given in the "overviews" (lower-case 'o') subdirectory.
     """
 
-    def get_all_presets():
-        if len(get_all_presets.all) < 1:
-            get_all_presets.all = [filename for filename in sorted(os.listdir("presets"))
+    def all_preset_names():
+        """
+        Retrieve all preset names from .YML files in 'presets' directory. This only needs to be done once, so store
+        result internal to function and perform checks to ensure we don't subsequently hit disk again.
+        :return: list of names for all preset files
+        """
+        try:
+            length_all = len(all_preset_names.all)
+        except AttributeError:
+            all_preset_names.all = []
+            length_all = 0
+        if length_all < 1:
+            all_preset_names.all = [filename for filename in sorted(os.listdir("presets"))
                                    if filename[-4:] == ".yml" and os.path.isfile(os.path.join("presets", filename))
                                    ]
-        return get_all_presets.all
-    get_all_presets.all = []
+        return all_preset_names.all
 
     for filename in os.listdir("overviews"):
         f = os.path.join("overviews", filename)
@@ -210,7 +242,7 @@ def compile_overviews():
 
             for tab_name in overview['tabs']:
                 overview['tab'] = tab_name
-                overview['presets'] = presets.get(tab_name, get_all_presets())
+                overview['presets'] = presets.get(tab_name, all_preset_names())  # Default for tab is to use ALL presets
 
                 print(f" {tab_name}.yaml")
                 compile_overview(os.path.join("Overview", f"{filename}_{tab_name}.yaml"), overview)

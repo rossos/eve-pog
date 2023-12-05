@@ -1,4 +1,5 @@
 import inflect
+import csv
 import os.path
 
 # Enables pluralizing nouns; a less-than-perfect holdover from the Ruby implementation
@@ -77,3 +78,44 @@ def load_yaml_file(subdir, filename):
     except OSError:
         file_path = os.path.join(subdir, f"{filename}.yaml")
         return open_and_read(file_path)
+
+
+def load_invcategories():
+    """
+    Assumes existence of named CSV file from Fuzzwork's SDE conversion. Used for adding comments in output YAML files.
+    """
+    with open("invCategories.csv", "r") as file:
+        cat_rows = list(csv.DictReader(file))
+    return {int(row['categoryID']): row['categoryName'] for row in cat_rows}
+
+
+def load_invgroups():
+    """
+    Assumes existence of named CSV file from Fuzzwork's SDE conversion. Used for adding comments in output YAML files.
+    """
+    cats = load_invcategories()
+
+    with open("invGroups.csv", "r") as file:
+        rows = list(csv.DictReader(file))
+    return {int(row['groupID']): {
+        'name': row['groupName'],
+        'cat_name': cats[int(row['categoryID'])],
+        'cat': int(row['categoryID'])
+    } for row in rows}
+
+
+def write_annotated_groups(filename, types):
+    """
+    Writes a 'groups' YAML file, consisting of a list of group ID numbers keyed by the string "types", along
+    with commented annotations indicating the group name for each entry.
+    :param filename: output destination for this file, extension required
+    :param types: the list of group IDs
+    """
+    invgroups = load_invgroups()
+    types = sorted(types)
+    with open(filename, "w") as fileout:
+        fileout.write("---\ntypes:\n")
+        for type in types:
+            fileout.write(f"  - {type:<10}# {invgroups[type]['name']}\n")
+        fileout.write("\n")
+    print(f"Wrote to file {filename}")

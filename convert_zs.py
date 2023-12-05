@@ -1,7 +1,6 @@
 import os
-import csv
 import re
-from util import load_yaml_file, write_yaml_file, SQ
+from util import load_yaml_file, write_yaml_file, SQ, load_invgroups
 from ruamel.yaml import CommentedMap
 
 
@@ -29,24 +28,6 @@ all_states = {9: "Pilot has a security status below -5",
               53: "Pilot has a kill right on them that you can activate",
               66: "Pilot is in your Non Capsuleer corporation"
               }
-
-
-def load_invcategories():
-    with open("invCategories.csv", "r") as file:
-        cat_rows = list(csv.DictReader(file))
-    return {int(row['categoryID']): row['categoryName'] for row in cat_rows}
-
-
-def load_invgroups():
-    cats = load_invcategories()
-
-    with open("invGroups.csv", "r") as file:
-        rows = list(csv.DictReader(file))
-    return {int(row['groupID']): {
-        'name': row['groupName'],
-        'cat_name': cats[int(row['categoryID'])],
-        'cat': int(row['categoryID'])
-    } for row in rows}
 
 
 def get_existing_presets_by_name():
