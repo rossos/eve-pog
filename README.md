@@ -1,5 +1,8 @@
+# How do I use this?
 
-## What is an Overview?
+Use the in-game channel `PH Overview` and follow the instructions there. Alternatively, download the YAML files from the `Overview` directory and import them manually using Overview Settings > Misc > Import Settings.
+
+### What is an Overview?
 
 From the point of view of the game client, the overview window in EVE displays objects to the player that can potentially be interacted with. This window has several tabs, each of which is a container for a pair of "presets": one for the overview window, one for the brackets. These presets determine which objects are actually displayed to the player and how they appear. The overview comes with default presets of minimal utility, while many player-designed overview packs exist that give more intricate and useful presets (like SaraShawa, Kismeteers, Z-S, and Iridium). Beyond presets, overview packs may also modify the appearance and precedence for displaying pilots based on states like standings and war status, the appearance and order of overview columns, and the label format for brackets.
 
