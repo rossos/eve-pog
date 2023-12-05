@@ -1,0 +1,18 @@
+---
+types:
+  - 4636      # Pirate Entities
+  - 4637      # Insurgency Roaming Pirates
+  - 4638      # Insurgency Roaming Enforcers
+  - 4644      # Pirate Forward Operating Base
+  - 4647      # Insurgency Pirate Frigate
+  - 4648      # Insurgency Pirate Destroyer
+  - 4649      # Insurgency Pirate Cruiser
+  - 4650      # Insurgency Pirate Battlecruiser
+  - 4651      # Insurgency Pirate Battleship
+  - 4652      # Insurgency Mordu Frigate
+  - 4653      # Insurgency Mordu Destroyer
+  - 4654      # Insurgency Mordu Cruiser
+  - 4655      # Insurgency Mordu Battlecruiser
+  - 4656      # Insurgency Mordu Battleship
+  - 4673      # Insurgency Mining Ship
+
