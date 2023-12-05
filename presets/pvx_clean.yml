@@ -13,7 +13,6 @@ groups:
 - ship_all
 - _sovereignty_structures_sov-blockade-unit
 - _sovereignty_structures_tcu-ihub
-- _sovereignty_structures_unused
 - _station_station
 - _structure_ansi
 - _structure_cyno-beacon
