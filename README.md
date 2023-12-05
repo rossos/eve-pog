@@ -1,5 +1,8 @@
+# How do I use this?
 
-## What is an Overview?
+Use the in-game channel `PH Overview` and follow the instructions there. Alternatively, download the YAML files from the `Overview` directory and import them manually using Overview Settings > Misc > Import Settings.
+
+### What is an Overview?
 
 From the point of view of the game client, the overview window in EVE displays objects to the player that can potentially be interacted with. This window has several tabs, each of which is a container for a pair of "presets": one for the overview window, one for the brackets. These presets determine which objects are actually displayed to the player and how they appear. The overview comes with default presets of minimal utility, while many player-designed overview packs exist that give more intricate and useful presets (like SaraShawa, Kismeteers, Z-S, and Iridium). Beyond presets, overview packs may also modify the appearance and precedence for displaying pilots based on states like standings and war status, the appearance and order of overview columns, and the label format for brackets.
 
@@ -25,7 +28,7 @@ This ended up being a partly manual (and therefore tedious) process. Having done
 
 The Eve Online Overview Generator uses modular design to facilitate easier maintenance of any overview pack. Based on the DRY principle, the overall approach is to allow re-using smaller components for each of the overview settings: appearance, columns, labels, and presets. Each of these are defined as separate YAML files, which are compiled together by EOOG into a single overview file ready to be imported into the game client.
 
-Preset files additionally rely on separate files defined for groups and states. Groups files are YAML files that have a single field "types" that give a list containing any mix of group IDs and names of other groups files. In this way, groups files may reference one another other allowing for custom levels of granularity. During compilation, all the groups filenames are parsed in a preset file and the union of all their group IDs is taken to belong to that preset.
+Preset files additionally rely on separate files defined for groups and states. Groups files are YAML files that have a single field "types" that give a list containing any mix of group IDs and "include" that gives names of other groups files. In this way, groups files may reference one another other allowing for custom levels of granularity. During compilation, all the group filenames are parsed in a preset file and the union of all their group IDs is taken to belong to that preset.
 
 ### Why Z-S?
 
