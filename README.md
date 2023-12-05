@@ -28,7 +28,7 @@ This ended up being a partly manual (and therefore tedious) process. Having done
 
 The Eve Online Overview Generator uses modular design to facilitate easier maintenance of any overview pack. Based on the DRY principle, the overall approach is to allow re-using smaller components for each of the overview settings: appearance, columns, labels, and presets. Each of these are defined as separate YAML files, which are compiled together by EOOG into a single overview file ready to be imported into the game client.
 
-Preset files additionally rely on separate files defined for groups and states. Groups files are YAML files that have a single field "types" that give a list containing any mix of group IDs and names of other groups files. In this way, groups files may reference one another other allowing for custom levels of granularity. During compilation, all the groups filenames are parsed in a preset file and the union of all their group IDs is taken to belong to that preset.
+Preset files additionally rely on separate files defined for groups and states. Groups files are YAML files that have a single field "types" that give a list containing any mix of group IDs and "include" that gives names of other groups files. In this way, groups files may reference one another other allowing for custom levels of granularity. During compilation, all the group filenames are parsed in a preset file and the union of all their group IDs is taken to belong to that preset.
 
 ### Why Z-S?
 
