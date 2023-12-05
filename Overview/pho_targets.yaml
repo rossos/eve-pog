@@ -542,12 +542,19 @@ presets:
         - 21
         - 45
     - - groups
-      - - 90
+      - - 30
+        - 90
+        - 485
         - 513
+        - 547
+        - 659
         - 863
         - 864
+        - 883
         - 902
         - 941
+        - 1538
+        - 4594
 - - ' <color=0xFFFFFF66>☩ Target: Fax</color>'
   - - - alwaysShownStates
       - - 13
