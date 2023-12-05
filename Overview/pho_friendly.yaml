@@ -3,11 +3,11 @@
 # Created for Pandemic Horde.
 ---
 flagOrder:
-- 13        # Pilot is at war with your corporation/alliance
-- 44        # Pilot is at war with your militia
 - 52        # Pilot has a limited engagement with you
 - 19        # Pilot has Terrible Standing.
 - 18        # Pilot has Bad Standing.
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
 - 11        # Pilot is in your fleet
 - 12        # Pilot is in your Capsuleer corporation
 - 15        # Pilot has Excellent Standing.
@@ -47,11 +47,11 @@ flagStates:
 - 52        # Pilot has a limited engagement with you
 - 53        # Pilot has a kill right on them that you can activate
 backgroundOrder:
-- 13        # Pilot is at war with your corporation/alliance
-- 44        # Pilot is at war with your militia
 - 52        # Pilot has a limited engagement with you
 - 19        # Pilot has Terrible Standing.
 - 18        # Pilot has Bad Standing.
+- 13        # Pilot is at war with your corporation/alliance
+- 44        # Pilot is at war with your militia
 - 11        # Pilot is in your fleet
 - 12        # Pilot is in your Capsuleer corporation
 - 15        # Pilot has Excellent Standing.
