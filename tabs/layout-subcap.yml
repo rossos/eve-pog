@@ -23,6 +23,10 @@
   color: 'FFFF66'
   overview: target_tackle
   bracket: brackets_combat-plus-dro
+- name: '<b> Loot </b>'
+  color: '33EE33'
+  overview: extra_wrecks-and-warpables
+  bracket: brackets_combat-plus-dro
 - name: '<b> Friendly </b>'
   color: '66CCFF'
   overview: friendly_all

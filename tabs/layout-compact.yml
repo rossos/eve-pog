@@ -27,6 +27,10 @@
   color: 'D6FFFA'
   overview: fleet_snowflakes
   bracket: brackets_combat-plus-dro
+- name: '<b> Loot </b>'
+  color: '33EE33'
+  overview: extra_wrecks-and-warpables
+  bracket: extra_wrecks-and-warpables
 - name: '<b> Exit! </b>'
   color: '66FF66'
   overview: extra_podsaver
