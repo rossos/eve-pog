@@ -4,8 +4,8 @@ include:
   - _deployable_ess
   - _deployable_mobile-bubble
   - _deployable_mobile-cyno-inhib
+  - _deployable_mobile-cyno
+  - _deployable_mobile-jump-disruptor
   - _deployable_obs
   - _deployable_scan-inhib
   - _deployable_siphon-unit
-  - _deployable_mobile-cyno
-  - _deployable_mobile-jump-disruptor

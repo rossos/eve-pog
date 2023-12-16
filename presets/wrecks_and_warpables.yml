@@ -1,0 +1,22 @@
+---
+name: '<color=0xFF66FF66>❧ Extra: Wrecks/Warpables</color>'
+symbol: ''
+level: 0
+groups:
+- celestial_containers_all
+- _celestial_biomass
+- _celestial_lco
+- _celestial_stargate
+- _celestial_sun
+- _celestial_warp-gate
+- _celestial_wormhole
+- _celestial_wreck
+- _charge_probe
+- _charge_survey-probe
+- deployable_combat
+- deployable_pve
+- deployable_travel
+- entity_lootable-all
+- _structure_ansi
+states:
+- all
