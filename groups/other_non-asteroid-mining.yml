@@ -4,7 +4,7 @@ include:
   - _celestial_asteroid-belt
   - _celestial_harvestable-cloud
   - _celestial_moon-mining-beacon
-  - _celestial_secure-cargo-container
+  - celestial_containers_all
   - _charge_bomb
   - _charge_bubble
   - _charge_guided-bomb

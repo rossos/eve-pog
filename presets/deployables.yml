@@ -3,10 +3,7 @@ name: <color=0xFFFF6666>✜ = Deployables</color>
 symbol: ''
 level: 0
 groups:
-- _celestial_audit-secure-container
-- _celestial_cargo-container
-- _celestial_freight-container
-- _celestial_secure-cargo-container
+- celestial_containers_all
 - _celestial_wreck
 - _charge_bomb
 - _charge_bubble
