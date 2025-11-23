@@ -337,6 +337,17 @@ tabSetup:
         - 0.4
 - - 6
   - - - name
+      - '<b> Loot </b>'
+    - - overview
+      - ' <color=0xFF66FF66>❧ Extra: Wrecks/Warpables</color>'
+    - - bracket
+      - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
+    - - color
+      - - 0.2
+        - 0.9333
+        - 0.2
+- - 7
+  - - - name
       - '<b> Friendly </b>'
     - - overview
       - ' <color=0xFF66CCFF>✇ --- Friendly: All</color>'
@@ -346,7 +357,7 @@ tabSetup:
       - - 0.4
         - 0.8
         - 1.0
-- - 7
+- - 8
   - - - name
       - '<b> Exit! </b>'
     - - overview

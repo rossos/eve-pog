@@ -44,7 +44,7 @@ def get_existing_presets_by_name():
 def write_states_file(filename, show, hide):
     show, hide = sorted(show), sorted(hide)
 
-    with open(filename, "w") as fileout:
+    with open(filename, "w", encoding="utf8") as fileout:
         fileout.write("---\nshow: ")
         if len(show) < 1:
             fileout.write("[]\n")
@@ -365,7 +365,7 @@ def check_zs_presets_against_groups(category_prefix="_"):
                 if len(d) > 0:
                     missing[preset_name][filename] = d  # add on groupIDs missing from preset, if any
 
-    with open("preset_check.txt", "w") as fileout:
+    with open("preset_check.txt", "w", encoding="utf8") as fileout:
         for name, files in entity_files.items():
             fileout.write(name + "\n\n")
             for filename, intersection in files.items():

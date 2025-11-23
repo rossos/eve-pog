@@ -348,6 +348,17 @@ tabSetup:
         - 0.9803
 - - 7
   - - - name
+      - '<b> Loot </b>'
+    - - overview
+      - ' <color=0xFF66FF66>❧ Extra: Wrecks/Warpables</color>'
+    - - bracket
+      - ' <color=0xFF66FF66>❧ Extra: Wrecks/Warpables</color>'
+    - - color
+      - - 0.2
+        - 0.9333
+        - 0.2
+- - 8
+  - - - name
       - '<b> Exit! </b>'
     - - overview
       - ' <color=0xFF66FF66>❧ Extra: Podsaver (!)</color>'
