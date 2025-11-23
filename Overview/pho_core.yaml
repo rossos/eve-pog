@@ -384,6 +384,15 @@ tabSetup:
       - ' <color=0xFF66FF66>❧ Extra: Cyno Inhib</color>'
     - - color
       - 
+- - 12
+  - - - name
+      - ''
+    - - overview
+      - ' <color=0xFF66FF66>❧ Extra: Wrecks/Warpables</color>'
+    - - bracket
+      - ' <color=0xFF66FF66>❧ Extra: Wrecks/Warpables</color>'
+    - - color
+      - 
 presets:
 - - ' <color=0xFFFF6666>✜ --- PvX: Basic (+Neut +NPC)</color>'
   - - - alwaysShownStates
@@ -1470,6 +1479,7 @@ presets:
         - 99
         - 180
         - 185
+        - 186
         - 286
         - 287
         - 297
@@ -2805,6 +2815,7 @@ presets:
         - 419
         - 420
         - 435
+        - 448
         - 450
         - 451
         - 452
@@ -4732,6 +4743,7 @@ presets:
         - 419
         - 420
         - 435
+        - 448
         - 463
         - 479
         - 485
@@ -6043,6 +6055,7 @@ presets:
         - 101
         - 180
         - 185
+        - 186
         - 286
         - 287
         - 297

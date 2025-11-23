@@ -343,9 +343,9 @@ tabSetup:
   - - - name
       - ''
     - - overview
-      - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
+      - ' <color=0xFF9926E5>★ Fleet: Tackle (+ Sm Support)</color>'
     - - bracket
-      - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
+      - ' <color=0xFF9926E5>★ Fleet: Tackle (+ Sm Support)</color>'
     - - color
       - 
 presets:
@@ -882,7 +882,7 @@ presets:
         - 4137
         - 4494
         - 4594
-- - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
+- - ' <color=0xFF9926E5>★ Fleet: Tackle (+ Sm Support)</color>'
   - - - alwaysShownStates
       - - 11
     - - filteredStates

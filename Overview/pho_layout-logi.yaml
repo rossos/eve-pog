@@ -317,7 +317,7 @@ tabSetup:
   - - - name
       - '<b> <fontsize=19>⊗</fontsize> </b>'
     - - overview
-      - ' <color=0xFF9926E5>★ Fleet: Tackle</color>'
+      - ' <color=0xFF9926E5>★ Fleet: Tackle (+ Sm Support)</color>'
     - - bracket
       - ' ⌘ Brackets: Combat/Targets/Friendly (+Dro)'
     - - color

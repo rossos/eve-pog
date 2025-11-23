@@ -47,12 +47,12 @@ def write_yaml_file(data, path, write_preamble=True):
                "# Created for Pandemic Horde.\n"
 
     if use_pyyaml:
-        with BlankNone(), open(path, "w") as fileout:
+        with BlankNone(), open(path, "w", encoding="utf8") as fileout:
             if write_preamble:
                 fileout.write(preamble)
             yaml.safe_dump(data, fileout, allow_unicode=True, sort_keys=False, explicit_start=True)
     else:
-        with open(path, "w") as fileout:
+        with open(path, "w", encoding="utf8") as fileout:
             if write_preamble:
                 fileout.write(preamble)
             yaml.dump(data, fileout)
@@ -66,7 +66,7 @@ def load_yaml_file(subdir, filename):
     :return: the data parsed from the file
     """
     def open_and_read(file):
-        with open(file, 'r') as yaml_file:
+        with open(file, 'r', encoding="utf8") as yaml_file:
             if use_pyyaml:
                 return yaml.safe_load(yaml_file)
             else:
@@ -84,7 +84,7 @@ def load_invcategories():
     """
     Assumes existence of named CSV file from Fuzzwork's SDE conversion. Used for adding comments in output YAML files.
     """
-    with open("invCategories.csv", "r") as file:
+    with open("invCategories.csv", "r", encoding="utf8") as file:
         cat_rows = list(csv.DictReader(file))
     return {int(row['categoryID']): row['categoryName'] for row in cat_rows}
 
@@ -95,7 +95,7 @@ def load_invgroups():
     """
     cats = load_invcategories()
 
-    with open("invGroups.csv", "r") as file:
+    with open("invGroups.csv", "r", encoding="utf8") as file:
         rows = list(csv.DictReader(file))
     return {int(row['groupID']): {
         'name': row['groupName'],
@@ -113,7 +113,7 @@ def write_annotated_groups(filename, types):
     """
     invgroups = load_invgroups()
     types = sorted(types)
-    with open(filename, "w") as fileout:
+    with open(filename, "w", encoding="utf8") as fileout:
         fileout.write("---\ntypes:\n")
         for type in types:
             fileout.write(f"  - {type:<10}# {invgroups[type]['name']}\n")
